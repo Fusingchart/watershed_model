@@ -2,6 +2,10 @@
 
 Working folder: `/Users/rishabh/watershed_model`.
 
+## Latest audit
+
+Read `results/failure_audit/REPORT.md` for failure analysis by site, season, extreme observations, and history age, plus source arithmetic, site identity, turbidity, and timestamp checks. Reproduce the evidence with `.venv/bin/python failure_audit.py`. Models remain unchanged; operational use still needs the data-owner verifications listed in the report.
+
 ## Current version: multi-target prototype
 
 The project now audits 15 water-quality measurements. Thirteen have sufficient history for the configured evaluation: eight use learned point predictors and five use historical baselines. Phosphate and suspended solids remain explicitly unsupported for forecasting under the current history requirements.
