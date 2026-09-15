@@ -1,0 +1,17 @@
+{
+  "ecoli": {"source":"bacteria","column":"Average_e_coli","label":"E. coli","transform":"log1p","direction":"high","min":0},
+  "other_coliform": {"source":"bacteria","column":"Average_coliform","label":"Other coliform","transform":"log1p","direction":"high","min":0},
+  "water_temperature": {"source":"chemistry","column":"water_temperature","label":"Water temperature","transform":"identity","direction":"high","min":-5,"max":45},
+  "dissolved_oxygen": {"source":"chemistry","column":"Average_dissolved_oxygen_dis","label":"Dissolved oxygen","transform":"identity","direction":"low","min":0,"max":50},
+  "oxygen_saturation": {"source":"chemistry","column":"Per_Oxy_Sat_Auto_W_Hight","label":"Oxygen saturation","transform":"identity","direction":"low","min":0,"max":300},
+  "ph": {"source":"chemistry","column":"ph_standard_units","label":"pH","transform":"identity","direction":"both","min":0,"max":14},
+  "conductivity": {"source":"chemistry","column":"conductivity","label":"Conductivity","transform":"log1p","direction":"both","min":0},
+  "nitrate": {"source":"chemistry","column":"Nitrate","label":"Nitrate","transform":"log1p","direction":"high","min":0},
+  "phosphate": {"source":"chemistry","column":"Phosphate","label":"Phosphate","transform":"log1p","direction":"high","min":0},
+  "turbidity_reported": {"source":"chemistry","column":"Turbidity","label":"Turbidity (reported field)","transform":"log1p","direction":"high","min":0,"caution":"Mixed or missing tube/meter method; possible detection-limit values. Do not combine with legacy turbidity."},
+  "turbidity_legacy": {"source":"chemistry","column":"turbidity_x_5_bc_50ml","label":"Turbidity (legacy field)","transform":"log1p","direction":"high","min":0,"caution":"Legacy measurement field; protocol and detection limits need confirmation."},
+  "suspended_solids": {"source":"chemistry","column":"TSS","label":"Suspended solids","transform":"log1p","direction":"high","min":0},
+  "alkalinity": {"source":"chemistry","column":"total_alkalinity","label":"Alkalinity","transform":"log1p","direction":"both","min":0},
+  "hardness": {"source":"chemistry","column":"total_hardness","label":"Hardness","transform":"log1p","direction":"both","min":0},
+  "salinity": {"source":"chemistry","column":"Salinity","label":"Salinity","transform":"log1p","direction":"both","min":0,"caution":"Units and unusually large values need verification."}
+}
