@@ -17,6 +17,6 @@ class FailureAuditTests(unittest.TestCase):
         d=pd.DataFrame({'site':['a'],'error':[1.],'baseline_error':[0.],'source_error':[1.],
                         'actual':[1.],'predicted':[2.],'actual_tail_event':[0],'experimental_flag':[False]})
         result=summarize(d)
-        self.assertTrue(np.isnan(result['recall']));self.assertTrue(np.isnan(result['precision']))
+        self.assertTrue(np.isnan(result['improvement_percent']));self.assertTrue(np.isnan(result['recall']));self.assertTrue(np.isnan(result['precision']))
 
 if __name__=='__main__':unittest.main()

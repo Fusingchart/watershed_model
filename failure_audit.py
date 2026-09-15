@@ -12,7 +12,7 @@ OUT=ROOT/'results/failure_audit'
 def summarize(g):
     err=g.error.mean();base=g.baseline_error.mean();events=g.actual_tail_event.sum();flags=g.experimental_flag.sum()
     caught=((g.actual_tail_event==1)&g.experimental_flag).sum()
-    return {'samples':len(g),'sites':g.site.nunique(),'MAE_transformed':err,'baseline_MAE_transformed':base,'improvement_percent':100*(base-err)/base if base else 0,
+    return {'samples':len(g),'sites':g.site.nunique(),'MAE_transformed':err,'baseline_MAE_transformed':base,'improvement_percent':100*(base-err)/base if base else np.nan,
             'source_MAE':g.source_error.mean(),'source_bias':(g.predicted-g.actual).mean(),'events':events,'caught':caught,'missed':events-caught,
             'false_flags':flags-caught,'recall':caught/events if events else np.nan,'precision':caught/flags if flags else np.nan}
 
