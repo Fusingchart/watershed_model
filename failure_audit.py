@@ -91,6 +91,14 @@ def main():
                 match=np.isclose(reported,expected,rtol=.001,atol=.02)
                 for i in good.index[complete]:formula_rows.append({'csv_line':int(good.loc[i,'csv_line']),'target':kind,'reported':reported.loc[i],'candidate_count_volume_formula':expected.loc[i],'matches_candidate_formula':bool(match[good.index.get_loc(i)]),'discrepancy_type':('match' if match[good.index.get_loc(i)] else 'within_half_unit_rounding' if abs(reported.loc[i]-expected.loc[i])<=.5 else 'possible_zero_floor_to_one' if reported.loc[i]==1 and expected.loc[i]==0 else 'requires_protocol_review')})
         else:
+            derived=[]
+            pairs=[('dissolved_oxygen','Average_dissolved_oxygen_dis',['rep_1_dissolved_oxygen_do','rep_2_dissolved_oxygen_do'],1),('alkalinity','total_alkalinity',['total_alkalinity_of_drops'],5),('hardness','total_hardness',['total_hardness_of_drops'],10)]
+            for target,field,inputs,factor in pairs:
+                parts=good[inputs].apply(pd.to_numeric,errors='coerce');actual=pd.to_numeric(good[field],errors='coerce');expected=parts.mean(axis=1)*factor
+                complete=parts.notna().all(axis=1)&actual.notna()
+                for i in good.index[complete]:
+                    derived.append({'csv_line':int(good.loc[i,'csv_line']),'target':target,'reported':actual.loc[i],'candidate_formula':expected.loc[i],'matches_candidate_formula':bool(np.isclose(actual.loc[i],expected.loc[i],rtol=.001,atol=.05))})
+            pd.DataFrame(derived).to_csv(OUT/'chemistry_derived_checks.csv',index=False)
             good['turbidity_numeric']=pd.to_numeric(good.Turbidity,errors='coerce')
             good.groupby('turbidity_tube_or_meter').agg(rows=('globalid','size'),numeric_values=('turbidity_numeric','count'),value_equal_8=('turbidity_numeric',lambda s:s.eq(8).sum())).reset_index().to_csv(OUT/'turbidity_methods.csv',index=False)
     allraw=pd.concat(raw_tables,ignore_index=True)
