@@ -4,3 +4,6 @@ __pycache__/
 .DS_Store
 # Original exports contain access codes and personal information.
 data/raw/
+
+# Local execution logs and temporary analysis.
+work/
