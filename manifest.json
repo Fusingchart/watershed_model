@@ -1,0 +1,11 @@
+{
+  "inputs": {
+    "MasterBactSurvey4_13_26.csv": "a71835b8cd4f78a25b790007d586df50eec64c3d2b404b772f2937b5d2dae71b",
+    "MasterChemSurvey4_13_26.csv": "fdeb1fe3be17e80996884e60dfdb184cd2f60932b5355420c70585480bed94ef"
+  },
+  "python": "3.12.10",
+  "sklearn": "1.9.1",
+  "numpy": "2.4.4",
+  "pandas": "3.0.3",
+  "joblib": "1.6.0"
+}

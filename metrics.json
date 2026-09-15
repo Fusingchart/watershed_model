@@ -1,0 +1,156 @@
+{
+  "audit": {
+    "bacteria": {
+      "input_rows": 2526,
+      "excluded_rows": 72,
+      "retained_rows": 2454,
+      "site_days": 2401,
+      "duplicate_site_days_collapsed": 53,
+      "sites": 109,
+      "date_min": "2015-08-22",
+      "date_max": "2026-04-11"
+    },
+    "chemistry": {
+      "input_rows": 3268,
+      "excluded_rows": 47,
+      "retained_rows": 3221,
+      "site_days": 3147,
+      "duplicate_site_days_collapsed": 74,
+      "sites": 162,
+      "date_min": "2015-08-22",
+      "date_max": "2026-04-11"
+    }
+  },
+  "eligible_forecasts": 2112,
+  "split_counts": {
+    "train": 1437,
+    "validation": 207,
+    "test": 459,
+    "boundary_embargo": 9
+  },
+  "elevated_threshold_strictly_greater_than": 233.3333333,
+  "alert_probability_cutoff": 0.2200397623062715,
+  "selected_regressor": "forest",
+  "selected_classifier": "forest",
+  "validation": {
+    "regression": {
+      "ridge": {
+        "log_MAE": 1.7925122276162475,
+        "log_RMSE": 2.471189073645819,
+        "raw_MAE": 5479.920592445704
+      },
+      "forest": {
+        "log_MAE": 1.3279370574181593,
+        "log_RMSE": 1.7737554112384788,
+        "raw_MAE": 141.4886831879267
+      },
+      "ridge_without_chemistry": {
+        "log_MAE": 1.4221267396314556,
+        "log_RMSE": 1.9191424888013071,
+        "raw_MAE": 151.86194147843528
+      }
+    },
+    "classification": {
+      "logistic": {
+        "ROC_AUC": 0.751786874593892,
+        "average_precision": 0.37673492563480804,
+        "Brier": 0.27110114070823926,
+        "precision": 0.34177215189873417,
+        "recall": 0.75,
+        "alerts": 79,
+        "missed_elevated": 9,
+        "false_alerts": 52
+      },
+      "forest": {
+        "ROC_AUC": 0.72953216374269,
+        "average_precision": 0.3337669881010933,
+        "Brier": 0.14632109251186556,
+        "precision": 0.41379310344827586,
+        "recall": 0.3333333333333333,
+        "alerts": 29,
+        "missed_elevated": 24,
+        "false_alerts": 17
+      }
+    },
+    "chosen_alert_cutoff": 0.2200397623062715,
+    "chosen_alert_metrics": {
+      "ROC_AUC": 0.72953216374269,
+      "average_precision": 0.3337669881010933,
+      "Brier": 0.14632109251186556,
+      "precision": 0.27835051546391754,
+      "recall": 0.75,
+      "alerts": 97,
+      "missed_elevated": 9,
+      "false_alerts": 70
+    }
+  },
+  "test": {
+    "model_regression": {
+      "log_MAE": 1.5882360449891644,
+      "log_RMSE": 2.012128775196864,
+      "raw_MAE": 168.00175765947353
+    },
+    "last_observation": {
+      "log_MAE": 1.9420425941761668,
+      "log_RMSE": 2.6440331302574807,
+      "raw_MAE": 238.0081045751634
+    },
+    "site_history_median": {
+      "log_MAE": 1.9512114146627897,
+      "log_RMSE": 2.4810786663055207,
+      "raw_MAE": 181.24478669176287
+    },
+    "global_median": {
+      "log_MAE": 1.7001526873914916,
+      "log_RMSE": 2.2471028412087244,
+      "raw_MAE": 177.85177196786492
+    },
+    "model_classifier": {
+      "ROC_AUC": 0.7164604263660868,
+      "average_precision": 0.38137849555187103,
+      "Brier": 0.1417738742343495,
+      "precision": 0.5625,
+      "recall": 0.10227272727272728,
+      "alerts": 16,
+      "missed_elevated": 79,
+      "false_alerts": 7
+    },
+    "sensitive_alert_policy": {
+      "ROC_AUC": 0.7164604263660868,
+      "average_precision": 0.38137849555187103,
+      "Brier": 0.1417738742343495,
+      "precision": 0.28846153846153844,
+      "recall": 0.6818181818181818,
+      "alerts": 208,
+      "missed_elevated": 28,
+      "false_alerts": 148
+    },
+    "constant_prevalence": {
+      "ROC_AUC": 0.5,
+      "average_precision": 0.19172113289760348,
+      "Brier": 0.15661566552768047,
+      "precision": 0.0,
+      "recall": 0.0,
+      "alerts": 0,
+      "missed_elevated": 88,
+      "false_alerts": 0
+    }
+  },
+  "uncertainty": {
+    "mean_log_MAE_gain_over_site_median": 0.362975369673625,
+    "site_bootstrap_95_percent_interval": [
+      0.19686009170770086,
+      0.5175101456014213
+    ],
+    "gain_over_global_median": 0.1119166424023273,
+    "global_median_gain_site_bootstrap_95_percent_interval": [
+      -0.006871049278857441,
+      0.24812864845623436
+    ]
+  },
+  "test_elevated_prevalence": 0.19172113289760348,
+  "test_sites": 52,
+  "test_chemistry_available_fraction": 1.0,
+  "assumed_lead_days": 7,
+  "assumed_results_lag_days": 3
+}

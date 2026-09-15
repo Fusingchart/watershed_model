@@ -1,0 +1,6 @@
+.venv/
+__pycache__/
+*.py[cod]
+.DS_Store
+# Original exports contain access codes and personal information.
+data/raw/

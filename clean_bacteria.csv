@@ -1,0 +1,2402 @@
+site,date,ecoli,air_temperature,water_temperature,watershed,waterbody
+241118180336,2025-01-04,66.67,8.3,8.9,Lyon Creek,McKinnon Creek
+241118180336,2025-02-01,0.0,6.0,5.4,Lyon Creek,McKinnon Creek
+241118180336,2025-03-01,100.0,11.3,8.5,Lyon Creek,McKinnon Creek
+241118180336,2025-04-05,0.0,14.6,10.2,Lyon Creek,McKinnon Creek
+241118180336,2025-05-03,0.0,10.3,,Lyon Creek,McKinnon Creek
+241118180336,2025-06-07,200.0,17.7,11.5,Lyon Creek,McKinnon Creek
+241118180336,2025-10-07,0.0,16.1,11.3,Lyon Creek,McKinnon Creek
+241118180336,2026-01-03,0.0,9.9,9.0,Lyon Creek,McKinnon Creek
+241118180336,2026-01-31,233.33,10.5,9.5,Lyon Creek,McKinnon Creek
+241118180336,2026-03-07,0.0,15.3,9.8,Lyon Creek,McKinnon Creek
+241118181240,2025-01-04,0.0,9.1,8.7,Lyon Creek,Barnes
+241118181240,2025-02-01,0.0,6.6,7.1,Lyon Creek,Barnes
+241118181240,2025-03-01,166.67,13.1,9.1,Lyon Creek,Barnes
+241118181240,2025-04-05,0.0,12.7,10.3,Lyon Creek,Barnes
+241118181240,2025-05-03,0.0,10.3,,Lyon Creek,Barnes
+241118181240,2025-06-07,100.0,15.9,12.1,Lyon Creek,Barnes
+241118181240,2025-10-07,0.0,18.7,11.7,Lyon Creek,Barnes
+241118181240,2026-01-03,33.33,10.1,9.0,Lyon Creek,Barnes
+241118181240,2026-01-31,400.0,11.5,9.5,Lyon Creek,Barnes
+241118181240,2026-03-07,0.0,15.3,9.9,Lyon Creek,Barnes
+241118181609,2025-01-04,33.33,8.6,7.9,Lyon Creek,Lower Ballinger
+241118181609,2025-02-01,100.0,6.0,5.4,Lyon Creek,Lower Ballinger
+241118181609,2025-03-01,0.0,11.0,7.7,Lyon Creek,Lower Ballinger
+241118181609,2025-04-05,166.67,14.6,9.2,Lyon Creek,Lower Ballinger
+241118181609,2025-05-03,0.0,10.9,,Lyon Creek,Lower Ballinger
+241118181609,2025-06-07,500.0,16.8,13.8,Lyon Creek,Lower Ballinger
+241118181609,2025-07-12,1666.67,20.4,16.3,Lyon Creek,Lower Ballinger
+241118181609,2025-08-02,400.0,17.4,16.1,Lyon Creek,Lower Ballinger
+241118181609,2025-09-13,333.33,18.7,15.7,Lyon Creek,Lower Ballinger
+241118181609,2025-10-07,0.0,16.1,11.6,Lyon Creek,Lower Ballinger
+241118181609,2026-01-03,266.67,10.5,7.7,Lyon Creek,Lower Ballinger
+241118181609,2026-01-31,666.67,10.6,8.3,Lyon Creek,Lower Ballinger
+241118181609,2026-03-07,133.33,15.3,9.6,Lyon Creek,Lower Ballinger
+241118181741,2025-01-04,0.0,10.8,8.0,Lyon Creek,West Fork
+241118181741,2025-02-01,66.67,9.7,5.6,Lyon Creek,West Fork
+241118181741,2025-03-01,66.67,11.2,8.2,Lyon Creek,West Fork
+241118181741,2025-04-05,366.67,14.8,9.0,Lyon Creek,West Fork
+241118181741,2025-05-03,100.0,11.2,,Lyon Creek,West Fork
+241118181741,2025-06-07,300.0,17.5,13.9,Lyon Creek,West Fork
+241118181741,2025-10-03,200.0,16.5,11.9,Lyon Creek,West Fork
+241118181741,2026-01-03,266.67,13.2,7.6,Lyon Creek,West Fork
+241118181741,2026-01-31,133.33,15.1,8.3,Lyon Creek,West Fork
+241118181741,2026-03-07,33.33,15.3,9.8,Lyon Creek,West Fork
+241118181852,2025-01-04,0.0,8.2,8.7,Lyon Creek,Brugger's Bog
+241118181852,2025-02-01,0.0,4.6,6.3,Lyon Creek,Brugger's Bog
+241118181852,2025-03-01,0.0,9.7,8.4,Lyon Creek,Brugger's Bog
+241118181852,2025-04-05,0.0,12.1,9.7,Lyon Creek,Brugger's Bog
+241118181852,2025-05-03,33.33,11.4,,Lyon Creek,Brugger's Bog
+241118181852,2025-06-07,100.0,16.3,13.9,Lyon Creek,Brugger's Bog
+241118181852,2025-10-07,200.0,18.7,13.1,Lyon Creek,Brugger's Bog
+241118182046,2025-01-05,0.0,8.8,9.4,McAleer Creek,Perkins Way
+241118182046,2025-02-02,0.0,5.6,6.5,McAleer Creek,Perkins Way
+241118182046,2025-03-02,133.33,10.1,8.8,McAleer Creek,Perkins Way
+241118182046,2025-04-06,33.33,12.8,10.5,McAleer Creek,Perkins Way
+241118182046,2025-05-04,333.33,11.1,11.2,McAleer Creek,Perkins Way
+241118182150,2025-01-05,133.33,8.8,9.8,McAleer Creek,Spring Creek
+241118182150,2025-02-02,133.33,5.2,7.5,McAleer Creek,Spring Creek
+241118182150,2025-03-02,0.0,10.0,9.5,McAleer Creek,Spring Creek
+241118182150,2025-04-06,666.67,12.4,10.9,McAleer Creek,Spring Creek
+241118182150,2025-05-04,633.33,11.1,11.1,McAleer Creek,Spring Creek
+241118182150,2025-06-12,1133.33,16.0,12.3,McAleer Creek,Spring Creek
+241118182150,2025-07-12,2200.0,22.0,14.3,McAleer Creek,Spring Creek
+241118182150,2025-08-02,300.0,17.8,13.7,McAleer Creek,Spring Creek
+241118182150,2025-09-13,366.67,18.2,13.9,McAleer Creek,Spring Creek
+241118182150,2025-10-03,100.0,16.5,12.8,McAleer Creek,Spring Creek
+241118182150,2026-01-04,33.33,11.6,9.4,McAleer Creek,Spring Creek
+241118182150,2026-03-08,0.0,13.9,10.0,McAleer Creek,Spring Creek
+241118182245,2025-01-05,33.33,8.0,10.4,McAleer Creek,Sarah's Creek
+241118182245,2025-02-02,33.33,5.5,9.0,McAleer Creek,Sarah's Creek
+241118182245,2025-03-02,33.33,10.3,10.2,McAleer Creek,Sarah's Creek
+241118182245,2025-04-06,0.0,12.9,11.0,McAleer Creek,Sarah's Creek
+241118182245,2025-05-04,133.33,11.1,11.1,McAleer Creek,Sarah's Creek
+241118182245,2025-06-12,0.0,16.0,11.9,McAleer Creek,Sarah's Creek
+241118182245,2025-10-03,0.0,16.5,12.4,McAleer Creek,Sarah's Creek
+241118182245,2026-01-04,0.0,11.6,10.3,McAleer Creek,Sarah's Creek
+241118182245,2026-03-08,0.0,13.9,10.5,McAleer Creek,Sarah's Creek
+241118182407,2025-01-05,100.0,8.0,9.7,McAleer Creek,Whisper Creek
+241118182407,2025-02-02,100.0,6.2,7.7,McAleer Creek,Whisper Creek
+241118182407,2025-03-02,33.33,9.3,9.5,McAleer Creek,Whisper Creek
+241118182407,2025-04-06,566.67,11.8,10.8,McAleer Creek,Whisper Creek
+241118182407,2025-05-04,333.33,10.8,11.0,McAleer Creek,Whisper Creek
+241118182407,2025-06-12,1100.0,16.0,12.3,McAleer Creek,Whisper Creek
+241118182407,2025-10-03,200.0,16.5,12.8,McAleer Creek,Whisper Creek
+241118182407,2026-01-04,33.33,11.6,9.4,McAleer Creek,Whisper Creek
+241118182407,2026-03-08,33.33,13.9,10.0,McAleer Creek,Whisper Creek
+241118182520,2025-01-06,100.0,9.0,9.4,McAleer Creek,Cedarbrook
+241118182520,2025-02-02,100.0,6.7,7.1,McAleer Creek,Cedarbrook
+241118182520,2025-03-02,300.0,12.4,9.3,McAleer Creek,Cedarbrook
+241118182520,2025-04-06,1166.67,15.9,10.6,McAleer Creek,Cedarbrook
+241118182520,2025-05-04,1133.33,12.2,10.93,McAleer Creek,Cedarbrook
+241118182520,2025-06-12,5733.33,15.4,12.8,McAleer Creek,Cedarbrook
+241118182520,2025-10-03,500.0,16.5,13.5,McAleer Creek,Cedarbrook
+241118182520,2026-01-04,233.33,11.6,9.0,McAleer Creek,Cedarbrook
+241118182520,2026-03-08,100.0,13.9,9.7,McAleer Creek,Cedarbrook
+241118182616,2025-01-03,133.33,8.6,7.37,McAleer Creek,Big Tree
+241118182616,2025-01-31,333.33,8.4,6.6,McAleer Creek,Big Tree
+241118182616,2025-02-28,166.67,8.4,8.9,McAleer Creek,Big Tree
+241118182616,2025-04-04,66.67,14.2,9.8,McAleer Creek,Big Tree
+241118182616,2025-05-02,100.0,17.1,11.6,McAleer Creek,Big Tree
+241118182616,2025-06-06,133.33,20.4,13.4,McAleer Creek,Big Tree
+241118182616,2025-07-12,183.33499999999998,19.6,14.7,McAleer Creek,Big Tree
+241118182616,2025-08-02,300.0,17.6,14.9,McAleer Creek,Big Tree
+241118182616,2025-09-13,266.67,21.5,14.8,McAleer Creek,Big Tree
+241118182616,2025-10-03,600.0,16.5,11.9,McAleer Creek,Big Tree
+241118182616,2026-01-02,33.33,13.2,7.8,McAleer Creek,Big Tree
+241118182616,2026-01-30,1366.67,10.7,7.0,McAleer Creek,Big Tree
+241118182616,2026-03-06,2333.33,9.4,8.8,McAleer Creek,Big Tree
+241118183206,2025-01-31,900.0,8.5,5.6,McAleer Creek,Sheridan Creek
+241118183206,2025-02-28,100.0,8.5,8.8,McAleer Creek,Sheridan Creek
+241118183206,2025-04-04,133.33,11.7,9.8,McAleer Creek,Sheridan Creek
+241118183206,2025-05-02,0.0,14.9,12.3,McAleer Creek,Sheridan Creek
+241118183206,2025-06-06,166.67,20.7,14.4,McAleer Creek,Sheridan Creek
+241118183206,2025-07-12,183.33499999999998,19.9,16.6,McAleer Creek,Sheridan Creek
+241118183206,2025-08-02,200.0,17.4,15.8,McAleer Creek,Sheridan Creek
+241118183206,2025-09-13,366.67,19.3,15.5,McAleer Creek,Sheridan Creek
+241118183206,2025-10-03,200.0,16.5,12.3,McAleer Creek,Sheridan Creek
+241118183206,2026-01-02,66.67,13.2,6.7,McAleer Creek,Sheridan Creek
+241118183308,2025-01-03,466.67,7.8,7.06,McAleer Creek,Hillside Creek
+241118183308,2025-01-31,0.0,8.3,6.2,McAleer Creek,Hillside Creek
+241118183308,2025-02-28,100.0,8.4,8.95,McAleer Creek,Hillside Creek
+241118183308,2025-04-04,166.67,11.7,9.8,McAleer Creek,Hillside Creek
+241118183308,2025-05-02,100.0,12.4,11.2,McAleer Creek,Hillside Creek
+241118183308,2025-06-06,100.0,15.2,12.5,McAleer Creek,Hillside Creek
+241118183308,2025-07-12,700.0,19.9,15.015,McAleer Creek,Hillside Creek
+241118183308,2025-08-02,266.67,16.6,13.8,McAleer Creek,Hillside Creek
+241118183308,2025-09-13,233.33,17.7,14.1,McAleer Creek,Hillside Creek
+241118183308,2025-10-03,400.0,16.5,11.9,McAleer Creek,Hillside Creek
+241118183308,2026-01-02,66.67,13.2,7.8,McAleer Creek,Hillside Creek
+241118183404,2025-01-03,1200.0,7.4,6.5,McAleer Creek,Brookside Creek
+241118183404,2025-01-31,0.0,6.2,5.2,McAleer Creek,Brookside Creek
+241118183404,2025-02-28,33.33,8.95,8.0,McAleer Creek,Brookside Creek
+241118183404,2025-04-04,66.67,12.4,8.7,McAleer Creek,Brookside Creek
+241118183404,2025-05-02,0.0,13.9,11.8,McAleer Creek,Brookside Creek
+241118183404,2025-06-06,33.33,17.9,13.8,McAleer Creek,Brookside Creek
+241118183404,2025-07-12,66.67,20.0,15.9,McAleer Creek,Brookside Creek
+241118183404,2025-07-22,100.0,20.0,16.5,McAleer Creek,Brookside Creek
+241118183404,2025-08-02,233.33,19.4,15.7,McAleer Creek,Brookside Creek
+241118183404,2025-09-13,300.0,16.0,14.75,McAleer Creek,Brookside Creek
+241118183404,2025-10-03,200.0,16.5,12.2,McAleer Creek,Brookside Creek
+241118183404,2026-01-02,0.0,13.2,6.8,McAleer Creek,Brookside Creek
+241118183501,2025-01-03,433.33,7.8,6.83,McAleer Creek,Grace Cole
+241118183501,2025-01-31,0.0,11.8,5.4,McAleer Creek,Grace Cole
+241118183501,2025-02-28,66.67,11.8,8.7,McAleer Creek,Grace Cole
+241118183501,2025-04-04,0.0,13.5,10.1,McAleer Creek,Grace Cole
+241118183501,2025-05-02,100.0,12.8,12.1,McAleer Creek,Grace Cole
+241118183501,2025-06-06,33.33,15.8,14.7,McAleer Creek,Grace Cole
+241118183501,2025-10-03,100.0,16.5,12.6,McAleer Creek,Grace Cole
+241118183501,2026-01-02,0.0,13.2,6.6,McAleer Creek,Grace Cole
+241118183629,2025-01-04,233.33,11.6,7.3,McAleer Creek,Meadow Creek
+241118183629,2025-01-31,100.0,11.8,6.7,McAleer Creek,Meadow Creek
+241118183629,2025-02-28,0.0,11.8,8.8,McAleer Creek,Meadow Creek
+241118183629,2025-04-04,33.33,16.5,9.6,McAleer Creek,Meadow Creek
+241118183629,2025-05-02,0.0,15.5,10.5,McAleer Creek,Meadow Creek
+241118183629,2025-06-06,166.67,18.0,12.0,McAleer Creek,Meadow Creek
+241118183629,2025-10-03,100.0,16.5,12.1,McAleer Creek,Meadow Creek
+241118183629,2026-01-02,33.33,13.2,7.8,McAleer Creek,Meadow Creek
+241118183629,2026-01-30,1300.0,13.8,8.1,McAleer Creek,Meadow Creek
+241118183629,2026-03-06,133.33,11.4,8.6,McAleer Creek,Meadow Creek
+251204213047,2026-01-02,22.22,13.2,9.2,Lake Washington-Sammamish River,Gessner Site
+251204215153,2026-01-02,33.33,13.2,8.1,Lake Washington-Sammamish River,Andersen Site
+251204215153,2026-01-30,966.67,10.4,8.2,Lake Washington-Sammamish River,Andersen Site
+251204215153,2026-03-06,2033.33,9.2,8.9,Lake Washington-Sammamish River,Andersen Site
+251204215814,2026-01-02,33.33,13.2,9.0,McAleer Creek,W Hillside
+251204215814,2026-01-30,1966.67,10.1,8.1,McAleer Creek,W Hillside
+251204215814,2026-03-06,233.33,10.7,9.4,McAleer Creek,W Hillside
+251204220155,2026-01-02,66.67,13.2,8.1,McAleer Creek,S Meadow
+251204220155,2026-01-30,366.67,9.0,8.2,McAleer Creek,S Meadow
+251204220155,2026-03-06,1333.33,9.9,8.9,McAleer Creek,S Meadow
+251204220610,2026-01-04,33.33,11.6,9.0,McAleer Creek,Upper Cedarbrook
+251204220610,2026-03-08,33.33,13.9,9.6,McAleer Creek,Upper Cedarbrook
+251221144813,2025-11-23,863.3419629,10.5,10.8,Springbrook Creek,Springbrook Creek River MIle 1.4
+251221145854,2025-11-23,327.106631,10.0,10.9,Springbrook Creek,Springbrook Creek River Mile 5.0
+251221150008,2025-11-23,235.884699,9.0,10.7,Springbroook Creek,Mill Creek River Mile 0.8
+251221150232,2025-11-23,457.885697,12.0,10.7,Springbrook Creek,Mill Creek River Mile 5.3
+251221150343,2025-11-23,271.4417617,10.5,10.6,Springbroook Creek,Panther Creek River Mile 0.0
+251221150928,2025-11-23,265.6646423,12.0,11.1,Springbrook Creek,Garrison Creek River Mile 0.0
+251221151218,2025-11-23,131.0370697,11.0,9.9,Springbrook Creek,Garrison Creek River Mile 2.2
+5303301,2015-09-06,266.6666667,14.0,13.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2015-10-07,433.3333333,13.5,12.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2015-11-09,366.6666667,9.0,9.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-01-06,0.0,6.5,4.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-02-04,33.33333333,7.5,7.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-03-07,300.0,8.0,10.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-04-06,33.33333333,18.5,12.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-05-15,33.33333333,14.0,12.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-06-06,166.6666667,25.0,19.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-07-06,100.0,20.0,13.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-08-07,300.0,17.5,15.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-08-20,33.33333333,26.0,17.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-09-03,1033.333333,15.5,15.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-10-02,33.33333333,16.0,12.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-10-23,33.33333333,13.0,11.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-11-07,33.33333333,16.0,12.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-12-06,0.0,3.0,5.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2016-12-10,400.0,9.0,8.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-01-02,33.33333333,2.5,4.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-02-07,0.0,4.0,4.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-03-07,66.66666667,5.0,6.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-04-04,0.0,16.5,9.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-05-02,0.0,16.0,11.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-06-07,133.3333333,24.5,17.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-07-05,266.6666667,25.0,17.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-08-07,300.0,28.5,18.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-09-05,133.3333333,28.0,16.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-09-20,900.0,13.0,12.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-10-05,33.33333333,20.0,11.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-11-06,366.6666667,7.0,7.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2017-12-05,0.0,5.5,5.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-01-02,0.0,6.0,4.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-02-06,33.33333333,9.0,9.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-03-06,0.0,12.0,7.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-04-03,0.0,10.7,8.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-05-01,0.0,14.0,11.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-06-30,133.3333333,14.0,15.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-07-09,100.0,21.5,16.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-08-06,350.0,28.0,18.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-09-04,83.33333333,22.0,19.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-10-01,283.3333333,16.0,14.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-11-02,316.6666667,16.0,12.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2018-12-03,0.0,7.0,6.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-04-01,16.66666667,19.5,10.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-05-06,66.66666667,21.5,13.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-06-05,400.0,17.0,13.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-07-01,200.0,25.0,17.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-08-08,116.6666667,20.0,6.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-09-11,133.3333333,20.5,15.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-10-09,66.66666667,9.0,9.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-11-06,0.0,12.0,8.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-11-12,266.6666667,8.5,7.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2019-12-11,266.6666667,8.5,7.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2020-03-11,16.66666667,11.0,7.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2020-09-07,66.66666667,28.5,18.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2021-04-08,66.66666667,14.0,9.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2021-07-06,150.0,25.0,18.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2021-08-05,400.0,26.5,18.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2021-09-14,266.6666667,19.3,14.4,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2022-03-16,250.0,13.0,9.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2022-04-12,0.0,7.0,8.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2022-08-16,166.6666667,26.0,17.5,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2022-09-27,250.0,24.0,17.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2023-02-05,100.0,0.0,0.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2023-03-07,66.66666667,11.0,7.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2023-04-12,66.66666667,12.0,9.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2023-05-09,300.0,0.0,0.0,Bear Creek-Sammamish River,Little Bear Creek
+5303301,2023-06-06,433.3333333,23.0,15.0,Bear Creek-Sammamish River,Little Bear Creek
+5303303,2015-09-03,533.3333333,16.0,15.0,North Creek,North Creek
+5303303,2015-09-27,100.0,11.0,10.0,North Creek,North Creek
+5303303,2015-10-17,66.66666667,16.0,13.0,North Creek,North Creek
+5303303,2015-11-22,0.0,9.0,,North Creek,North Creek
+5303303,2015-12-19,1066.666667,8.0,6.0,North Creek,North Creek
+5303303,2016-01-17,0.0,8.0,6.0,North Creek,North Creek
+5303303,2016-02-21,300.0,8.0,6.5,North Creek,North Creek
+5303303,2016-03-20,0.0,11.0,9.0,North Creek,North Creek
+5303303,2016-04-17,33.33333333,19.0,11.5,North Creek,North Creek
+5303303,2016-05-22,0.0,15.0,13.0,North Creek,North Creek
+5303303,2016-06-18,66.66666667,13.0,13.0,North Creek,North Creek
+5303303,2016-07-17,266.6666667,22.0,18.0,North Creek,North Creek
+5303303,2016-09-18,133.3333333,16.5,14.0,North Creek,North Creek
+5303303,2016-10-23,0.0,13.0,11.0,North Creek,North Creek
+5303303,2016-12-03,0.0,7.5,9.0,North Creek,North Creek
+5303303,2017-07-30,133.3333333,22.5,17.5,North Creek,North Creek
+5303303,2018-01-31,0.0,7.0,7.0,North Creek,North Creek
+5303303,2018-02-28,0.0,7.5,5.0,North Creek,North Creek
+5303303,2018-03-28,0.0,8.5,7.5,North Creek,North Creek
+5303303,2018-04-30,33.33333333,10.0,11.0,North Creek,North Creek
+5303303,2018-05-30,33.33333333,11.0,12.0,North Creek,North Creek
+5303303,2018-06-24,83.33333333,17.0,14.5,North Creek,North Creek
+5303303,2018-07-27,66.66666667,19.5,16.5,North Creek,North Creek
+5303303,2018-08-30,166.6666667,17.5,15.0,North Creek,North Creek
+5303303,2018-09-29,50.0,12.5,12.0,North Creek,North Creek
+5303303,2018-10-28,666.6666667,12.0,11.0,North Creek,North Creek
+5303303,2018-11-28,0.0,9.0,9.0,North Creek,North Creek
+5303303,2018-12-16,16.66666667,12.5,7.5,North Creek,North Creek
+5303303,2019-01-30,0.0,2.5,3.5,North Creek,North Creek
+5303303,2019-02-27,16.66666667,3.0,3.0,North Creek,North Creek
+5303303,2019-03-27,0.0,10.0,7.0,North Creek,North Creek
+5303303,2019-04-28,0.0,9.5,9.0,North Creek,North Creek
+5303303,2019-05-31,83.33333333,14.5,14.0,North Creek,North Creek
+5303303,2019-06-22,16.66666667,14.0,14.0,North Creek,North Creek
+5303303,2019-07-27,300.0,16.0,16.5,North Creek,North Creek
+5303303,2019-08-31,150.0,18.5,15.5,North Creek,North Creek
+5303303,2019-10-24,166.6666667,8.5,9.5,North Creek,North Creek
+5303303,2019-11-30,0.0,-3.5,1.8,North Creek,North Creek
+5303303,2019-12-28,0.0,4.5,5.0,North Creek,North Creek
+5303303,2020-02-26,0.0,8.5,7.0,North Creek,North Creek
+5303303,2020-06-17,33.33333333,16.0,13.0,North Creek,North Creek
+5303303,2020-10-29,66.66666667,12.0,10.0,North Creek,North Creek
+5303303,2021-07-14,166.6666667,16.7,16.0,North Creek,North Creek
+5303303,2021-08-20,83.33333333,16.5,16.0,North Creek,North Creek
+5303303,2021-09-22,150.0,15.7,13.0,North Creek,North Creek
+5303303,2022-08-25,250.0,19.0,16.0,North Creek,North Creek
+5303303,2022-10-12,33.33333333,10.0,11.0,North Creek,North Creek
+5303303,2023-04-05,200.0,0.0,0.0,North Creek,North Creek
+5303304,2025-04-05,166.67,21.0,,Bear Creek-Sammamish River,Horse Creek
+5303305,2015-09-15,133.3333333,13.0,14.0,Swamp Creek,Little Swamp Creek
+5303305,2015-10-10,7333.333333,13.0,14.0,Swamp Creek,Little Swamp Creek
+5303305,2015-11-15,166.6666667,6.0,9.0,Swamp Creek,Little Swamp Creek
+5303305,2015-12-15,0.0,4.0,7.0,Swamp Creek,Little Swamp Creek
+5303305,2016-01-17,33.33333333,8.0,7.0,Swamp Creek,Little Swamp Creek
+5303305,2016-02-15,800.0,8.5,7.0,Swamp Creek,Little Swamp Creek
+5303305,2016-03-04,100.0,10.0,8.0,Swamp Creek,Little Swamp Creek
+5303305,2016-04-04,300.0,10.5,11.5,Swamp Creek,Little Swamp Creek
+5303305,2016-05-15,33.33333333,10.5,10.5,Swamp Creek,Little Swamp Creek
+5303305,2016-06-06,66.66666667,25.0,,Swamp Creek,Little Swamp Creek
+5303305,2016-07-02,66.66666667,20.0,16.0,Swamp Creek,Little Swamp Creek
+5303305,2016-08-06,1466.666667,15.5,15.0,Swamp Creek,Little Swamp Creek
+5303305,2016-08-21,66.66666667,20.5,16.0,Swamp Creek,Little Swamp Creek
+5303305,2016-09-03,1700.0,13.5,14.5,Swamp Creek,Little Swamp Creek
+5303305,2016-10-08,66.66666667,17.5,13.5,Swamp Creek,Little Swamp Creek
+5303305,2016-11-10,0.0,15.0,14.5,Swamp Creek,Little Swamp Creek
+5303305,2016-12-03,266.6666667,,,Swamp Creek,Little Swamp Creek
+5303305,2017-01-08,0.0,8.0,4.0,Swamp Creek,Little Swamp Creek
+5303305,2017-02-05,166.6666667,4.0,5.0,Swamp Creek,Little Swamp Creek
+5303305,2017-03-04,66.66666667,8.5,7.5,Swamp Creek,Little Swamp Creek
+5303305,2017-04-02,33.33333333,10.5,10.5,Swamp Creek,Little Swamp Creek
+5303305,2017-05-06,0.0,10.5,11.0,Swamp Creek,Little Swamp Creek
+5303305,2017-06-01,33.33333333,18.5,15.0,Swamp Creek,Little Swamp Creek
+5303305,2017-07-05,1233.333333,21.0,18.0,Swamp Creek,Little Swamp Creek
+5303305,2017-08-06,633.3333333,23.0,18.5,Swamp Creek,Little Swamp Creek
+5303305,2017-08-09,133.3333333,26.5,20.0,Swamp Creek,Little Swamp Creek
+5303305,2017-09-02,233.3333333,26.0,17.0,Swamp Creek,Little Swamp Creek
+5303305,2017-09-20,366.6666667,12.5,12.5,Swamp Creek,Little Swamp Creek
+5303305,2017-10-01,333.3333333,13.0,14.0,Swamp Creek,Little Swamp Creek
+5303305,2017-11-05,500.0,2.5,7.0,Swamp Creek,Little Swamp Creek
+5303305,2017-12-19,166.6666667,5.0,7.0,Swamp Creek,Little Swamp Creek
+5303305,2018-01-21,66.66666667,8.5,7.5,Swamp Creek,Little Swamp Creek
+5303305,2018-02-11,0.0,6.0,5.0,Swamp Creek,Little Swamp Creek
+5303305,2018-03-16,0.0,10.5,7.0,Swamp Creek,Little Swamp Creek
+5303305,2018-04-13,66.66666667,10.0,9.0,Swamp Creek,Little Swamp Creek
+5303305,2018-05-15,300.0,20.0,16.0,Swamp Creek,Little Swamp Creek
+5303305,2018-06-05,0.0,16.5,13.0,Swamp Creek,Little Swamp Creek
+5303305,2018-07-20,50.0,17.0,15.5,Swamp Creek,Little Swamp Creek
+5303305,2018-08-22,300.0,24.0,17.0,Swamp Creek,Little Swamp Creek
+5303305,2018-09-22,100.0,17.5,14.5,Swamp Creek,Little Swamp Creek
+5303305,2018-10-12,0.0,13.5,11.0,Swamp Creek,Little Swamp Creek
+5303305,2018-11-09,133.3333333,9.5,6.0,Swamp Creek,Little Swamp Creek
+5303305,2018-12-23,533.3333333,7.5,7.0,Swamp Creek,Little Swamp Creek
+5303305,2019-01-14,83.33333333,6.5,4.5,Swamp Creek,Little Swamp Creek
+5303305,2019-02-14,66.66666667,4.0,4.0,Swamp Creek,Little Swamp Creek
+5303305,2019-03-10,16.66666667,6.5,4.0,Swamp Creek,Little Swamp Creek
+5303305,2019-04-10,33.33333333,9.0,9.0,Swamp Creek,Little Swamp Creek
+5303305,2019-05-09,33.33333333,23.5,13.5,Swamp Creek,Little Swamp Creek
+5303305,2019-06-25,83.33333333,20.5,15.0,Swamp Creek,Little Swamp Creek
+5303305,2019-07-25,150.0,20.0,15.5,Swamp Creek,Little Swamp Creek
+5303305,2019-08-31,177.7777778,22.5,17.5,Swamp Creek,Little Swamp Creek
+5303305,2019-09-10,2733.333333,17.0,16.0,Swamp Creek,Little Swamp Creek
+5303305,2019-10-31,55.55555556,7.5,6.5,Swamp Creek,Little Swamp Creek
+5303305,2019-11-22,16.66666667,7.0,7.0,Swamp Creek,Little Swamp Creek
+5303305,2019-12-31,83.33333333,9.5,8.0,Swamp Creek,Little Swamp Creek
+5303305,2020-01-18,16.66666667,8.5,7.5,Swamp Creek,Little Swamp Creek
+5303305,2020-02-26,16.66666667,9.5,7.5,Swamp Creek,Little Swamp Creek
+5303305,2020-03-28,166.6666667,10.0,8.5,Swamp Creek,Little Swamp Creek
+5303305,2020-04-22,650.0,11.5,11.0,Swamp Creek,Little Swamp Creek
+5303305,2020-05-28,500.0,18.5,15.0,Swamp Creek,Little Swamp Creek
+5303305,2020-06-13,866.6666667,13.0,13.5,Swamp Creek,Little Swamp Creek
+5303305,2020-07-29,177.7777778,23.0,18.0,Swamp Creek,Little Swamp Creek
+5303305,2020-08-06,6133.333333,13.0,17.0,Swamp Creek,Little Swamp Creek
+5303305,2020-09-26,450.0,14.0,14.5,Swamp Creek,Little Swamp Creek
+5303305,2020-10-11,1133.333333,11.5,12.5,Swamp Creek,Little Swamp Creek
+5303305,2020-11-30,83.33333333,9.0,8.0,Swamp Creek,Little Swamp Creek
+5303305,2020-12-22,83.33333333,6.0,7.0,Swamp Creek,Little Swamp Creek
+5303305,2021-01-29,16.66666667,5.0,7.0,Swamp Creek,Little Swamp Creek
+5303305,2021-02-28,33.33333333,10.5,7.5,Swamp Creek,Little Swamp Creek
+5303305,2021-03-26,16.66666667,10.0,8.0,Swamp Creek,Little Swamp Creek
+5303305,2021-04-19,16.66666667,15.5,11.5,Swamp Creek,Little Swamp Creek
+5303305,2021-05-27,83.33333333,12.0,12.5,Swamp Creek,Little Swamp Creek
+5303305,2021-06-24,83.33333333,22.0,19.0,Swamp Creek,Little Swamp Creek
+5303305,2021-07-22,116.6666667,17.5,15.0,Swamp Creek,Little Swamp Creek
+5303305,2021-08-27,1166.666667,15.0,15.0,Swamp Creek,Little Swamp Creek
+5303305,2021-09-18,4766.666667,13.5,14.0,Swamp Creek,Little Swamp Creek
+5303305,2021-10-30,283.3333333,9.5,10.0,Swamp Creek,Little Swamp Creek
+5303305,2021-11-10,66.66666667,10.0,10.0,Swamp Creek,Little Swamp Creek
+5303305,2022-01-03,616.6666667,2.0,3.5,Swamp Creek,Little Swamp Creek
+5303305,2022-02-03,150.0,7.5,6.5,Swamp Creek,Little Swamp Creek
+5303305,2022-03-10,16.66666667,1.0,4.0,Swamp Creek,Little Swamp Creek
+5303305,2022-04-03,133.3333333,7.0,8.0,Swamp Creek,Little Swamp Creek
+5303305,2022-05-26,150.0,17.0,14.0,Swamp Creek,Little Swamp Creek
+5303305,2022-07-22,100.0,21.0,17.5,Swamp Creek,Little Swamp Creek
+5303305,2022-08-16,33.33333333,20.0,16.5,Swamp Creek,Little Swamp Creek
+5303305,2022-09-29,166.6666667,19.0,14.5,Swamp Creek,Little Swamp Creek
+5303305,2022-10-31,266.6666667,9.0,12.0,Swamp Creek,Little Swamp Creek
+5303305,2022-12-12,66.66666667,3.5,7.0,Swamp Creek,Little Swamp Creek
+5303305,2023-01-05,50.0,11.0,7.5,Swamp Creek,Little Swamp Creek
+5303305,2023-03-28,0.0,15.5,10.0,Swamp Creek,Little Swamp Creek
+5303305,2023-05-23,633.3333333,12.5,13.0,Swamp Creek,Little Swamp Creek
+5303305,2023-07-25,216.6666667,18.0,16.5,Swamp Creek,Little Swamp Creek
+5303305,2023-08-25,250.0,23.5,17.0,Swamp Creek,Little Swamp Creek
+5303305,2023-10-23,533.3333333,11.0,13.0,Swamp Creek,Little Swamp Creek
+5303305,2023-11-30,133.3333333,6.0,4.0,Swamp Creek,Little Swamp Creek
+5303305,2023-12-05,833.3333333,0.0,0.0,Swamp Creek,Little Swamp Creek
+5303305,2024-01-27,133.3333333,12.0,9.0,Swamp Creek,Little Swamp Creek
+5303305,2024-03-07,22.22222222,13.0,12.0,Swamp Creek,Little Swamp Creek
+5303305,2024-04-30,122.2222222,10.5,10.0,Swamp Creek,Little Swamp Creek
+5303305,2024-05-31,66.66666667,18.0,12.5,Swamp Creek,Little Swamp Creek
+5303305,2024-06-18,277.78,15.5,12.5,Swamp Creek,Little Swamp Creek
+5303305,2024-07-20,188.89,23.0,16.5,Swamp Creek,Little Swamp Creek
+5303305,2024-09-29,83.33,14.5,13.0,Swamp Creek,Little Swamp Creek
+5303305,2024-10-23,0.0,11.5,11.0,Swamp Creek,Little Swamp Creek
+5303305,2024-12-24,316.67,9.5,8.0,Swamp Creek,Little Swamp Creek
+5303305,2025-01-21,50.0,5.0,3.0,Swamp Creek,Little Swamp Creek
+5303305,2025-04-15,100.0,14.0,11.0,Swamp Creek,Little Swamp Creek
+5303305,2025-05-27,83.33,22.0,17.5,Swamp Creek,Little Swamp Creek
+5303305,2025-06-30,33.33,28.0,18.0,Swamp Creek,Little Swamp Creek
+5303305,2025-07-28,133.33,27.0,17.0,Swamp Creek,Little Swamp Creek
+5303305,2025-08-18,100.0,22.0,18.0,Swamp Creek,Little Swamp Creek
+5303305,2025-09-19,77.78,22.0,16.0,Swamp Creek,Little Swamp Creek
+5303305,2025-09-21,3100.0,15.0,15.0,Swamp Creek,Little Swamp Creek
+5303305,2025-10-19,100.0,14.0,11.0,Swamp Creek,Little Swamp Creek
+5303305,2025-11-26,77.78,9.0,9.0,Swamp Creek,Little Swamp Creek
+5303305,2025-12-12,0.0,11.0,10.0,Swamp Creek,Little Swamp Creek
+5303305,2026-01-24,22.22,5.0,3.0,Swamp Creek,Little Swamp Creek
+5303305,2026-02-24,100.0,9.0,6.0,Swamp Creek,Little Swamp Creek
+5303305,2026-03-29,22.22,8.0,8.5,Swamp Creek,Little Swamp Creek
+5303306,2016-10-16,333.3333333,12.5,12.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2016-11-12,66.66666667,14.0,12.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-01-14,0.0,2.0,3.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-02-12,0.0,7.5,5.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-03-12,0.0,10.0,7.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-04-07,33.33333333,11.0,10.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-05-07,0.0,16.0,12.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-06-11,0.0,15.0,13.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-07-04,833.3333333,17.5,14.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-08-20,66.66666667,17.0,13.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-09-16,100.0,14.0,13.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-11-19,0.0,10.0,9.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2017-12-17,0.0,8.0,7.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-01-13,33.33333333,11.0,8.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-02-11,0.0,4.0,5.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-03-11,0.0,7.0,5.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-04-09,0.0,10.5,8.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-05-12,0.0,21.0,12.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-06-10,100.0,13.0,12.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-07-08,83.33333333,23.0,16.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-08-12,50.0,19.0,16.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-09-15,116.6666667,15.0,14.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-10-20,0.0,11.5,11.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-11-18,0.0,6.0,8.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2018-12-08,0.0,4.2,6.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-01-20,0.0,7.0,6.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-02-17,33.33333333,3.0,4.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-03-17,0.0,10.5,6.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-04-14,50.0,8.0,8.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-05-20,200.0,14.0,12.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-06-14,0.0,15.5,14.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-07-07,0.0,18.0,14.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-08-12,0.0,9.0,8.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-08-27,100.0,26.0,17.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2019-12-08,0.0,9.0,8.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2020-01-26,0.0,12.5,8.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2020-02-29,0.0,7.0,7.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2021-04-11,0.0,12.0,8.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2021-07-12,66.66666667,23.0,16.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2022-01-09,150.0,4.0,5.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2023-01-19,33.33333333,0.0,0.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2023-12-09,366.6666667,3.0,7.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2024-04-20,83.33333333,18.5,10.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2024-05-18,350.0,10.0,11.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2024-06-23,400.0,17.0,14.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2024-07-29,450.0,17.0,15.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2024-08-17,166.67,21.5,16.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2024-09-22,200.0,16.5,14.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2024-10-13,383.33,13.0,12.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2024-12-22,116.67,9.0,8.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-02-02,66.67,1.5,5.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-03-02,50.0,10.5,8.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-04-05,16.67,21.0,,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-05-04,16.67,12.5,9.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-06-01,100.0,16.0,12.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-07-06,183.33,23.5,17.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-08-03,150.0,18.0,14.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-09-07,266.67,18.0,15.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-10-12,183.33,10.0,13.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2025-12-06,1033.33,12.0,9.0,Lake Washington-Sammamish River,Stream 0056
+5303306,2026-01-04,233.33,10.0,7.5,Lake Washington-Sammamish River,Stream 0056
+5303306,2026-02-01,133.33,11.0,8.0,Lake Washington-Sammamish River,Stream 0056
+5303307,2015-09-15,233.3333333,16.0,14.0,Swamp Creek,Swamp Creek
+5303307,2015-10-12,166.6666667,14.0,12.5,Swamp Creek,Swamp Creek
+5303307,2015-11-15,200.0,5.5,8.0,Swamp Creek,Swamp Creek
+5303307,2015-12-15,33.33333333,4.5,5.5,Swamp Creek,Swamp Creek
+5303307,2016-01-16,0.0,8.0,6.5,Swamp Creek,Swamp Creek
+5303307,2016-02-09,0.0,10.0,5.5,Swamp Creek,Swamp Creek
+5303307,2016-03-04,0.0,10.0,7.0,Swamp Creek,Swamp Creek
+5303307,2016-04-04,300.0,10.0,10.0,Swamp Creek,Swamp Creek
+5303307,2016-05-15,100.0,10.0,11.0,Swamp Creek,Swamp Creek
+5303307,2016-06-06,100.0,26.5,19.0,Swamp Creek,Swamp Creek
+5303307,2016-07-02,166.6666667,20.0,17.0,Swamp Creek,Swamp Creek
+5303307,2016-08-09,300.0,18.0,16.5,Swamp Creek,Swamp Creek
+5303307,2016-08-21,33.33333333,20.5,17.0,Swamp Creek,Swamp Creek
+5303307,2016-09-03,1566.666667,14.5,15.0,Swamp Creek,Swamp Creek
+5303307,2016-10-17,100.0,12.0,11.0,Swamp Creek,Swamp Creek
+5303307,2016-11-10,33.33333333,14.5,11.0,Swamp Creek,Swamp Creek
+5303307,2016-12-03,0.0,8.5,8.5,Swamp Creek,Swamp Creek
+5303307,2017-01-08,66.66666667,7.5,2.5,Swamp Creek,Swamp Creek
+5303307,2017-02-05,33.33333333,9.0,5.0,Swamp Creek,Swamp Creek
+5303307,2017-03-04,0.0,8.0,7.0,Swamp Creek,Swamp Creek
+5303307,2017-04-02,200.0,11.5,11.0,Swamp Creek,Swamp Creek
+5303307,2017-05-06,266.6666667,11.5,11.5,Swamp Creek,Swamp Creek
+5303307,2017-06-01,33.33333333,19.0,15.0,Swamp Creek,Swamp Creek
+5303307,2017-07-05,0.0,21.0,17.5,Swamp Creek,Swamp Creek
+5303307,2017-08-06,133.3333333,24.5,18.5,Swamp Creek,Swamp Creek
+5303307,2017-09-03,133.3333333,26.0,17.5,Swamp Creek,Swamp Creek
+5303307,2017-09-20,66.66666667,13.5,12.5,Swamp Creek,Swamp Creek
+5303307,2017-10-01,100.0,15.0,13.0,Swamp Creek,Swamp Creek
+5303307,2017-11-05,433.3333333,3.5,6.0,Swamp Creek,Swamp Creek
+5303307,2017-12-19,166.6666667,6.5,8.0,Swamp Creek,Swamp Creek
+5303307,2018-01-21,0.0,8.5,7.0,Swamp Creek,Swamp Creek
+5303307,2018-02-11,66.66666667,6.0,5.0,Swamp Creek,Swamp Creek
+5303307,2018-03-16,33.33333333,10.5,5.5,Swamp Creek,Swamp Creek
+5303307,2018-04-13,0.0,10.0,8.5,Swamp Creek,Swamp Creek
+5303307,2018-05-15,133.3333333,20.0,16.0,Swamp Creek,Swamp Creek
+5303307,2018-06-05,100.0,16.5,13.0,Swamp Creek,Swamp Creek
+5303307,2018-07-20,83.33333333,17.5,15.5,Swamp Creek,Swamp Creek
+5303307,2019-01-14,50.0,4.5,3.0,Swamp Creek,Swamp Creek
+5303307,2019-02-14,100.0,2.0,1.0,Swamp Creek,Swamp Creek
+5303307,2019-03-10,0.0,5.5,2.5,Swamp Creek,Swamp Creek
+5303307,2019-04-10,16.66666667,9.0,9.0,Swamp Creek,Swamp Creek
+5303307,2019-05-09,133.3333333,21.0,14.0,Swamp Creek,Swamp Creek
+5303307,2019-06-25,83.33333333,20.0,15.0,Swamp Creek,Swamp Creek
+5303307,2019-07-25,150.0,19.5,16.0,Swamp Creek,Swamp Creek
+5303307,2019-08-31,311.1111111,21.5,17.0,Swamp Creek,Swamp Creek
+5303307,2019-09-13,133.3333333,17.0,16.0,Swamp Creek,Swamp Creek
+5303307,2019-10-31,22.22222222,7.0,5.5,Swamp Creek,Swamp Creek
+5303307,2019-11-22,0.0,5.5,5.0,Swamp Creek,Swamp Creek
+5303307,2019-12-31,16.66666667,9.0,7.0,Swamp Creek,Swamp Creek
+5303307,2020-01-18,33.33333333,8.5,6.0,Swamp Creek,Swamp Creek
+5303307,2020-02-26,0.0,8.0,7.0,Swamp Creek,Swamp Creek
+5303307,2020-03-28,0.0,10.0,8.0,Swamp Creek,Swamp Creek
+5303307,2020-04-29,11.11111111,19.0,13.5,Swamp Creek,Swamp Creek
+5303307,2020-05-28,100.0,19.5,14.0,Swamp Creek,Swamp Creek
+5303307,2020-06-13,150.0,14.0,13.5,Swamp Creek,Swamp Creek
+5303307,2020-07-29,100.0,25.0,18.5,Swamp Creek,Swamp Creek
+5303307,2020-08-08,250.0,18.5,16.5,Swamp Creek,Swamp Creek
+5303307,2020-09-26,250.0,15.5,14.0,Swamp Creek,Swamp Creek
+5303307,2020-10-31,50.0,7.0,7.5,Swamp Creek,Swamp Creek
+5303307,2020-11-30,66.66666667,8.0,6.5,Swamp Creek,Swamp Creek
+5303307,2020-12-22,233.3333333,5.0,6.0,Swamp Creek,Swamp Creek
+5303307,2021-01-29,0.0,7.0,6.0,Swamp Creek,Swamp Creek
+5303307,2021-02-28,0.0,9.0,7.0,Swamp Creek,Swamp Creek
+5303307,2021-03-26,100.0,9.5,7.0,Swamp Creek,Swamp Creek
+5303307,2021-04-19,16.66666667,14.0,11.0,Swamp Creek,Swamp Creek
+5303307,2021-05-27,200.0,13.0,12.5,Swamp Creek,Swamp Creek
+5303307,2021-06-25,66.66666667,25.5,19.5,Swamp Creek,Swamp Creek
+5303307,2021-07-22,166.6666667,17.0,15.0,Swamp Creek,Swamp Creek
+5303308,2015-09-11,200.0,17.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2015-10-10,1266.666667,17.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2015-11-16,0.0,6.0,8.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2015-12-17,100.0,3.0,5.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-01-23,66.66666667,7.0,6.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-02-22,0.0,7.5,8.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-03-22,166.6666667,8.0,9.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-04-16,400.0,11.5,13.7,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-05-19,0.0,10.0,11.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-06-22,33.33333333,17.0,14.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-07-16,66.66666667,18.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-08-09,100.0,12.0,10.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-09-03,400.0,13.0,13.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-10-27,66.66666667,12.0,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-11-29,100.0,9.0,9.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2016-12-16,0.0,-1.0,4.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-02-23,0.0,6.6,6.6,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-03-10,0.0,12.0,8.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-04-15,0.0,11.0,10.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-05-22,166.6666667,16.0,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-07-05,233.3333333,17.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-08-22,166.6666667,23.0,16.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-09-20,100.0,13.0,12.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-10-21,300.0,7.0,11.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-11-16,66.66666667,7.0,8.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2017-12-12,66.66666667,4.0,6.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-01-20,66.66666667,7.0,5.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-02-20,66.66666667,3.0,5.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-03-19,100.0,10.0,9.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-04-21,133.3333333,11.0,10.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-05-22,200.0,20.5,13.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-06-11,300.0,13.0,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-07-21,700.0,,,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-08-28,433.3333333,10.0,5.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-09-28,200.0,9.5,7.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-10-20,300.0,4.0,5.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2018-11-19,66.66666667,5.6,7.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-01-19,33.33333333,10.5,7.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-02-21,66.66666667,4.5,4.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-03-18,33.33333333,11.0,7.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-04-20,33.33333333,10.0,10.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-05-25,66.66666667,11.0,12.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-06-21,166.6666667,14.5,13.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-07-20,33.33333333,18.5,12.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-08-16,433.3333333,16.5,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-09-12,133.3333333,5.5,7.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-09-24,166.6666667,14.5,15.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-10-19,333.3333333,9.0,10.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-11-22,33.33333333,4.0,7.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2019-12-09,133.3333333,5.5,7.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-01-30,33.33333333,6.0,7.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-02-21,0.0,3.0,5.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-03-22,33.33333333,12.0,9.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-04-17,33.33333333,15.0,10.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-05-19,100.0,13.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-06-18,233.3333333,17.0,12.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-07-20,266.6666667,22.5,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-08-21,266.6666667,19.0,15.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-09-22,300.0,14.0,15.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-10-24,66.66666667,5.5,9.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2020-12-17,33.33333333,9.5,8.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-01-16,6600.0,5.0,7.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-02-19,33.33333333,10.0,7.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-03-23,33.33333333,10.0,8.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-04-17,366.6666667,17.0,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-05-22,933.3333333,12.0,11.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-06-19,566.6666667,16.0,13.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-07-24,633.3333333,20.5,15.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-08-20,1466.666667,16.5,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-09-22,933.3333333,15.5,13.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-10-23,333.3333333,10.5,11.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-11-21,1566.666667,7.5,8.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2021-12-18,1566.666667,8.0,6.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-01-22,633.3333333,5.0,6.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-02-19,733.3333333,5.0,7.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-03-27,100.0,13.5,10.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-04-24,366.6666667,14.0,10.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-05-22,1133.333333,16.0,12.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-06-25,800.0,25.5,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-07-30,1566.666667,23.5,15.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-08-20,1766.666667,18.5,15.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-09-18,2600.0,22.5,14.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-10-15,500.0,16.0,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-11-20,33.33333333,0.0,0.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2022-12-11,100.0,7.0,6.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-02-11,66.66666667,6.5,6.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-03-11,333.3333333,7.5,6.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-04-08,333.3333333,9.0,9.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-06-10,27400.0,0.0,0.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-07-08,11000.0,16.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-09-10,366.6666667,19.5,13.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-10-08,133.3333333,15.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-11-12,300.0,10.0,8.8,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2023-12-10,200.0,11.0,8.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-01-13,66.66666667,-5.0,4.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-02-10,33.33333333,9.4,6.6,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-03-09,33.331666665,8.5,7.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-04-14,433.33166665,14.9,11.7,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-06-08,100.0,22.1,15.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-08-03,833.33,19.0,16.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-09-06,900.0,25.3,18.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-10-13,0.0,16.2,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-11-16,0.0,7.0,8.0,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2024-12-14,0.0,8.8,7.9,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-01-12,0.0,8.4,7.6,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-02-08,66.67,5.7,5.7,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-03-08,33.33,9.7,8.9,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-04-12,133.33,12.0,10.7,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-05-10,133.33,15.9,12.2,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-06-15,400.0,16.7,12.3,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-07-19,166.67,15.1,14.1,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-08-16,266.67,19.6,15.4,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-09-19,300.0,14.3,12.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-10-11,533.33,12.9,12.5,Lake Washington-Sammamish River,MacAleer Creek
+5303308,2025-11-09,33.33,15.6,10.7,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2016-01-23,66.66666667,,6.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2016-04-16,0.0,12.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2016-07-16,133.3333333,17.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2016-10-27,100.0,11.2,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2017-04-15,166.6666667,12.0,9.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2017-07-05,0.0,18.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2017-10-21,166.6666667,8.0,11.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2018-01-20,0.0,7.0,5.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2018-07-02,0.0,,,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2018-07-21,0.0,,,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2018-10-20,0.0,4.0,6.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2019-01-19,0.0,8.0,6.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2019-04-20,0.0,9.0,11.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2019-07-20,66.66666667,16.0,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2019-10-19,266.6666667,8.0,10.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2020-01-30,0.0,5.5,6.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2020-04-17,0.0,14.0,11.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2020-07-20,133.3333333,19.5,13.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2020-10-24,33.33333333,6.5,10.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2021-01-16,33.33333333,4.5,6.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2021-04-17,233.3333333,11.0,11.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2021-07-24,433.3333333,19.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2021-10-23,333.3333333,10.0,8.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2022-01-22,400.0,7.0,6.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2022-04-24,166.6666667,13.25,10.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2022-07-30,1300.0,21.5,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2022-10-15,400.0,15.0,13.5,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2023-04-08,66.66666667,9.0,9.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2023-07-08,10066.66667,13.0,14.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2023-10-08,200.0,15.5,15.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2024-01-13,133.3333333,-2.0,5.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2024-04-14,300.0,15.0,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2024-05-02,300.0,15.0,12.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2024-07-06,1366.67,18.2,16.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2024-10-13,233.33,12.0,13.0,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2025-01-11,0.0,5.7,6.8,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2025-04-12,33.33,10.5,11.4,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2025-07-19,33.33,14.1,13.9,Lake Washington-Sammamish River,MacAleer Creek
+5303309,2025-09-19,33.33,15.8,13.2,Lake Washington-Sammamish River,MacAleer Creek
+5303310,2015-10-20,200.0,17.0,14.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2015-11-24,66.66666667,6.0,6.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2015-12-22,33.33333333,8.0,5.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-02-05,0.0,9.0,13.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-04-01,0.0,10.0,9.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-05-24,0.0,16.0,13.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-05-28,633.3333333,18.0,15.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-06-21,500.0,18.5,14.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-07-19,166.6666667,19.5,14.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-09-03,7800.0,14.0,15.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-11-27,33.33333333,6.0,8.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2016-12-20,133.3333333,6.0,4.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-01-20,66.66666667,9.0,4.3,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-02-21,33.33333333,6.0,5.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-03-21,33.33333333,10.0,7.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-04-20,233.3333333,8.5,9.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-06-27,400.0,14.0,13.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-07-25,400.0,19.5,19.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-08-29,200.0,24.0,15.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-09-19,3233.333333,10.0,12.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-10-31,233.3333333,4.5,7.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-11-21,400.0,4.5,7.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2017-12-19,633.3333333,6.5,5.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-01-23,166.6666667,3.5,6.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-02-20,66.66666667,2.5,5.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-03-29,33.33333333,11.0,9.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-04-30,166.6666667,11.0,11.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-06-25,800.0,16.0,15.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-07-23,366.6666667,20.5,16.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-08-27,1466.666667,14.5,14.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-09-24,400.0,15.0,12.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-11-19,133.3333333,6.5,6.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2018-12-24,33.33333333,6.5,7.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-01-28,0.0,10.0,7.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-02-18,33.33333333,3.5,4.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-03-18,0.0,11.0,7.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-04-15,0.0,9.0,7.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-05-22,200.0,17.0,12.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-06-17,66.66666667,14.5,14.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-07-23,366.6666667,17.5,15.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-08-19,66.66666667,17.5,15.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-10-23,66.66666667,8.5,11.0,Lake Washington-Sammamish River,Thornton Creek
+5303310,2019-11-25,66.66666667,6.5,7.5,Lake Washington-Sammamish River,Thornton Creek
+5303310,2020-01-22,133.3333333,7.0,6.0,Lake Washington-Sammamish River,Thornton Creek
+53033100,2025-01-29,33.33,7.0,6.5,Longfellow Creek Watershed,Longfellow Creek Beaver Pond
+53033100,2025-03-04,33.33,7.0,7.5,Longfellow Creek Watershed,Longfellow Creek Beaver Pond
+53033100,2025-05-04,0.0,13.2,12.0,Longfellow Creek Watershed,Longfellow Creek Beaver Pond
+53033100,2025-06-08,200.0,23.0,19.0,Longfellow Creek Watershed,Longfellow Creek Beaver Pond
+53033100,2025-06-09,200.0,23.0,19.0,Longfellow Creek Watershed,Longfellow Creek Beaver Pond
+53033100,2025-07-14,700.0,19.0,17.0,Longfellow Creek Watershed,Longfellow Creek Beaver Pond
+53033100,2025-08-03,100.0,25.5,20.0,Longfellow Creek Watershed,Longfellow Creek Beaver Pond
+53033100,2025-09-10,66.67,20.0,13.0,Longfellow Creek Watershed,Longfellow Creek Beaver Pond
+53033101,2025-01-09,333.33,6.0,6.0,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-02-11,0.0,6.5,0.5,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-03-06,66.67,12.0,7.5,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-04-08,533.33,7.0,10.0,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-05-09,300.0,15.0,12.5,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-06-20,400.0,11.5,14.5,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-07-25,0.0,14.0,17.0,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-08-29,66.67,17.0,19.0,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-09-20,100.0,14.0,16.0,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-10-10,100.0,13.0,13.5,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-11-14,1383.33,9.5,11.5,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2025-12-19,16.67,5.5,7.5,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2026-01-09,33.33,7.5,8.5,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2026-02-06,50.0,8.0,7.0,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033101,2026-03-14,66.67,11.5,9.0,Longfellow Creek Watershed,Longfellow Creek Dragonfly
+53033102,2025-02-28,233.33,13.0,8.0,Longfellow Creek Watershed,Delridge Wetland Park Inlet
+53033102,2025-04-04,0.0,11.0,9.0,Longfellow Creek Watershed,Delridge Wetland Park Inlet
+53033102,2025-04-29,0.0,16.0,15.0,Longfellow Creek Watershed,Delridge Wetland Park Inlet
+53033102,2026-02-18,0.0,8.0,7.0,Longfellow Creek Watershed,Delridge Wetland Park Inlet
+53033103,2025-01-31,0.0,7.0,3.0,Longfellow Creek Watershed,Delridge Wetland Park Outlet
+53033103,2025-04-04,0.0,18.0,11.0,Longfellow Creek Watershed,Delridge Wetland Park Outlet
+53033103,2025-12-12,116.67,11.5,10.0,Longfellow Creek Watershed,Delridge Wetland Park Outlet
+53033103,2026-02-18,0.0,8.0,7.0,Longfellow Creek Watershed,Delridge Wetland Park Outlet
+53033104,2025-01-29,66.67,6.0,4.9,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-03-04,133.33,5.5,6.0,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-04-01,66.67,12.0,10.9,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-05-04,100.0,10.0,10.1,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-06-09,200.0,21.5,18.5,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-07-08,100.0,20.0,17.0,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-07-11,100.0,20.0,17.0,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-08-13,266.67,29.5,19.0,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-09-11,200.0,18.0,14.0,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033104,2025-12-20,433.33,6.6,8.0,Longfellow Creek Watershed,Longfellow Creek Greg Davis
+53033105,2025-01-19,11.11,3.0,6.5,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-02-22,133.33,10.0,9.6,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-03-22,44.44,8.5,7.0,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-04-15,0.0,17.5,10.5,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-05-21,577.78,12.0,13.0,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-06-11,55.56,16.0,12.0,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-07-15,2144.44,12.0,16.0,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-08-19,33.33,18.0,16.2,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-09-17,233.33,19.0,16.2,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-10-22,33.33,9.9,14.0,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-11-18,88.89,8.2,14.0,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2025-12-16,0.0,11.0,12.0,Longfellow Creek Watershed,Longfellow Creek Thistle
+53033105,2026-03-21,22.22,11.0,12.5,Longfellow Creek Watershed,Longfellow Creek Thistle
+5303311,2015-10-23,16.66666667,9.0,10.5,Lake Washington-Sammamish River,Thornton Creek
+5303311,2015-12-11,0.0,7.0,8.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2016-01-09,0.0,7.0,6.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2016-03-05,0.0,16.5,5.8,Lake Washington-Sammamish River,Thornton Creek
+5303311,2016-04-30,0.0,17.0,12.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2016-07-01,0.0,19.5,12.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2016-08-26,233.3333333,21.0,13.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2016-09-03,1100.0,15.5,15.5,Lake Washington-Sammamish River,Thornton Creek
+5303311,2016-09-30,233.3333333,19.1,13.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2016-10-21,100.0,12.5,13.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2017-01-06,0.0,-1.0,6.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2017-02-03,0.0,4.0,8.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2017-03-17,66.66666667,,,Lake Washington-Sammamish River,Thornton Creek
+5303311,2017-04-17,266.6666667,10.0,11.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2017-05-05,333.3333333,14.0,14.0,Lake Washington-Sammamish River,Thornton Creek
+5303311,2017-12-02,433.3333333,12.0,10.0,Lake Washington-Sammamish River,Thornton Creek
+5303312,2015-11-23,33.33333333,2.0,8.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2016-01-24,0.0,6.0,7.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2016-06-12,300.0,16.0,17.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2016-07-11,66.66666667,15.5,18.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2016-08-14,366.6666667,23.0,22.5,Bear Creek-Sammamish River,Sammamish River
+5303312,2016-08-21,466.6666667,15.5,20.5,Bear Creek-Sammamish River,Sammamish River
+5303312,2016-09-02,3500.0,15.5,17.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2016-10-09,1566.666667,11.0,14.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2016-12-03,200.0,7.0,10.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2017-03-03,33.33333333,8.0,7.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2017-04-10,0.0,7.0,10.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2017-05-07,133.3333333,11.0,13.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2017-06-04,100.0,13.5,16.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2017-07-03,133.3333333,15.0,19.0,Bear Creek-Sammamish River,Sammamish River
+5303312,2019-01-09,166.6666667,19.0,18.5,Bear Creek-Sammamish River,Sammamish River
+5303312,2019-07-30,100.0,17.0,18.5,Bear Creek-Sammamish River,Sammamish River
+5303312,2019-09-01,166.6666667,19.0,18.5,Bear Creek-Sammamish River,Sammamish River
+5303312,2019-09-29,183.33333335,10.0,13.5,Bear Creek-Sammamish River,Sammamish River
+5303313,2015-11-23,0.0,3.0,8.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2016-01-24,166.6666667,11.0,7.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2016-06-12,100.0,20.0,16.5,Bear Creek-Sammamish River,Sammamish River
+5303313,2016-07-11,33.33333333,22.0,19.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2016-08-14,133.3333333,30.0,23.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2016-08-21,333.3333333,15.5,20.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2016-09-02,1666.666667,16.5,15.5,Bear Creek-Sammamish River,Sammamish River
+5303313,2016-10-09,1600.0,11.0,14.5,Bear Creek-Sammamish River,Sammamish River
+5303313,2016-12-03,166.6666667,8.0,10.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2017-03-03,66.66666667,7.5,8.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2017-04-10,0.0,10.0,10.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2017-06-04,166.6666667,14.0,15.0,Bear Creek-Sammamish River,Sammamish River
+5303313,2017-07-03,266.6666667,14.5,19.0,Bear Creek-Sammamish River,Sammamish River
+5303315,2015-09-27,33.33333333,13.0,12.0,North Creek,North Creek
+5303315,2015-11-05,133.3333333,12.0,12.0,North Creek,North Creek
+5303315,2015-12-05,133.3333333,9.0,7.0,North Creek,North Creek
+5303315,2016-01-30,10000.0,6.0,8.0,North Creek,North Creek
+5303315,2016-02-21,33.33333333,7.0,8.0,North Creek,North Creek
+5303315,2016-03-30,33.33333333,11.0,9.0,North Creek,North Creek
+5303315,2016-04-21,0.0,21.0,9.0,North Creek,North Creek
+5303315,2016-05-26,0.0,11.0,10.0,North Creek,North Creek
+5303315,2016-06-24,0.0,15.0,17.0,North Creek,North Creek
+5303315,2016-07-22,133.3333333,16.0,14.0,North Creek,North Creek
+5303315,2016-09-03,6166.666667,16.0,17.0,North Creek,North Creek
+5303315,2016-10-10,0.0,11.0,14.0,North Creek,North Creek
+5303315,2016-11-21,33.33333333,9.0,12.0,North Creek,North Creek
+5303315,2016-12-16,0.0,0.0,7.0,North Creek,North Creek
+5303315,2017-01-30,0.0,13.0,9.0,North Creek,North Creek
+5303315,2017-02-24,166.6666667,8.0,7.0,North Creek,North Creek
+5303315,2017-03-25,0.0,11.0,9.0,North Creek,North Creek
+5303316,2015-09-27,0.0,13.0,12.0,North Creek,North Creek
+5303316,2015-11-05,33.33333333,12.0,11.5,North Creek,North Creek
+5303316,2015-12-05,100.0,9.0,8.0,North Creek,North Creek
+5303316,2016-01-30,33.33333333,6.0,8.0,North Creek,North Creek
+5303316,2016-02-21,0.0,6.0,8.0,North Creek,North Creek
+5303316,2016-03-30,33.33333333,13.0,9.0,North Creek,North Creek
+5303316,2016-04-21,0.0,17.0,8.0,North Creek,North Creek
+5303316,2016-05-26,0.0,11.0,10.0,North Creek,North Creek
+5303316,2016-06-24,233.3333333,14.0,15.0,North Creek,North Creek
+5303316,2016-07-22,66.66666667,16.0,16.0,North Creek,North Creek
+5303316,2016-09-03,300.0,16.0,15.0,North Creek,North Creek
+5303316,2016-10-10,33.33333333,10.5,14.0,North Creek,North Creek
+5303316,2016-11-21,0.0,10.0,12.0,North Creek,North Creek
+5303316,2016-12-16,0.0,0.0,7.0,North Creek,North Creek
+5303316,2017-01-30,233.3333333,13.0,8.0,North Creek,North Creek
+5303316,2017-02-24,0.0,10.0,7.0,North Creek,North Creek
+5303316,2017-03-25,33.33333333,11.0,10.0,North Creek,North Creek
+5303317,2015-09-27,1800.0,10.6,10.4,Lake Washington-Sammamish River,Juanita Creek
+5303317,2015-10-27,133.3333333,14.0,12.0,Lake Washington-Sammamish River,Juanita Creek
+5303317,2015-12-31,0.0,5.0,4.0,Lake Washington-Sammamish River,Juanita Creek
+5303317,2016-02-21,233.3333333,8.0,7.0,Lake Washington-Sammamish River,Juanita Creek
+5303317,2016-03-21,33.33333333,10.3,11.0,Lake Washington-Sammamish River,Juanita Creek
+5303317,2016-04-19,0.0,21.0,17.0,Lake Washington-Sammamish River,Juanita Creek
+5303317,2016-05-22,100.0,13.0,13.0,Lake Washington-Sammamish River,Juanita Creek
+5303318,2015-09-11,166.6666667,20.0,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2015-10-10,6733.333333,16.0,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2015-11-16,100.0,5.0,6.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2015-12-17,66.66666667,3.5,5.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-01-23,300.0,7.0,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-02-22,33.33333333,6.5,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-03-22,33.33333333,8.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-04-16,33.33333333,11.0,10.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-05-19,133.3333333,11.5,10.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-06-22,33.33333333,17.0,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-07-16,66.66666667,17.0,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-08-09,100.0,13.0,11.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-09-03,2333.333333,13.0,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-10-27,100.0,9.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-11-29,33.33333333,12.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2016-12-16,0.0,-1.0,3.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-01-21,0.0,6.5,6.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-02-23,33.33333333,6.0,6.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-03-10,0.0,10.0,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-04-15,33.33333333,9.0,9.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-06-20,133.3333333,16.0,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-07-15,66.66666667,17.0,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-08-22,0.0,23.0,16.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-09-20,100.0,15.0,13.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-10-21,333.3333333,8.5,10.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-12-02,166.6666667,6.0,4.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2017-12-12,166.6666667,6.0,4.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-01-20,100.0,6.5,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-02-20,0.0,4.0,4.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-03-19,0.0,11.5,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-04-21,0.0,11.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-05-22,133.3333333,19.0,12.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-06-11,33.33333333,13.0,11.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-07-02,300.0,18.0,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-07-21,300.0,18.0,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-08-28,400.0,9.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-09-28,66.66666667,8.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-10-20,33.33333333,3.0,2.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2018-11-19,33.33333333,4.0,6.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-01-19,33.33333333,10.0,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-02-21,33.33333333,3.5,4.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-03-18,0.0,8.0,6.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-04-20,100.0,9.0,10.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-05-25,66.66666667,13.0,12.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-06-21,233.3333333,14.5,13.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-07-20,166.6666667,20.5,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-08-16,100.0,17.0,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-09-12,233.3333333,5.5,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-09-24,33.33333333,14.5,13.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-10-19,566.6666667,8.0,10.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-11-22,100.0,4.0,6.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2019-12-09,233.3333333,5.5,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-01-18,33.33333333,5.0,5.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-02-21,0.0,3.0,5.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-03-22,0.0,12.0,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-04-17,33.33333333,10.5,9.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-05-19,200.0,17.0,12.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-06-18,166.6666667,16.5,12.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-07-20,266.6666667,21.0,15.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-08-21,933.3333333,20.0,16.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-09-22,200.0,15.5,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-10-24,166.6666667,5.0,8.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-11-20,166.6666667,9.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2020-12-17,0.0,9.0,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-02-19,0.0,9.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-03-23,0.0,8.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-04-17,66.66666667,13.5,10.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-05-22,700.0,12.0,12.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-06-19,733.3333333,18.5,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-07-24,133.3333333,25.0,16.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-08-20,1333.333333,15.5,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-09-22,400.0,16.5,12.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-10-23,233.3333333,11.0,11.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-11-21,400.0,7.5,8.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2021-12-18,1433.333333,8.0,6.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-01-22,266.6666667,5.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-02-19,1000.0,5.0,5.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-03-27,166.6666667,14.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-04-24,300.0,18.5,10.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-05-22,700.0,21.5,10.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-06-25,700.0,21.5,13.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-07-30,3033.333333,28.5,18.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-08-20,3100.0,19.0,17.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-09-18,1900.0,18.0,13.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-10-15,1133.333333,0.0,0.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-11-20,7966.666667,0.0,0.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2022-12-11,200.0,6.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2023-02-11,133.3333333,8.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2023-03-11,33.33333333,7.0,6.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2023-04-09,300.0,10.0,9.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2023-06-10,21833.33333,0.0,0.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2023-09-10,633.3333333,20.5,13.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2023-10-08,500.0,15.0,13.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2023-11-12,233.3333333,10.0,8.9,Lake Washington-Sammamish River,Lyon Creek
+5303318,2023-12-10,366.6666667,9.0,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-01-13,33.33333333,-5.6,1.1,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-02-10,100.0,5.9,5.6,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-03-09,300.0,9.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-04-13,133.3333333,18.0,11.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-04-14,133.33,18.0,11.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-07-06,566.67,26.0,16.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-08-03,633.33,19.0,17.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-09-06,833.33,23.6,17.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-10-13,133.33,16.7,13.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-11-16,33.33,7.5,6.9,Lake Washington-Sammamish River,Lyon Creek
+5303318,2024-12-14,200.0,11.5,7.4,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-01-12,0.0,6.7,6.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-02-08,100.0,5.4,5.1,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-03-08,0.0,15.7,8.3,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-04-12,33.33,9.9,8.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-05-10,66.67,16.3,11.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-06-15,100.0,16.1,12.2,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-07-19,400.0,15.8,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-08-16,933.33,17.6,16.3,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-09-19,233.33,16.0,13.2,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-10-11,1733.33,13.7,12.5,Lake Washington-Sammamish River,Lyon Creek
+5303318,2025-11-08,0.0,15.6,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2016-01-23,0.0,8.0,7.5,Lake Washington-Sammamish River,Lyon Creek
+5303319,2016-04-16,66.66666667,10.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2016-07-16,100.0,16.5,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2016-10-27,0.0,8.0,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2017-04-15,0.0,8.5,8.1,Lake Washington-Sammamish River,Lyon Creek
+5303319,2017-04-16,100.0,17.0,12.5,Lake Washington-Sammamish River,Lyon Creek
+5303319,2017-10-21,166.6666667,7.5,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2018-01-20,66.66666667,5.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2018-07-21,266.6666667,18.0,12.5,Lake Washington-Sammamish River,Lyon Creek
+5303319,2018-10-20,0.0,3.5,3.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2019-01-19,0.0,8.0,7.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2019-04-20,33.33333333,9.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2019-07-20,0.0,19.0,13.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2019-10-19,433.3333333,8.0,9.5,Lake Washington-Sammamish River,Lyon Creek
+5303319,2020-01-18,100.0,4.0,4.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2020-04-17,0.0,10.0,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2020-07-20,66.66666667,20.5,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2020-10-24,0.0,4.5,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2021-04-17,0.0,8.5,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2021-07-24,100.0,24.0,15.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2021-10-23,200.0,11.0,11.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2022-01-22,366.6666667,4.0,6.5,Lake Washington-Sammamish River,Lyon Creek
+5303319,2022-07-30,1966.666667,22.0,16.5,Lake Washington-Sammamish River,Lyon Creek
+5303319,2022-10-15,866.6666667,0.0,0.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2023-01-14,133.33333335,8.25,8.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2023-04-09,166.6666667,10.0,9.5,Lake Washington-Sammamish River,Lyon Creek
+5303319,2023-10-08,400.0,14.0,13.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2024-01-13,133.3333333,-6.1,0.6,Lake Washington-Sammamish River,Lyon Creek
+5303319,2024-04-13,33.33333333,13.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2024-04-14,33.33,13.0,9.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2024-07-06,300.0,23.3,14.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2024-10-13,100.0,11.7,10.0,Lake Washington-Sammamish River,Lyon Creek
+5303319,2025-01-11,33.33,6.5,6.2,Lake Washington-Sammamish River,Lyon Creek
+5303319,2025-04-12,100.0,8.8,8.6,Lake Washington-Sammamish River,Lyon Creek
+5303319,2025-07-19,800.0,14.8,13.4,Lake Washington-Sammamish River,Lyon Creek
+5303319,2025-09-19,1066.67,14.0,13.4,Lake Washington-Sammamish River,Lyon Creek
+5303320,2016-08-15,0.0,26.0,22.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2016-08-21,33.33333333,25.0,20.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2016-09-03,366.6666667,17.0,16.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2016-09-18,33.33333333,20.0,17.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2016-10-22,33.33333333,13.0,17.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2016-12-29,0.0,11.0,7.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2017-06-21,66.66666667,21.7,16.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2017-07-21,33.33333333,18.5,17.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2017-08-30,166.6666667,19.0,17.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2017-09-23,66.66666667,15.0,14.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2017-10-25,0.0,8.5,10.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2017-11-29,33.33333333,7.0,9.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2017-12-28,66.66666667,7.9,6.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-01-26,0.0,5.0,7.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-02-20,0.0,2.5,4.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-03-20,0.0,5.0,7.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-04-19,0.0,10.0,9.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-05-23,33.33333333,17.2,13.9,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-06-19,0.0,20.0,16.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-07-18,50.0,17.0,17.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-08-19,83.33333333,19.5,17.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-09-26,0.0,11.0,12.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-10-17,0.0,12.5,10.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-11-25,0.0,3.0,7.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2018-12-12,0.0,5.5,6.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-01-26,16.66666667,2.0,6.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-03-10,0.0,2.0,3.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-04-22,0.0,12.0,10.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-05-24,100.0,12.0,13.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-06-12,50.0,25.5,15.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-07-19,100.0,14.5,15.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-08-28,150.0,27.5,18.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-10-24,0.0,7.5,10.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-11-20,16.66666667,6.5,8.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2019-12-28,0.0,3.0,7.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2020-02-22,0.0,7.5,7.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2020-03-10,0.0,5.0,6.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2020-06-17,0.0,14.5,13.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2020-10-05,100.0,14.5,14.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2021-06-18,33.33333333,16.0,14.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2021-07-14,250.0,16.5,16.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2021-08-11,166.6666667,25.0,17.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2021-09-22,133.3333333,13.3,14.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2022-08-09,216.6666667,18.0,17.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2022-10-07,50.0,14.0,14.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2024-04-20,0.0,10.25,5.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2024-05-18,33.33333333,10.5,11.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2024-06-23,183.33,17.0,15.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2024-07-28,250.0,16.5,15.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2024-08-17,100.0,22.5,16.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2024-09-22,83.33,18.0,14.5,Bear Creek-Sammamish River,Horse Creek
+5303320,2024-10-13,316.67,15.0,13.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2024-12-22,16.67,10.0,9.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-03-02,33.33,9.5,9.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-04-05,166.67,21.0,,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-05-04,0.0,14.5,10.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-06-01,0.0,16.5,12.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-07-06,83.33,22.0,14.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-08-03,833.33,17.5,15.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-09-07,416.67,17.0,16.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-10-12,183.33,10.0,13.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2025-12-07,533.33,11.0,9.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2026-01-05,50.0,11.0,8.0,Bear Creek-Sammamish River,Horse Creek
+5303320,2026-02-01,900.0,10.0,8.0,Bear Creek-Sammamish River,Horse Creek
+5303321,2016-08-20,100.0,28.0,16.0,Swamp Creek,Swamp Creek
+5303321,2016-09-09,33.33333333,18.0,14.0,Swamp Creek,Swamp Creek
+5303321,2016-10-08,66.66666667,16.5,13.0,Swamp Creek,Swamp Creek
+5303321,2016-11-04,33.33333333,11.5,9.5,Swamp Creek,Swamp Creek
+5303321,2016-12-10,33.33333333,6.0,4.0,Swamp Creek,Swamp Creek
+5303321,2017-01-10,0.0,3.5,3.0,Swamp Creek,Swamp Creek
+5303321,2017-02-09,233.3333333,15.0,6.5,Swamp Creek,Swamp Creek
+5303321,2017-03-07,366.6666667,5.0,6.0,Swamp Creek,Swamp Creek
+5303321,2017-04-11,33.33333333,15.0,10.0,Swamp Creek,Swamp Creek
+5303321,2017-05-08,0.0,14.5,12.0,Swamp Creek,Swamp Creek
+5303321,2017-06-05,0.0,17.0,13.0,Swamp Creek,Swamp Creek
+5303321,2017-07-17,66.66666667,21.5,15.5,Swamp Creek,Swamp Creek
+5303321,2017-08-10,133.3333333,23.0,16.0,Swamp Creek,Swamp Creek
+5303321,2017-09-11,200.0,20.0,14.0,Swamp Creek,Swamp Creek
+5303321,2017-10-16,0.0,15.5,9.0,Swamp Creek,Swamp Creek
+5303321,2017-11-10,0.0,11.0,7.5,Swamp Creek,Swamp Creek
+5303321,2017-12-11,133.3333333,8.0,3.5,Swamp Creek,Swamp Creek
+5303321,2018-01-15,0.0,16.0,8.0,Swamp Creek,Swamp Creek
+5303321,2018-02-22,0.0,1.0,2.5,Swamp Creek,Swamp Creek
+5303321,2018-05-25,0.0,16.0,13.0,Swamp Creek,Swamp Creek
+5303321,2018-06-28,33.33333333,17.0,14.0,Swamp Creek,Swamp Creek
+5303321,2018-07-26,266.6666667,23.0,16.0,Swamp Creek,Swamp Creek
+5303321,2018-08-31,66.66666667,17.5,15.5,Swamp Creek,Swamp Creek
+5303321,2018-09-26,66.66666667,14.5,12.0,Swamp Creek,Swamp Creek
+5303321,2018-11-05,33.33333333,13.0,11.0,Swamp Creek,Swamp Creek
+5303321,2019-02-21,0.0,5.0,4.0,Swamp Creek,Swamp Creek
+5303321,2019-03-22,0.0,19.5,9.5,Swamp Creek,Swamp Creek
+5303321,2019-05-14,300.0,13.0,14.0,Swamp Creek,Swamp Creek
+5303321,2019-06-19,133.3333333,15.0,14.0,Swamp Creek,Swamp Creek
+5303321,2019-07-18,566.6666667,18.0,16.0,Swamp Creek,Swamp Creek
+5303321,2019-09-30,300.0,12.0,10.0,Swamp Creek,Swamp Creek
+5303321,2019-10-21,200.0,11.0,10.0,Swamp Creek,Swamp Creek
+5303321,2019-11-19,266.6666667,10.0,10.0,Swamp Creek,Swamp Creek
+5303321,2019-12-31,116.6666667,9.0,7.0,Swamp Creek,Swamp Creek
+5303321,2020-01-23,133.3333333,11.0,8.0,Swamp Creek,Swamp Creek
+5303321,2020-02-20,0.0,13.0,5.0,Swamp Creek,Swamp Creek
+5303321,2020-10-05,33.33333333,16.0,14.0,Swamp Creek,Swamp Creek
+5303321,2020-11-19,0.0,8.5,8.5,Swamp Creek,Swamp Creek
+5303321,2020-12-17,266.6666667,10.0,7.0,Swamp Creek,Swamp Creek
+5303321,2021-01-19,33.33333333,5.0,6.0,Swamp Creek,Swamp Creek
+5303321,2021-02-23,0.0,7.0,6.0,Swamp Creek,Swamp Creek
+5303321,2021-03-22,3333.333333,8.0,6.5,Swamp Creek,Swamp Creek
+5303321,2021-04-22,33.33333333,12.0,11.0,Swamp Creek,Swamp Creek
+5303321,2021-05-14,0.0,18.0,13.0,Swamp Creek,Swamp Creek
+5303321,2021-06-29,166.6666667,23.5,21.0,Swamp Creek,Swamp Creek
+5303321,2021-07-24,66.66666667,21.5,15.5,Swamp Creek,Swamp Creek
+5303321,2021-08-19,200.0,18.0,16.0,Swamp Creek,Swamp Creek
+5303321,2021-09-23,733.3333333,15.0,13.0,Swamp Creek,Swamp Creek
+5303321,2021-10-20,200.0,12.0,10.5,Swamp Creek,Swamp Creek
+5303321,2021-11-23,833.3333333,9.0,7.0,Swamp Creek,Swamp Creek
+5303321,2021-12-21,0.0,5.5,5.0,Swamp Creek,Swamp Creek
+5303321,2022-01-17,66.66666667,7.0,6.0,Swamp Creek,Swamp Creek
+5303321,2022-02-17,0.0,11.5,4.0,Swamp Creek,Swamp Creek
+5303321,2022-02-26,0.0,11.5,4.0,Swamp Creek,Swamp Creek
+5303321,2022-03-29,166.6666667,0.0,0.0,Swamp Creek,Swamp Creek
+5303321,2022-04-25,266.6666667,25.5,17.0,Swamp Creek,Swamp Creek
+5303321,2022-05-23,33.33333333,17.5,13.0,Swamp Creek,Swamp Creek
+5303321,2022-07-20,33.33333333,26.5,16.5,Swamp Creek,Swamp Creek
+5303321,2022-07-27,200.0,21.0,16.0,Swamp Creek,Swamp Creek
+5303321,2022-08-25,266.6666667,25.5,17.0,Swamp Creek,Swamp Creek
+5303321,2022-09-28,0.0,16.0,13.5,Swamp Creek,Swamp Creek
+5303321,2022-10-24,66.66666667,7.0,4.0,Swamp Creek,Swamp Creek
+5303321,2022-10-25,166.6666667,9.0,10.5,Swamp Creek,Swamp Creek
+5303321,2022-11-28,100.0,5.0,5.5,Swamp Creek,Swamp Creek
+5303321,2023-01-17,0.0,0.0,0.0,Swamp Creek,Swamp Creek
+5303321,2023-01-20,33.33333333,0.0,0.0,Swamp Creek,Swamp Creek
+5303321,2023-04-17,66.66666667,7.0,6.0,Swamp Creek,Swamp Creek
+5303321,2023-04-19,33.33333333,12.5,9.0,Swamp Creek,Swamp Creek
+5303321,2023-05-30,0.0,13.0,13.0,Swamp Creek,Swamp Creek
+5303321,2023-08-17,100.0,25.0,17.0,Swamp Creek,Swamp Creek
+5303321,2023-09-14,0.0,19.0,13.5,Swamp Creek,Swamp Creek
+5303321,2023-10-18,133.3333333,12.0,12.5,Swamp Creek,Swamp Creek
+5303321,2023-11-20,66.66666667,0.0,0.0,Swamp Creek,Swamp Creek
+5303321,2023-12-20,0.0,7.0,6.5,Swamp Creek,Swamp Creek
+5303321,2024-01-19,22.22222222,0.0,0.0,Swamp Creek,Swamp Creek
+5303321,2024-03-02,11.11111111,0.0,0.0,Swamp Creek,Swamp Creek
+5303321,2024-03-25,33.33333333,11.0,9.5,Swamp Creek,Swamp Creek
+5303321,2024-04-24,0.0,0.0,0.0,Swamp Creek,Swamp Creek
+5303321,2024-05-27,22.22222222,15.5,12.0,Swamp Creek,Swamp Creek
+5303321,2024-07-26,33.33,22.0,6.0,Swamp Creek,Swamp Creek
+5303321,2024-08-27,244.44,17.0,15.5,Swamp Creek,Swamp Creek
+5303321,2024-09-24,33.33,18.0,14.0,Swamp Creek,Swamp Creek
+5303321,2024-10-23,11.11,10.0,10.5,Swamp Creek,Swamp Creek
+5303321,2024-11-26,0.0,9.0,8.5,Swamp Creek,Swamp Creek
+5303321,2024-12-28,33.33,9.5,8.5,Swamp Creek,Swamp Creek
+5303321,2025-01-30,22.22,5.0,2.0,Swamp Creek,Swamp Creek
+5303321,2025-03-19,0.0,11.0,8.0,Swamp Creek,Swamp Creek
+5303321,2025-04-18,0.0,16.0,9.5,Swamp Creek,Swamp Creek
+5303321,2025-05-20,11.11,14.5,12.5,Swamp Creek,Swamp Creek
+5303321,2025-06-21,33.33,12.5,14.5,Swamp Creek,Swamp Creek
+5303321,2025-07-24,133.33,20.0,17.0,Swamp Creek,Swamp Creek
+5303321,2025-08-25,66.67,24.5,16.5,Swamp Creek,Swamp Creek
+5303321,2025-09-24,33.33,18.5,12.75,Swamp Creek,Swamp Creek
+5303321,2025-10-27,166.67,13.0,9.0,Swamp Creek,Swamp Creek
+5303321,2025-11-27,33.33,11.5,9.5,Swamp Creek,Swamp Creek
+5303321,2025-12-29,33.33,4.0,5.0,Swamp Creek,Swamp Creek
+5303321,2026-01-28,0.0,10.0,5.0,Swamp Creek,Swamp Creek
+5303321,2026-02-23,0.0,9.0,7.0,Swamp Creek,Swamp Creek
+5303321,2026-03-26,11.11,15.0,7.5,Swamp Creek,Swamp Creek
+5303322,2018-07-21,333.3333333,15.0,14.0,Swamp Creek,Swamp Creek
+5303322,2018-08-25,200.0,14.0,16.0,Swamp Creek,Swamp Creek
+5303322,2018-09-15,400.0,13.0,13.5,Swamp Creek,Swamp Creek
+5303322,2018-10-20,66.66666667,7.0,8.5,Swamp Creek,Swamp Creek
+5303322,2018-11-24,33.33333333,6.0,7.0,Swamp Creek,Swamp Creek
+5303322,2019-01-05,0.0,4.5,7.0,Swamp Creek,Swamp Creek
+5303322,2019-03-10,0.0,1.0,3.0,Swamp Creek,Swamp Creek
+5303322,2019-04-09,0.0,9.0,10.0,Swamp Creek,Swamp Creek
+5303322,2019-05-11,33.33333333,20.0,14.0,Swamp Creek,Swamp Creek
+5303322,2019-06-22,100.0,13.0,14.0,Swamp Creek,Swamp Creek
+5303322,2019-07-13,66.66666667,17.0,16.0,Swamp Creek,Swamp Creek
+5303322,2019-08-18,66.66666667,17.0,16.0,Swamp Creek,Swamp Creek
+5303322,2019-09-21,33.33333333,15.0,14.0,Swamp Creek,Swamp Creek
+5303322,2019-10-26,0.0,9.0,9.5,Swamp Creek,Swamp Creek
+5303322,2019-11-23,33.33333333,4.5,6.0,Swamp Creek,Swamp Creek
+5303322,2019-12-28,0.0,5.0,5.5,Swamp Creek,Swamp Creek
+5303322,2020-01-25,0.0,10.0,8.5,Swamp Creek,Swamp Creek
+5303322,2020-02-23,100.0,8.5,7.0,Swamp Creek,Swamp Creek
+5303322,2021-02-07,33.33333333,5.0,6.0,Swamp Creek,Swamp Creek
+5303322,2021-03-14,0.0,7.5,6.5,Swamp Creek,Swamp Creek
+5303322,2021-05-16,166.6666667,18.0,13.5,Swamp Creek,Swamp Creek
+5303322,2021-06-20,266.6666667,24.0,18.0,Swamp Creek,Swamp Creek
+5303322,2021-07-25,366.6666667,23.0,17.0,Swamp Creek,Swamp Creek
+5303322,2021-10-10,533.3333333,9.5,10.0,Swamp Creek,Swamp Creek
+5303322,2021-11-20,33.33333333,7.0,9.0,Swamp Creek,Swamp Creek
+5303322,2022-03-27,100.0,13.0,10.0,Swamp Creek,Swamp Creek
+5303322,2022-06-04,333.3333333,15.0,14.0,Swamp Creek,Swamp Creek
+5303322,2022-08-06,100.0,0.0,0.0,Swamp Creek,Swamp Creek
+5303322,2022-10-22,4200.0,10.0,10.0,Swamp Creek,Swamp Creek
+5303322,2023-03-26,266.6666667,7.0,5.0,Swamp Creek,Swamp Creek
+5303322,2023-05-29,300.0,13.0,13.0,Swamp Creek,Swamp Creek
+5303322,2023-10-21,200.0,14.0,13.0,Swamp Creek,Swamp Creek
+5303322,2023-11-12,400.0,9.5,9.0,Swamp Creek,Swamp Creek
+5303322,2023-12-17,266.6666667,10.0,6.0,Swamp Creek,Swamp Creek
+5303322,2024-04-14,83.33333333,18.0,12.5,Swamp Creek,Swamp Creek
+5303322,2025-02-21,83.33,8.0,2.5,Swamp Creek,Swamp Creek
+5303322,2025-09-22,2183.33,14.5,15.0,Swamp Creek,Swamp Creek
+5303322,2026-01-17,16.67,8.0,6.0,Swamp Creek,Swamp Creek
+5303322,2026-02-22,66.67,7.5,5.0,Swamp Creek,Swamp Creek
+5303323,2019-03-31,733.3333333,17.5,11.5,Lake Washington-Sammamish River,Juanita Creek
+5303323,2019-05-25,33.33333333,12.0,11.0,Lake Washington-Sammamish River,Juanita Creek
+5303323,2019-06-26,300.0,17.0,14.0,Lake Washington-Sammamish River,Juanita Creek
+5303323,2019-07-20,100.0,13.0,12.0,Lake Washington-Sammamish River,Juanita Creek
+5303323,2019-08-23,1400.0,17.0,15.0,Lake Washington-Sammamish River,Juanita Creek
+5303323,2019-09-20,33.33333333,15.0,14.9,Lake Washington-Sammamish River,Juanita Creek
+5303323,2019-10-18,300.0,9.0,10.0,Lake Washington-Sammamish River,Juanita Creek
+5303323,2019-11-22,1366.666667,2.0,7.0,Lake Washington-Sammamish River,Juanita Creek
+5303323,2019-12-28,0.0,2.0,7.0,Lake Washington-Sammamish River,Juanita Creek
+5303323,2020-01-23,400.0,10.0,2.0,Lake Washington-Sammamish River,Juanita Creek
+5303323,2020-02-22,483.3333333,6.0,6.0,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-03-31,33.33333333,15.0,10.0,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-05-25,200.0,12.5,12.0,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-06-26,466.6666667,23.5,15.5,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-07-20,266.6666667,18.0,14.5,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-08-23,400.0,19.0,14.0,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-09-20,33.33333333,17.5,14.5,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-10-18,66.66666667,11.0,9.0,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-11-22,500.0,4.0,6.5,Lake Washington-Sammamish River,Juanita Creek
+5303324,2019-12-28,200.0,5.0,6.0,Lake Washington-Sammamish River,Juanita Creek
+5303324,2020-02-22,933.3333333,6.0,6.0,Lake Washington-Sammamish River,Juanita Creek
+5303324,2021-06-12,383.3333333,17.0,13.0,Lake Washington-Sammamish River,Juanita Creek
+5303325,2019-04-28,66.66666667,9.0,10.0,Lake Washington-Sammamish River,Pipers Creek
+5303325,2019-05-10,0.0,24.0,13.0,Lake Washington-Sammamish River,Pipers Creek
+5303325,2019-06-08,33.33333333,11.0,11.5,Lake Washington-Sammamish River,Pipers Creek
+5303327,2019-03-17,0.0,16.0,10.0,Shell Creek-Frontal Puget Sound,Venema Creek
+5303327,2019-05-10,0.0,24.0,13.0,Shell Creek-Frontal Puget Sound,Venema Creek
+5303330,2019-10-15,233.3333333,17.0,11.5,Green River,Gilliam Creek
+5303330,2019-12-16,100.0,13.0,8.5,Green River,Gilliam Creek
+5303330,2020-01-15,233.3333333,3.5,5.0,Green River,Gilliam Creek
+5303331,2019-11-03,100.0,14.0,8.0,Lake Washington-Sammamish River,Thornton Creek
+5303332,2019-11-03,66.66666667,14.5,8.5,Green River,Thornton Creek UT brook
+5303332,2020-02-24,33.33333333,7.0,7.0,Green River,Thornton Creek UT brook
+5303332,2020-03-23,0.0,10.0,8.0,Green River,Thornton Creek UT brook
+5303332,2020-04-23,400.0,13.0,11.0,Green River,Thornton Creek UT brook
+5303332,2020-06-27,366.6666667,14.0,14.5,Green River,Thornton Creek UT brook
+5303332,2020-07-25,166.6666667,17.5,14.0,Green River,Thornton Creek UT brook
+5303332,2020-08-22,133.3333333,18.5,16.0,Green River,Thornton Creek UT brook
+5303332,2020-09-27,133.3333333,15.0,13.5,Green River,Thornton Creek UT brook
+5303332,2020-10-26,133.3333333,7.0,7.0,Green River,Thornton Creek UT brook
+5303332,2020-11-29,0.0,6.0,7.5,Green River,Thornton Creek UT brook
+5303332,2020-12-31,600.0,10.0,8.0,Green River,Thornton Creek UT brook
+5303332,2021-01-29,33.33333333,6.0,7.5,Green River,Thornton Creek UT brook
+5303332,2021-02-26,133.3333333,7.0,8.0,Green River,Thornton Creek UT brook
+5303332,2021-03-29,33.33333333,5.0,6.5,Green River,Thornton Creek UT brook
+5303332,2021-05-30,100.0,20.0,11.5,Green River,Thornton Creek UT brook
+5303332,2021-06-29,333.3333333,20.5,18.5,Green River,Thornton Creek UT brook
+5303332,2021-07-31,166.6666667,21.0,17.0,Green River,Thornton Creek UT brook
+5303332,2021-08-31,633.3333333,13.5,16.0,Green River,Thornton Creek UT brook
+5303332,2021-09-29,66.66666667,14.5,14.0,Green River,Thornton Creek UT brook
+5303332,2021-12-05,33.33333333,4.5,7.5,Green River,Thornton Creek UT brook
+5303334,2019-07-14,100.0,24.0,20.0,Bear Creek,Bear Creek
+5303334,2019-08-17,33.33333333,20.0,17.0,Bear Creek,Bear Creek
+5303334,2019-09-25,0.0,19.0,15.5,Bear Creek,Bear Creek
+5303334,2019-12-28,0.0,6.0,3.0,Bear Creek,Bear Creek
+5303334,2020-01-19,0.0,11.0,5.0,Bear Creek,Bear Creek
+5303334,2020-02-16,66.66666667,5.0,7.0,Bear Creek,Bear Creek
+5303335,2019-01-11,266.6666667,7.5,5.0,Bear Creek,Bear Creek
+5303335,2019-02-09,1133.333333,17.5,17.5,Bear Creek,Bear Creek
+5303335,2019-04-28,66.66666667,13.0,9.0,Bear Creek,Bear Creek
+5303335,2019-05-08,166.6666667,18.0,13.0,Bear Creek,Bear Creek
+5303335,2019-07-31,33.33333333,21.0,18.5,Bear Creek,Bear Creek
+5303335,2019-08-05,166.6666667,18.0,13.0,Bear Creek,Bear Creek
+5303335,2019-09-02,1133.333333,17.5,17.5,Bear Creek,Bear Creek
+5303335,2019-09-29,0.0,13.0,12.5,Bear Creek,Bear Creek
+5303335,2019-11-01,266.6666667,7.5,5.0,Bear Creek,Bear Creek
+5303335,2019-11-30,0.0,-4.0,2.5,Bear Creek,Bear Creek
+5303335,2019-12-26,0.0,-1.0,5.0,Bear Creek,Bear Creek
+5303335,2020-01-30,33.33333333,2.0,7.0,Bear Creek,Bear Creek
+5303335,2020-03-01,33.33333333,6.0,2.0,Bear Creek,Bear Creek
+5303335,2020-08-30,33.33333333,22.0,14.0,Bear Creek,Bear Creek
+5303335,2021-07-30,133.3333333,28.0,20.0,Bear Creek,Bear Creek
+5303335,2021-08-29,466.6666667,18.0,15.0,Bear Creek,Bear Creek
+5303335,2021-10-03,866.6666667,11.0,12.0,Bear Creek,Bear Creek
+5303335,2021-10-31,1133.333333,11.0,8.5,Bear Creek,Bear Creek
+5303335,2021-12-05,866.6666667,3.0,6.0,Bear Creek,Bear Creek
+5303335,2022-01-09,500.0,8.5,3.5,Bear Creek,Bear Creek
+5303335,2022-03-26,233.3333333,15.5,10.0,Bear Creek,Bear Creek
+5303335,2022-04-30,866.6666667,15.0,13.0,Bear Creek,Bear Creek
+5303335,2022-07-10,633.3333333,21.0,18.0,Bear Creek,Bear Creek
+5303335,2022-07-31,433.3333333,21.5,22.0,Bear Creek,Bear Creek
+5303335,2022-10-01,133.3333333,22.0,13.0,Bear Creek,Bear Creek
+5303335,2022-11-12,366.6666667,8.5,5.0,Bear Creek,Bear Creek
+5303335,2022-12-11,433.3333333,6.0,5.0,Bear Creek,Bear Creek
+5303335,2023-01-22,266.6666667,5.0,5.0,Bear Creek,Bear Creek
+5303335,2023-02-22,266.6666667,3.0,4.5,Bear Creek,Bear Creek
+5303335,2023-04-01,33.33333333,6.5,7.0,Bear Creek,Bear Creek
+5303335,2023-05-07,100.0,15.5,8.0,Bear Creek,Bear Creek
+5303335,2023-06-08,133.33,27.0,17.5,Bear Creek,Bear Creek
+5303335,2023-07-09,100.0,22.0,17.0,Bear Creek,Bear Creek
+5303335,2023-09-02,266.67,25.0,17.0,Bear Creek,Bear Creek
+5303335,2023-10-01,66.67,15.0,11.0,Bear Creek,Bear Creek
+5303335,2023-11-12,133.33,11.0,9.0,Bear Creek,Bear Creek
+5303335,2023-12-16,33.33,5.0,5.0,Bear Creek,Bear Creek
+5303335,2024-02-10,0.0,8.5,5.0,Bear Creek,Bear Creek
+5303335,2024-03-09,0.0,9.0,6.0,Bear Creek,Bear Creek
+5303335,2024-04-15,0.0,9.0,8.0,Bear Creek,Bear Creek
+5303335,2024-06-12,250.0,12.0,15.0,Bear Creek,Bear Creek
+5303335,2024-07-20,116.67,21.0,20.0,Bear Creek,Bear Creek
+5303335,2024-10-12,133.33,18.0,12.0,Bear Creek,Bear Creek
+5303335,2024-11-23,633.33,9.0,7.0,Bear Creek,Bear Creek
+5303335,2024-12-28,500.0,8.0,5.0,Bear Creek,Bear Creek
+5303335,2025-01-26,33.33,4.5,0.0,Bear Creek,Bear Creek
+5303335,2025-03-09,66.67,10.0,6.0,Bear Creek,Bear Creek
+5303335,2025-05-24,116.67,14.5,10.0,Bear Creek,Bear Creek
+5303344,2019-12-22,100.0,5.0,7.9,Green River,Mill Creek
+5303346,2020-03-03,0.5,10.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-04-03,11.11111111,10.0,9.5,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-04-07,17.0,10.0,9.8,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-05-07,0.5,16.0,16.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-06-10,33.166666665,17.0,18.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-07-10,165.0,18.0,18.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-08-04,50.0,20.0,19.5,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-09-01,116.83333335,17.0,18.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-09-15,55266.833335,18.0,19.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-10-16,33.0,16.0,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-11-06,120.83333335,10.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2020-12-24,133.16666665,6.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-01-04,100.0,9.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-01-19,0.5,5.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-02-02,50.0,5.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-02-04,100.0,,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-02-17,33.166666665,6.0,4.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-03-03,0.5,10.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-03-23,16.833333335,9.0,6.5,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-04-08,0.5,10.0,11.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-04-20,0.5,15.0,14.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-05-04,116.83333335,11.0,12.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-05-18,50.0,11.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-06-01,16.833333335,14.0,14.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-06-16,66.83333333499999,13.0,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-07-07,117.0,14.0,16.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-07-11,116.6666667,14.0,17.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-08-02,1.0,15.0,17.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-08-08,1650.0,15.0,16.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-08-18,16.833333335,16.0,16.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-09-05,33.0,,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-09-08,33.33333333,,,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-10-06,133.16666665,16.0,14.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-10-20,50.0,9.0,12.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-11-02,0.5,4.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-11-16,1.0,2.0,9.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-11-30,350.0,6.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-12-07,200.0,5.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2021-12-21,517.0,1.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-01-04,117.0,1.0,4.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-02-15,67.0,11.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-03-01,767.0,,,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-03-08,133.0,10.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-03-22,100.0,15.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-04-05,400.0,15.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-04-21,100.0,13.0,9.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-05-17,300.0,12.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-07-10,67.0,27.0,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-07-19,767.0,16.0,14.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-08-08,567.0,20.0,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-08-23,1067.0,,,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-09-06,133.0,15.0,13.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-09-21,2133.0,14.0,12.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-10-07,200.0,13.0,11.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-10-27,100.0,17.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-11-10,33.0,7.0,6.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-12-07,1.0,6.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2022-12-30,300.0,8.5,6.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-01-21,1.0,9.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-02-07,1.0,9.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-02-22,33.0,4.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-03-05,133.0,8.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-03-28,1.0,10.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-04-04,200.0,8.0,6.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-04-18,1.0,13.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-05-07,167.0,14.0,11.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-06-07,1050.0,23.0,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-06-20,733.0,16.0,12.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-07-03,300.0,20.0,14.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-07-19,350.0,18.0,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-08-02,2733.0,17.0,13.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-08-16,433.0,24.0,17.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-09-08,2233.0,18.0,14.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-09-19,1867.0,,,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-10-05,633.0,18.0,12.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-10-18,1100.0,13.0,13.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-11-07,933.0,11.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-11-24,367.0,2.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-12-07,1100.0,8.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2023-12-19,200.0,9.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-01-06,500.0,6.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-01-22,1.0,9.0,5.5,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-02-08,233.0,7.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-02-21,100.0,7.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-03-06,33.0,6.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-03-19,33.0,14.0,9.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-04-08,67.0,10.0,9.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-04-21,167.0,16.0,11.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-05-04,2500.0,11.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-06-04,1233.0,14.0,12.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-06-20,33.0,23.5,13.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-07-03,413.0,19.0,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-07-18,200.0,17.5,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-08-02,133.0,26.0,16.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-08-23,333.0,17.5,14.5,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-09-05,3033.0,20.0,15.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-09-24,33.0,17.0,13.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-10-03,0.1,15.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-10-15,100.0,12.0,11.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-11-03,0.1,10.0,9.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-11-19,67.0,5.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-12-06,0.1,11.0,5.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2024-12-18,0.1,11.0,8.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-01-02,0.1,9.0,6.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-01-21,0.1,2.0,2.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-02-02,167.0,5.0,3.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-02-18,33.0,9.0,5.5,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-03-25,66.67,13.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-04-08,783.33,12.0,9.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-04-22,0.0,16.0,11.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-05-05,133.33,16.0,11.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-05-20,400.0,14.0,11.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-08-03,350.0,20.0,14.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-08-28,216.67,14.0,16.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-08-30,583.33,16.0,14.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-10-15,83.33,13.0,12.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-10-25,1133.33,11.0,10.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2025-11-19,50.0,10.0,8.5,Miller Creek-Frontal East Passage,McSorley Creek
+5303346,2026-01-04,250.0,10.0,7.0,Miller Creek-Frontal East Passage,McSorley Creek
+5303348,2020-12-17,333.3333333,11.5,9.5,Green River,Puget Creek
+5303348,2021-01-29,0.0,7.0,8.0,Green River,Puget Creek
+5303348,2021-02-28,0.0,9.5,9.0,Green River,Puget Creek
+5303348,2021-04-03,0.0,17.0,9.0,Green River,Puget Creek
+5303348,2022-04-30,233.3333333,16.0,10.0,Green River,Puget Creek
+5303349,2021-01-23,0.0,3.0,9.0,Green River,Puget Creek
+5303349,2021-03-13,0.0,13.0,8.0,Green River,Puget Creek
+5303349,2021-03-27,0.0,11.0,8.0,Green River,Puget Creek
+5303349,2021-11-21,400.0,7.0,9.0,Green River,Puget Creek
+5303349,2022-01-22,66.66666667,6.0,7.0,Green River,Puget Creek
+5303349,2022-04-16,0.0,10.8,8.0,Green River,Puget Creek
+5303350,2021-01-23,0.0,,,Green River,Puget Creek Trib A
+5303350,2021-03-13,0.0,13.0,6.0,Green River,Puget Creek Trib A
+5303350,2021-03-27,3333.333333,11.0,8.0,Green River,Puget Creek Trib A
+5303350,2021-11-21,66.66666667,7.0,9.0,Green River,Puget Creek Trib A
+5303350,2022-02-22,33.33333333,5.0,6.0,Green River,Puget Creek Trib A
+5303350,2022-04-16,33.33333333,10.8,8.0,Green River,Puget Creek Trib A
+5303359,2021-11-10,0.0,11.0,12.5,Swamp Creek,Swamp Creek lagoon
+5303360,2022-01-23,266.67,2.5,5.0,Bear Creek,Evans Creek
+5303360,2022-04-24,1533.33,20.0,13.0,Bear Creek,Evans Creek
+5303360,2022-06-22,0.0,14.5,15.0,Bear Creek,Evans Creek
+5303360,2022-11-20,133.33,11.0,3.5,Bear Creek,Evans Creek
+5303360,2023-02-07,2233.33,9.0,6.5,Bear Creek,Evans Creek
+5303360,2023-04-14,2300.0,15.0,9.0,Bear Creek,Evans Creek
+5303360,2023-08-24,233.33,23.5,15.5,Bear Creek,Evans Creek
+5303360,2024-02-01,0.0,11.5,9.5,Bear Creek,Evans Creek
+5303360,2024-02-24,233.33,8.0,7.0,Bear Creek,Evans Creek
+5303360,2024-05-30,66.67,10.0,13.0,Bear Creek,Evans Creek
+5303360,2024-08-11,200.0,16.5,15.0,Bear Creek,Evans Creek
+5303360,2024-10-02,11.11,14.0,8.5,Bear Creek,Evans Creek
+5303360,2024-11-30,33.33,4.0,3.0,Bear Creek,Evans Creek
+5303360,2025-01-23,0.0,1.0,,Bear Creek,Evans Creek
+5303360,2025-02-27,0.0,14.0,4.0,Bear Creek,Evans Creek
+5303360,2025-03-20,0.0,5.5,5.0,Bear Creek,Evans Creek
+5303360,2025-04-26,0.0,11.0,9.0,Bear Creek,Evans Creek
+5303360,2025-05-19,283.33,10.0,9.0,Bear Creek,Evans Creek
+5303360,2025-07-29,200.0,18.0,13.0,Bear Creek,Evans Creek
+5303360,2025-08-14,166.67,15.5,15.0,Bear Creek,Evans Creek
+5303360,2025-09-30,166.67,13.0,12.0,Bear Creek,Evans Creek
+5303360,2025-10-14,100.0,8.0,6.0,Bear Creek,Evans Creek
+5303360,2025-11-24,33.33,5.0,5.0,Bear Creek,Evans Creek
+5303360,2026-01-20,11.11,4.0,1.0,Bear Creek,Evans Creek
+5303361,2022-01-16,766.67,9.0,5.5,Bear Creek,Bear Creek
+5303361,2022-04-24,3966.67,25.0,11.0,Bear Creek,Bear Creek
+5303361,2022-11-20,200.0,10.0,2.0,Bear Creek,Bear Creek
+5303361,2023-02-07,4700.0,10.0,7.0,Bear Creek,Bear Creek
+5303361,2023-04-14,1333.33,20.0,9.0,Bear Creek,Bear Creek
+5303361,2023-07-25,0.0,22.0,18.5,Bear Creek,Bear Creek
+5303361,2023-08-25,400.0,24.5,19.2,Bear Creek,Bear Creek
+5303361,2024-02-02,0.0,10.0,9.0,Bear Creek,Bear Creek
+5303361,2024-02-24,166.67,10.0,7.0,Bear Creek,Bear Creek
+5303361,2024-05-30,33.33,18.0,11.0,Bear Creek,Bear Creek
+5303361,2024-08-11,33.33,22.0,17.0,Bear Creek,Bear Creek
+5303361,2024-10-02,16.67,17.0,9.0,Bear Creek,Bear Creek
+5303361,2024-12-01,0.0,1.0,3.0,Bear Creek,Bear Creek
+5303361,2025-01-23,0.0,4.0,0.0,Bear Creek,Bear Creek
+5303361,2025-02-27,0.0,18.0,4.0,Bear Creek,Bear Creek
+5303361,2025-03-20,50.0,7.0,5.5,Bear Creek,Bear Creek
+5303361,2025-04-26,0.0,16.0,12.0,Bear Creek,Bear Creek
+5303361,2025-05-19,50.0,16.0,11.0,Bear Creek,Bear Creek
+5303361,2025-07-29,0.0,32.0,16.0,Bear Creek,Bear Creek
+5303361,2025-08-14,44.44,20.5,17.5,Bear Creek,Bear Creek
+5303361,2025-09-30,188.89,21.0,13.0,Bear Creek,Bear Creek
+5303361,2025-10-14,11.11,14.0,7.0,Bear Creek,Bear Creek
+5303361,2025-11-24,177.78,5.0,6.0,Bear Creek,Bear Creek
+5303361,2026-01-20,33.33,5.0,2.0,Bear Creek,Bear Creek
+5303365,2022-01-29,0.0,9.5,7.0,Miller Creek-Frontal East Passage,Fauntleroy Creek
+5303365,2022-02-19,33.33333333,7.5,8.0,Miller Creek-Frontal East Passage,Fauntleroy Creek
+5303365,2022-03-19,266.6666667,10.0,9.0,Miller Creek-Frontal East Passage,Fauntleroy Creek
+5303366,2022-01-29,0.0,7.5,6.0,Miller Creek-Frontal East Passage,Fauntleroy Creek
+5303366,2022-02-19,100.0,6.0,8.5,Miller Creek-Frontal East Passage,Fauntleroy Creek
+5303366,2022-03-19,133.3333333,8.0,9.5,Miller Creek-Frontal East Passage,Fauntleroy Creek
+5303369,2022-02-26,266.6666667,5.0,6.0,Lake Washington-Sammamish River,Taylor Creek
+5303369,2022-05-21,3666.666667,15.0,12.5,Lake Washington-Sammamish River,Taylor Creek
+5303369,2022-06-27,3966.666667,22.0,16.0,Lake Washington-Sammamish River,Taylor Creek
+5303371,2022-05-08,400.0,6.0,9.8,North Creek,Penny Creek
+5303371,2022-05-30,166.6666667,10.0,12.0,North Creek,Penny Creek
+5303371,2022-06-28,133.3333333,17.0,17.5,North Creek,Penny Creek
+5303371,2022-08-09,66.66666666500001,16.75,15.5,North Creek,Penny Creek
+5303371,2022-09-01,533.3333333,16.0,15.0,North Creek,Penny Creek
+5303371,2022-10-04,733.3333333,12.5,12.0,North Creek,Penny Creek
+5303371,2022-11-11,0.0,5.0,5.5,North Creek,Penny Creek
+5303371,2022-12-07,0.0,3.5,5.0,North Creek,Penny Creek
+5303371,2023-01-03,0.0,5.0,4.5,North Creek,Penny Creek
+5303371,2023-03-01,0.0,5.0,4.5,North Creek,Penny Creek
+5303371,2023-04-07,0.0,13.0,11.5,North Creek,Penny Creek
+5303371,2023-05-17,200.0,13.5,15.0,North Creek,Penny Creek
+5303371,2023-06-22,0.0,19.5,16.5,North Creek,Penny Creek
+5303371,2023-09-19,0.0,15.0,12.5,North Creek,Penny Creek
+5303371,2023-10-19,33.33333333,14.0,11.5,North Creek,Penny Creek
+5303371,2023-11-20,166.6666667,8.0,7.0,North Creek,Penny Creek
+5303371,2023-12-15,16.66666667,2.5,6.0,North Creek,Penny Creek
+5303371,2024-01-22,33.33333333,4.5,4.0,North Creek,Penny Creek
+5303371,2024-02-22,0.0,6.5,7.5,North Creek,Penny Creek
+5303371,2024-04-19,16.66666667,6.0,8.6,North Creek,Penny Creek
+5303371,2024-06-05,266.6666667,12.0,13.0,North Creek,Penny Creek
+5303371,2024-07-14,150.0,15.0,16.4,North Creek,Penny Creek
+5303371,2024-08-30,100.0,12.0,13.3,North Creek,Penny Creek
+5303371,2024-09-19,50.0,14.0,14.1,North Creek,Penny Creek
+5303371,2024-10-23,0.0,9.0,10.8,North Creek,Penny Creek
+5303371,2024-11-25,83.33,7.5,8.2,North Creek,Penny Creek
+5303371,2024-12-24,0.0,8.0,8.5,North Creek,Penny Creek
+5303371,2025-01-14,0.0,2.5,3.7,North Creek,Penny Creek
+5303371,2025-02-28,0.0,9.0,8.6,North Creek,Penny Creek
+5303371,2025-03-17,0.0,6.0,8.3,North Creek,Penny Creek
+5303371,2025-04-17,16.67,10.0,12.7,North Creek,Penny Creek
+5303371,2025-05-15,116.67,9.5,11.3,North Creek,Penny Creek
+5303371,2025-06-23,0.0,18.5,17.5,North Creek,Penny Creek
+5303371,2025-07-21,50.0,13.5,14.0,North Creek,Penny Creek
+5303371,2025-08-29,50.0,17.0,17.6,North Creek,Penny Creek
+5303371,2025-10-13,50.0,7.0,9.7,North Creek,Penny Creek
+5303371,2026-02-05,0.0,9.0,10.1,North Creek,Penny Creek
+5303372,2022-03-10,33.33333333,8.0,4.5,Lake Washington-Sammamish River,Firwood Creek
+5303377,2023-05-23,600.0,14.0,13.0,Swamp Creek,Little Swamp Creek
+5303378,2023-05-24,400.0,14.0,12.0,Swamp Creek,Twin Springs # 1
+5303379,2023-05-25,333.3333333,20.0,13.0,Swamp Creek,Twin Springs # 2
+5303382,2023-07-13,566.6666667,18.0,16.0,Lake Washington-Sammamish River,Juanita Creek
+5303382,2023-08-09,266.6666667,18.0,16.0,Lake Washington-Sammamish River,Juanita Creek
+5303382,2023-09-14,100.0,0.0,0.0,Lake Washington-Sammamish River,Juanita Creek
+5303382,2023-10-12,550.0,12.0,12.0,Lake Washington-Sammamish River,Juanita Creek
+5303382,2023-11-10,300.0,17.0,8.5,Lake Washington-Sammamish River,Juanita Creek
+5303382,2023-12-16,600.0,4.0,7.0,Lake Washington-Sammamish River,Juanita Creek
+5303382,2024-01-11,116.6666667,2.0,6.0,Lake Washington-Sammamish River,Juanita Creek
+5303382,2024-02-14,116.6666667,8.0,8.0,Lake Washington-Sammamish River,Juanita Creek
+5303383,2023-07-25,200.0,22.0,17.5,Bear Creek,Stens Creek
+5303383,2023-08-25,1400.0,24.0,19.0,Bear Creek,Stens Creek
+5303383,2024-02-01,0.0,13.0,10.0,Bear Creek,Stens Creek
+5303383,2024-02-24,33.33,9.5,7.5,Bear Creek,Stens Creek
+5303383,2024-05-30,77.78,13.0,12.0,Bear Creek,Stens Creek
+5303383,2024-08-11,77.78,16.5,16.0,Bear Creek,Stens Creek
+5303383,2024-10-02,166.67,15.0,10.0,Bear Creek,Stens Creek
+5303383,2024-11-30,33.33,4.0,4.0,Bear Creek,Stens Creek
+5303383,2025-01-24,0.0,0.0,1.0,Bear Creek,Stens Creek
+5303383,2025-02-27,16.67,13.0,6.5,Bear Creek,Stens Creek
+5303383,2025-03-20,0.0,7.0,5.0,Bear Creek,Stens Creek
+5303383,2025-04-26,0.0,12.0,9.5,Bear Creek,Stens Creek
+5303383,2025-05-19,183.33,11.5,10.0,Bear Creek,Stens Creek
+5303383,2025-07-29,116.67,21.0,14.0,Bear Creek,Stens Creek
+5303383,2025-08-14,55.56,17.0,15.0,Bear Creek,Stens Creek
+5303383,2025-09-30,88.89,13.5,12.5,Bear Creek,Stens Creek
+5303383,2025-10-14,55.56,9.0,7.0,Bear Creek,Stens Creek
+5303383,2025-11-24,33.33,6.0,6.0,Bear Creek,Stens Creek
+5303383,2026-01-20,44.44,8.0,3.0,Bear Creek,Stens Creek
+5303384,2023-07-25,0.0,22.0,22.0,Bear Creek,Stens Creek
+5303384,2023-08-25,4666.67,24.0,23.5,Bear Creek,Stens Creek
+5303384,2024-02-01,22.22,12.5,10.0,Bear Creek,Stens Creek
+5303384,2024-02-24,122.22,10.0,7.5,Bear Creek,Stens Creek
+5303384,2024-05-30,122.22,14.0,13.0,Bear Creek,Stens Creek
+5303384,2024-08-11,2911.11,18.0,20.0,Bear Creek,Stens Creek
+5303384,2024-10-02,483.33,18.0,12.0,Bear Creek,Stens Creek
+5303384,2024-11-30,0.0,4.0,4.0,Bear Creek,Stens Creek
+5303384,2025-01-24,0.0,2.0,1.0,Bear Creek,Stens Creek
+5303384,2025-02-27,0.0,12.0,6.0,Bear Creek,Stens Creek
+5303384,2025-03-20,0.0,5.0,5.5,Bear Creek,Stens Creek
+5303384,2025-04-26,0.0,14.0,12.5,Bear Creek,Stens Creek
+5303384,2025-05-19,300.0,14.0,12.0,Bear Creek,Stens Creek
+5303384,2025-07-29,0.0,22.5,20.0,Bear Creek,Stens Creek
+5303384,2025-08-14,11.11,19.5,20.0,Bear Creek,Stens Creek
+5303384,2025-09-30,33.33,17.0,13.0,Bear Creek,Stens Creek
+5303384,2025-10-14,33.33,12.0,9.0,Bear Creek,Stens Creek
+5303384,2025-11-24,611.11,5.5,6.5,Bear Creek,Stens Creek
+5303384,2026-01-20,0.0,7.0,2.5,Bear Creek,Stens Creek
+5303386,2024-04-29,66.67,11.0,9.0,Swamp Creek,Blueberry Creek
+5303386,2024-07-16,100.0,24.5,17.5,Swamp Creek,Blueberry Creek
+5303386,2024-08-05,166.67,18.0,16.5,Swamp Creek,Blueberry Creek
+5303386,2024-09-03,77.78,18.0,16.5,Swamp Creek,Blueberry Creek
+5303386,2024-10-03,44.44,9.5,10.5,Swamp Creek,Blueberry Creek
+5303386,2024-11-05,100.0,10.0,9.0,Swamp Creek,Blueberry Creek
+5303386,2024-12-12,11.11,4.0,5.0,Swamp Creek,Blueberry Creek
+5303386,2025-01-30,22.22,1.0,4.0,Swamp Creek,Blueberry Creek
+5303386,2025-03-04,200.0,9.0,8.0,Swamp Creek,Blueberry Creek
+5303386,2025-04-16,22.22,13.0,10.0,Swamp Creek,Blueberry Creek
+5303386,2025-05-06,22.22,21.0,12.0,Swamp Creek,Blueberry Creek
+5303387,2024-04-29,66.66666667,11.0,9.0,Bear Creek-Sammamish River,WGC Sammamish tributary
+5303387,2024-08-26,111.11,20.0,17.0,Bear Creek-Sammamish River,Forgotten Creek WGC
+5303387,2024-11-14,655.56,10.0,14.0,Bear Creek-Sammamish River,Forgotten Creek WGC
+5303387,2024-12-17,188.89,7.5,8.0,Bear Creek-Sammamish River,Forgotten Creek WGC
+5303387,2025-06-25,488.89,18.0,14.5,Bear Creek-Sammamish River,Forgotten Creek WGC
+5303387,2026-03-04,5311.11,11.0,8.5,Bear Creek-Sammamish River,Forgotten Creek WGC
+5303389,2024-04-14,4266.67,9.5,9.5,Bsche'tla Watershed,Lower Bsche'tla Creek
+5303389,2024-08-04,1433.33,25.7,17.0,Bsche'tla Watershed,Lower Bsche'tla Creek
+5303390,2024-04-14,66.67,11.6,10.3,Bsche'tla Watershed,Upper Bsche'tla Creek
+5303390,2024-08-04,1300.0,19.4,14.0,Bsche'tla Watershed,Upper Bsche'tla Creek
+5303391,2022-01-01,2.0,14.2,12.2,Pipers Creek,Pipers
+5303391,2022-11-06,7.0,8.0,8.0,Pipers Creek,Pipers
+5303391,2022-12-04,1.0,3.0,7.0,Pipers Creek,Pipers
+5303391,2023-02-26,2.0,9.0,6.5,Pipers Creek,Pipers
+5303391,2023-03-30,0.0,15.0,9.5,Pipers Creek,Pipers
+5303391,2023-04-27,4.0,16.5,12.0,Pipers Creek,Pipers
+5303391,2023-05-21,6.0,13.0,11.5,Pipers Creek,Pipers
+5303391,2023-06-19,151.0,14.0,10.5,Pipers Creek,Pipers
+5303391,2023-08-13,2.0,19.0,14.0,Pipers Creek,Pipers
+5303391,2023-11-10,7.0,10.3,10.6,Pipers Creek,Pipers
+5303391,2023-12-02,5.0,6.0,8.3,Pipers Creek,Pipers
+5303391,2024-02-19,0.0,7.8,8.7,Pipers Creek,Pipers
+5303391,2024-03-24,3.0,14.4,12.2,Pipers Creek,Pipers
+5303391,2024-04-14,3.0,12.8,10.6,Pipers Creek,Pipers
+5303391,2024-05-20,7.0,20.2,14.1,Pipers Creek,Pipers
+5303391,2024-06-19,1.0,21.0,15.7,Pipers Creek,Pipers
+5303391,2024-08-11,5.5,19.6,15.8,Pipers Creek,Pipers
+5303391,2024-09-07,11.5,21.0,15.3,Pipers Creek,Pipers
+5303391,2024-11-23,200.0,9.8,9.8,Piper's Creek,Piper's Creek
+5303391,2025-04-24,0.0,9.4,11.4,Piper's Creek,Piper's Creek
+5303391,2025-06-07,616.67,17.9,15.8,Piper's Creek,Piper's Creek
+5303391,2025-07-17,33.33,16.7,15.0,Piper's Creek,Piper's Creek
+5303391,2025-08-03,377.78,17.1,14.3,Piper's Creek,Piper's Creek
+5303391,2025-08-12,33.33,19.2,15.2,Piper's Creek,Piper's Creek
+5303391,2025-09-11,133.33,15.7,14.0,Piper's Creek,Piper's Creek
+5303391,2025-10-04,33.33,13.7,12.0,Piper's Creek,Piper's Creek
+5303391,2025-10-12,800.0,11.5,12.6,Piper's Creek,Piper's Creek
+5303391,2025-11-09,144.44,8.9,9.6,Piper's Creek,Piper's Creek
+5303391,2025-12-04,300.0,8.2,9.0,Piper's Creek,Piper's Creek
+5303391,2026-01-04,133.33,11.8,10.0,Piper's Creek,Piper's Creek
+5303391,2026-01-29,133.33,10.7,9.2,Piper's Creek,Piper's Creek
+5303391,2026-01-31,11.11,12.4,11.6,Piper's Creek,Piper's Creek
+5303391,2026-02-26,11.11,15.5,9.8,Piper's Creek,Piper's Creek
+5303391,2026-03-14,266.67,7.8,6.4,Piper's Creek,Piper's Creek
+5303391,2026-03-29,111.11,9.5,9.0,Piper's Creek,Piper's Creek
+5303392,2022-12-09,5.666666667,6.5,5.5,Pipers Creek,Molendorph
+5303392,2023-02-05,0.0,8.0,7.0,Pipers Creek,Molendorph
+5303392,2023-03-04,25.0,3.0,4.0,Pipers Creek,Molendorph
+5303392,2023-03-31,1.333333333,8.0,7.0,Pipers Creek,Molendorph
+5303392,2023-04-28,0.0,18.5,12.5,Pipers Creek,Molendorph
+5303392,2023-05-25,1.333333333,16.5,13.5,Pipers Creek,Molendorph
+5303392,2023-06-22,3.333333333,17.0,12.0,Pipers Creek,Molendorph
+5303392,2023-07-23,1.666666667,19.0,14.5,Pipers Creek,Molendorph
+5303392,2023-08-22,0.0,12.0,12.5,Pipers Creek,Molendorph
+5303392,2023-09-17,1.0,24.0,11.5,Pipers Creek,Molendorph
+5303392,2023-12-10,3.0,10.3,9.0,Pipers Creek,Molendorph
+5303392,2024-01-13,2.333333333,6.2,7.1,Pipers Creek,Molendorph
+5303392,2024-02-02,1.666666667,11.7,8.2,Pipers Creek,Molendorph
+5303392,2024-03-31,0.6666666667,8.8,7.6,Pipers Creek,Molendorph
+5303392,2024-04-24,0.3333333333,11.4,10.0,Pipers Creek,Molendorph
+5303392,2024-06-22,0.0,15.2,13.1,Pipers Creek,Molendorph
+5303392,2024-07-15,17.66666667,19.6,16.2,Pipers Creek,Molendorph
+5303392,2024-08-16,10.0,28.0,15.8,Pipers Creek,Molendorph
+5303392,2024-09-15,20.0,15.4,14.3,Pipers Creek,Molendorph
+5303392,2025-03-30,66.67,12.0,10.5,Piper's Creek,Mohlendorph Creek
+5303392,2025-04-12,66.67,12.2,10.5,Piper's Creek,Mohlendorph Creek
+5303392,2025-05-09,33.33,13.5,10.5,Piper's Creek,Mohlendorph Creek
+5303392,2025-05-11,0.0,10.9,11.2,Piper's Creek,Mohlendorph Creek
+5303392,2025-05-29,33.33,17.5,13.2,Piper's Creek,Mohlendorph Creek
+5303392,2025-06-06,111.11,21.0,13.7,Piper's Creek,Mohlendorph Creek
+5303392,2025-06-23,466.67,16.8,13.2,Piper's Creek,Mohlendorph Creek
+5303392,2025-07-02,55.56,13.7,13.0,Piper's Creek,Mohlendorph Creek
+5303392,2025-07-17,433.33,24.6,16.1,Piper's Creek,Mohlendorph Creek
+5303392,2025-08-02,33.33,14.8,14.2,Piper's Creek,Mohlendorph Creek
+5303392,2025-08-30,77.78,17.0,15.3,Piper's Creek,Mohlendorph Creek
+5303392,2025-09-24,222.22,15.0,13.0,Piper's Creek,Mohlendorph Creek
+5303392,2025-10-23,111.11,14.2,10.6,Piper's Creek,Mohlendorph Creek
+5303392,2025-11-21,0.0,8.2,8.1,Piper's Creek,Mohlendorph Creek
+5303392,2025-12-20,11.11,6.2,7.0,Piper's Creek,Mohlendorph Creek
+5303392,2026-01-16,0.0,5.7,7.5,Piper's Creek,Mohlendorph Creek
+5303392,2026-02-15,33.33,5.5,6.9,Piper's Creek,Mohlendorph Creek
+5303392,2026-03-11,44.44,5.5,8.0,Piper's Creek,Mohlendorph Creek
+5303392,2026-04-11,44.44,9.3,8.9,Piper's Creek,Mohlendorph Creek
+5303393,2022-11-13,12.0,5.0,9.0,Pipers Creek,Venema
+5303393,2022-12-09,0.0,7.0,8.0,Pipers Creek,Venema
+5303393,2023-01-08,0.6666666667,7.5,9.0,Pipers Creek,Venema
+5303393,2023-02-05,0.0,7.0,9.0,Pipers Creek,Venema
+5303393,2023-03-04,4.0,8.0,7.0,Pipers Creek,Venema
+5303393,2023-04-29,0.6666666667,20.0,12.0,Pipers Creek,Venema
+5303393,2023-05-27,1.666666667,12.5,11.0,Pipers Creek,Venema
+5303393,2023-06-25,2.0,15.0,12.0,Pipers Creek,Venema
+5303393,2023-09-09,2.333333333,15.0,,Pipers Creek,Venema
+5303393,2023-10-15,1.666666667,,,Pipers Creek,Venema
+5303393,2023-12-09,0.3333333333,5.0,8.3,Pipers Creek,Venema
+5303393,2024-01-07,3.0,3.7,8.4,Pipers Creek,Venema
+5303393,2024-03-03,0.0,5.7,8.3,Pipers Creek,venema
+5303393,2024-04-28,6.0,9.0,10.7,Pipers Creek,Venema
+5303393,2024-05-24,1.666666667,12.0,11.2,Pipers Creek,Venema
+5303393,2024-06-23,0.0,16.6,12.3,Pipers Creek,Venema
+5303393,2024-07-20,5.0,15.2,13.1,Pipers Creek,Venema
+5303393,2024-08-18,1.0,17.7,13.8,Pipers Creek,Venema
+5303393,2024-09-13,2.0,14.6,12.8,Pipers Creek,Venema
+5303393,2025-01-17,0.0,8.0,7.7,Piper's Creek,Venema Creek
+5303393,2025-06-20,0.0,16.7,,Piper's Creek,Venema Creek
+5303393,2025-07-04,266.67,18.1,13.4,Piper's Creek,Venema Creek
+5303393,2025-08-02,50.0,14.7,12.6,Piper's Creek,Venema Creek
+5303393,2025-08-16,55.56,22.0,14.8,Piper's Creek,Venema Creek
+5303393,2025-09-13,55.56,15.8,13.5,Piper's Creek,Venema Creek
+5303393,2025-11-22,0.0,9.4,10.6,Piper's Creek,Venema Creek
+5303393,2026-01-17,16.67,13.3,12.4,Piper's Creek,Venema Creek
+5303393,2026-02-25,0.0,13.3,8.0,Piper's Creek,Venema Creek
+5303393,2026-04-10,0.0,14.6,11.2,Piper's Creek,Venema Creek
+5303394,2022-11-18,0.0,8.0,9.0,Pipers Creek,North Creek
+5303394,2023-02-09,0.0,8.5,9.0,Pipers Creek,North Creek
+5303394,2023-03-12,4.666666667,8.0,10.0,Pipers Creek,North Creek
+5303394,2023-04-01,4.0,4.0,8.0,Pipers Creek,Venema
+5303394,2023-04-09,0.0,13.0,10.0,Pipers Creek,North Creek
+5303394,2023-05-03,0.0,19.0,12.0,Pipers Creek,North Creek
+5303394,2023-05-30,0.3333333333,14.0,11.0,Pipers Creek,North Creek
+5303394,2023-06-27,0.3333333333,20.0,12.0,Pipers Creek,North Creek
+5303394,2023-07-29,1.666666667,19.5,14.0,Pipers Creek,North Creek
+5303394,2023-09-24,6.333333333,13.0,10.0,Pipers Creek,North Creek
+5303394,2023-11-16,4.666666667,9.4,9.6,Pipers Creek,North Creek
+5303394,2023-12-15,12.0,7.5,10.2,Pipers Creek,North Creek
+5303394,2024-02-08,1.666666667,7.1,9.5,Pipers Creek,North Creek
+5303394,2024-03-09,3.333333333,10.4,10.1,Pipers Creek,North Creek
+5303394,2024-04-08,1.666666667,9.1,10.0,Pipers Creek,North Creek
+5303394,2024-05-05,1.0,11.0,11.1,Pipers Creek,North Creek
+5303394,2024-06-02,13.66666667,13.7,12.3,Pipers Creek,North Creek
+5303394,2024-06-26,0.6666666667,17.5,13.7,Pipers Creek,North Creek
+5303394,2024-07-25,6.333333333,19.4,14.1,Pipers Creek,North Creek
+5303394,2024-08-24,28.66666667,14.5,14.1,Pipers Creek,North Creek
+5303394,2025-04-24,33.33,14.3,12.2,Piper's Creek,Piper's Creek North Creek
+5303394,2025-05-24,33.33,22.0,12.7,Piper's Creek,Piper's Creek North Creek
+5303394,2025-06-22,33.33,15.6,12.6,Piper's Creek,Piper's Creek North Creek
+5303394,2025-07-08,133.33,24.2,13.7,Piper's Creek,Piper's Creek North Creek
+5303394,2025-07-18,0.0,17.2,13.7,Piper's Creek,Piper's Creek North Creek
+5303394,2025-08-10,333.33,18.8,13.7,Piper's Creek,Piper's Creek North Creek
+5303394,2025-08-14,188.89,22.3,14.9,Piper's Creek,Piper's Creek North Creek
+5303394,2025-09-02,66.67,22.1,14.4,Piper's Creek,Piper's Creek North Creek
+5303394,2025-09-14,22.22,16.1,13.9,Piper's Creek,Piper's Creek North Creek
+5303394,2025-10-03,100.0,16.2,12.8,Piper's Creek,Piper's Creek North Creek
+5303394,2025-10-12,122.22,11.9,11.7,Piper's Creek,Piper's Creek North Creek
+5303394,2025-11-09,11.11,14.1,11.0,Piper's Creek,Piper's Creek North Creek
+5303394,2025-11-28,100.0,11.5,10.2,Piper's Creek,Piper's Creek North Creek
+5303394,2025-12-07,111.11,11.6,11.1,Piper's Creek,Piper's Creek North Creek
+5303394,2025-12-27,0.0,5.9,7.8,Piper's Creek,Piper's Creek North Creek
+5303394,2026-01-04,22.22,8.9,9.1,Piper's Creek,Piper's Creek North Creek
+5303394,2026-01-17,0.0,8.8,9.7,Piper's Creek,Piper's Creek North Creek
+5303394,2026-02-11,0.0,10.1,9.8,Piper's Creek,Piper's Creek North Creek
+5303394,2026-02-28,22.22,9.9,9.3,Piper's Creek,Piper's Creek North Creek
+5303394,2026-03-14,0.0,7.9,8.9,Piper's Creek,Piper's Creek North Creek
+5303394,2026-03-28,11.11,12.3,11.2,Piper's Creek,Piper's Creek North Creek
+5303395,2022-12-15,0.0,4.5,9.0,Pipers Creek,Viewlands
+5303395,2023-01-13,4.0,11.5,10.0,Pipers Creek,Viewlands
+5303395,2023-02-10,0.0,9.0,10.0,Pipers Creek,Viewlands
+5303395,2023-03-10,0.0,6.5,10.0,Pipers Creek,Viewlands
+5303395,2023-04-07,0.6666666667,11.5,10.0,Pipers Creek,Viewlands
+5303395,2023-05-03,24.66666667,14.0,10.0,Pipers Creek,Viewlands
+5303395,2023-06-02,1.0,21.0,11.0,Pipers Creek,Viewlands
+5303395,2023-09-21,24.0,14.4,10.0,Pipers Creek,Viewlands
+5303395,2023-10-19,0.6666666667,9.0,10.0,Pipers Creek,Viewlands
+5303395,2025-01-25,16.67,6.3,9.3,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-02-20,0.0,10.3,10.5,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-04-17,44.44,16.3,11.9,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-05-31,33.33,14.0,12.0,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-06-14,11.11,13.6,11.6,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-06-29,0.0,17.7,12.3,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-07-10,33.33,18.3,12.5,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-08-07,11.11,19.3,12.8,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-08-24,0.0,16.9,12.7,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-09-04,16.67,19.8,12.8,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-09-21,50.0,15.3,12.7,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-10-03,83.33,15.3,12.3,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-11-26,100.0,8.9,10.9,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-12-14,0.0,11.4,11.4,Piper's Creek,Piper's Creek Viewlands
+5303395,2025-12-27,0.0,3.2,9.2,Piper's Creek,Piper's Creek Viewlands
+5303395,2026-02-07,183.33,10.3,10.6,Piper's Creek,Piper's Creek Viewlands
+5303395,2026-02-22,33.33,7.9,9.9,Piper's Creek,Piper's Creek Viewlands
+5303396,2022-11-26,1.0,5.0,10.0,Pipers Creek,Pipers
+5303396,2022-12-24,6.0,2.5,3.5,Pipers Creek,Pipers
+5303396,2023-01-22,0.0,5.0,7.5,Pipers Creek,Pipers
+5303396,2023-02-18,0.0,8.0,10.0,Pipers Creek,Pipers
+5303396,2023-03-19,1.0,11.0,10.0,Pipers Creek,Pipers
+5303396,2023-04-11,1.666666667,10.0,9.0,Pipers Creek,Pipers
+5303396,2023-05-15,0.5,21.0,14.0,Pipers Creek,Pipers
+5303396,2023-06-12,2.0,16.0,13.0,Pipers Creek,Pipers
+5303396,2023-08-02,0.0,20.0,14.0,Pipers Creek,Pipers
+5303396,2023-09-30,6.5,11.0,11.5,Pipers Creek,Pipers
+5303396,2023-10-30,1.5,8.0,12.8,Pipers Creek,Pipers
+5303396,2023-12-23,6.0,3.9,10.2,Pipers Creek,Pipers
+5303396,2024-03-18,0.5,10.6,11.5,Pipers Creek,Pipers
+5303396,2024-04-13,0.3333333333,13.3,12.2,Pipers Creek,Pipers
+5303396,2024-06-09,331.5,23.2,14.2,Pipers Creek,Pipers
+5303396,2024-09-03,3.333333333,18.3,15.8,Pipers Creek,Pipers
+5303396,2025-04-09,216.67,10.1,11.25,Piper's Creek,Piper's Creek Below TP
+5303396,2025-06-01,366.67,13.1,13.8,Piper's Creek,Piper's Creek Below TP
+5303396,2025-08-13,122.22,21.0,15.2,Piper's Creek,Piper's Creek Below TP
+5303396,2025-09-16,100.0,14.3,13.5,Piper's Creek,Piper's Creek Below TP
+5303396,2025-10-08,183.33,12.6,12.4,Piper's Creek,Piper's Creek Below TP
+5303396,2025-10-30,33.33,9.7,11.2,Piper's Creek,Piper's Creek Below TP
+5303396,2025-11-30,50.0,3.2,8.0,Piper's Creek,Piper's Creek Below TP
+5303396,2026-01-11,1011.11,8.5,8.0,Piper's Creek,Piper's Creek Below TP
+5303396,2026-01-24,0.0,1.1,5.8,Piper's Creek,Piper's Creek Below TP
+5303396,2026-01-26,16.67,0.9,5.8,Piper's Creek,Piper's Creek Below TP
+5303396,2026-02-06,133.33,7.5,10.0,Piper's Creek,Piper's Creek Below TP
+5303396,2026-03-01,33.33,6.9,7.9,Piper's Creek,Piper's Creek Below TP
+5303396,2026-03-22,16.67,7.6,8.8,Piper's Creek,Piper's Creek Below TP
+5303396,2026-04-05,355.56,14.4,11.5,Piper's Creek,Piper's Creek Below TP
+5303397,2022-10-29,2.0,11.5,10.5,Pipers Creek,Pipers
+5303397,2022-11-26,1.0,5.0,8.0,Pipers Creek,Pipers
+5303397,2022-12-24,9.5,4.0,5.0,Pipers Creek,Pipers
+5303397,2023-01-21,1.0,3.5,8.0,Pipers Creek,Pipers
+5303397,2023-02-18,1.0,7.0,8.0,Pipers Creek,Pipers
+5303397,2023-03-19,0.0,10.0,8.5,Pipers Creek,Pipers
+5303397,2023-04-11,0.0,10.0,11.0,Pipers Creek,Pipers
+5303397,2023-05-14,4.333333333,19.0,13.0,Pipers Creek,Pipers
+5303397,2023-06-11,2.333333333,14.0,15.0,Pipers Creek,Pipers
+5303397,2023-08-02,1.5,20.0,14.0,Pipers Creek,Pipers
+5303397,2023-10-01,3.0,,,Pipers Creek,Pipers
+5303397,2023-10-28,8.0,7.6,8.6,Pipers Creek,Pipers
+5303397,2023-11-25,6.0,4.4,7.1,Pipers Creek,Pipers
+5303397,2024-01-22,9.0,7.8,7.6,Pipers Creek,Pipers
+5303397,2024-02-17,1.0,9.8,8.3,Pipers Creek,Pipers
+5303397,2024-03-18,5.666666667,14.5,11.4,Pipers Creek,Pipers
+5303397,2024-06-10,8.666666667,19.0,13.2,Pipers Creek,Pipers
+5303397,2024-08-02,5.333333333,24.9,15.8,Pipers Creek,Pipers
+5303397,2024-08-31,16.66666667,21.8,14.6,Pipers Creek,Pipers
+5303397,2024-09-28,20.66666667,14.1,13.4,Pipers Creek,Pipers
+5303397,2025-06-15,100.0,15.3,12.2,Piper's Creek,Piper's Creek Above TP
+5303397,2025-07-11,150.0,17.0,13.7,Piper's Creek,Piper's Creek Above TP
+5303397,2025-07-26,100.0,15.8,13.2,Piper's Creek,Piper's Creek Above TP
+5303397,2025-08-06,150.0,18.5,14.7,Piper's Creek,Piper's Creek Above TP
+5303397,2025-08-24,11.11,17.5,13.8,Piper's Creek,Piper's Creek Above TP
+5303397,2025-09-21,833.33,13.9,14.7,Piper's Creek,Piper's Creek Above TP
+5303397,2025-11-15,55.56,12.7,11.6,Piper's Creek,Piper's Creek Above TP
+5303397,2026-02-07,433.33,9.8,9.5,Piper's Creek,Piper's Creek Above TP
+5303397,2026-03-07,11.11,10.7,10.3,Piper's Creek,Piper's Creek Above TP
+5303398,2022-11-06,4.0,6.0,10.0,Pipers Creek,"Trib """"M"""""
+5303398,2022-11-27,0.0,6.5,9.5,Pipers Creek,"Trib """"M"""""
+5303398,2023-01-02,0.0,6.0,8.5,Pipers Creek,"Trib """"M"""""
+5303398,2023-01-29,0.3333333333,3.0,7.0,Pipers Creek,Pipers
+5303398,2023-02-26,0.0,5.0,8.0,Pipers Creek,"Trib """"M"""""
+5303398,2023-03-26,0.6666666667,6.5,10.0,Pipers Creek,Pipers
+5303398,2023-04-21,0.6666666667,9.0,11.0,Pipers Creek,Pipers
+5303398,2023-05-22,1.333333333,13.0,12.0,Pipers Creek,Pipers
+5303398,2023-06-21,1.0,14.0,13.0,Pipers Creek,Pipers
+5303398,2023-07-19,6.666666667,23.5,14.0,Pipers Creek,Pipers
+5303398,2023-08-16,8.666666667,17.0,7.0,Pipers Creek,Pipers
+5303398,2023-09-10,7.666666667,16.0,16.0,Pipers Creek,Pipers
+5303398,2023-10-11,8.333333333,10.0,,Pipers Creek,Pipers
+5303398,2023-11-09,1.333333333,8.7,10.5,Pipers Creek,
+5303398,2023-12-08,3.666666667,6.3,9.7,Pipers Creek,Pipers
+5303398,2023-12-31,1.0,9.0,10.6,Pipers Creek,Pipers
+5303398,2024-01-22,0.0,7.8,8.1,Pipers Creek,Pipers
+5303398,2024-01-29,0.0,14.4,11.7,Pipers Creek,Pipers
+5303398,2024-02-25,0.3333333333,9.8,10.3,Pipers Creek,Pipers
+5303398,2024-03-24,17.66666667,11.1,11.6,Pipers Creek,Pipers
+5303398,2024-04-22,0.0,14.2,12.2,Pipers Creek,Pipers
+5303398,2024-05-18,14.66666667,10.3,11.7,Pipers Creek,Pipers
+5303398,2024-06-20,8.0,20.9,13.7,Pipers Creek,Pipers
+5303398,2024-08-15,8.333333333,20.3,14.8,Pipers Creek,Pipers
+5303398,2024-09-08,1.0,22.2,14.7,Pipers Creek,Pipers
+5303398,2025-05-04,22.22,13.7,11.6,Piper's Creek,Piper's Creek Trib M
+5303398,2025-06-01,55.56,18.3,12.6,Piper's Creek,Piper's Creek Trib M
+5303398,2025-06-29,100.0,20.4,13.9,Piper's Creek,Piper's Creek Trib M
+5303398,2025-07-13,83.33,21.0,,Piper's Creek,Piper's Creek Trib M
+5303398,2025-07-25,111.11,15.3,13.9,Piper's Creek,Piper's Creek Trib M
+5303398,2025-09-21,33.33,16.1,13.3,Piper's Creek,Piper's Creek Trib M
+5303398,2025-10-19,66.67,12.8,12.1,Piper's Creek,Piper's Creek Trib M
+5303398,2025-11-16,11.11,13.1,12.5,Piper's Creek,Piper's Creek Trib M
+5303398,2025-12-13,0.0,12.3,12.0,Piper's Creek,Piper's Creek Trib M
+5303398,2026-01-10,66.67,8.6,10.1,Piper's Creek,Piper's Creek Trib M
+5303398,2026-02-08,22.22,8.1,10.1,Piper's Creek,Piper's Creek Trib M
+5303398,2026-02-22,0.0,7.2,9.2,Piper's Creek,Piper's Creek Trib M
+5303398,2026-03-09,0.0,9.3,9.6,Piper's Creek,Piper's Creek Trib M
+5303398,2026-03-22,133.33,7.2,9.4,Piper's Creek,Piper's Creek Trib M
+5306101,2015-08-22,0.0,21.0,14.0,North Creek,North Creek
+5306101,2015-09-06,0.0,14.5,13.0,North Creek,North Creek
+5306101,2015-10-07,233.3333333,15.0,12.0,North Creek,North Creek
+5306101,2015-11-05,66.66666667,12.0,8.0,North Creek,North Creek
+5306101,2015-12-05,66.66666666500001,8.0,7.0,North Creek,North Creek
+5306101,2016-01-30,0.0,6.5,6.5,North Creek,North Creek
+5306101,2016-02-21,0.0,7.0,4.0,North Creek,North Creek
+5306101,2016-03-30,0.0,15.0,11.0,North Creek,North Creek
+5306101,2016-04-21,66.66666667,17.0,11.0,North Creek,North Creek
+5306101,2016-05-26,33.33333333,14.0,10.0,North Creek,North Creek
+5306101,2016-06-24,1966.666667,15.0,12.0,North Creek,North Creek
+5306101,2016-07-21,0.0,22.5,15.0,North Creek,North Creek
+5306101,2016-08-21,33.33333333,20.0,15.0,North Creek,North Creek
+5306101,2016-09-03,1000.0,15.0,15.0,North Creek,North Creek
+5306101,2016-10-10,66.66666667,12.5,11.0,North Creek,North Creek
+5306101,2016-10-16,33.33333333,0.0,2.0,North Creek,North Creek
+5306101,2016-11-18,0.0,10.0,8.0,North Creek,North Creek
+5306101,2016-12-16,33.33333333,0.0,2.0,North Creek,North Creek
+5306101,2017-01-30,33.33333333,8.0,5.0,North Creek,North Creek
+5306101,2017-02-24,166.6666667,8.0,7.0,North Creek,North Creek
+5306101,2017-03-25,0.0,11.0,10.0,North Creek,North Creek
+5306101,2017-06-27,166.6666667,16.0,14.5,North Creek,North Creek
+5306101,2017-07-27,366.6666667,15.0,15.0,North Creek,North Creek
+5306101,2017-08-27,133.3333333,23.0,14.0,North Creek,North Creek
+5306101,2017-09-30,200.0,12.0,12.0,North Creek,North Creek
+5306101,2017-10-24,100.0,7.5,8.5,North Creek,North Creek
+5306101,2017-12-30,0.0,4.0,6.0,North Creek,North Creek
+5306101,2018-02-25,500.0,6.0,4.0,North Creek,North Creek
+5306101,2018-03-25,33.33333333,2.0,5.0,North Creek,North Creek
+5306101,2018-05-31,66.66666667,13.0,11.0,North Creek,North Creek
+5306101,2018-06-24,100.0,11.0,14.0,North Creek,North Creek
+5306101,2018-07-29,33.33333333,23.0,15.0,North Creek,North Creek
+5306101,2018-08-26,33.33333333,14.0,13.0,North Creek,North Creek
+5306101,2018-10-28,766.6666667,10.0,10.5,North Creek,North Creek
+5306101,2018-11-25,0.0,2.0,6.0,North Creek,North Creek
+5306101,2020-11-10,16.66666667,7.0,7.0,North Creek,North Creek
+5306101,2020-12-14,0.0,5.0,6.0,North Creek,North Creek
+5306101,2021-01-04,233.3333333,7.0,7.0,North Creek,North Creek
+5306101,2021-03-09,16.66666667,6.0,5.0,North Creek,North Creek
+5306101,2022-05-07,33.33333333,12.0,9.7,North Creek,North Creek
+5306101,2022-06-01,366.6666667,16.0,12.0,North Creek,North Creek
+5306101,2022-06-28,33.33333333,17.5,16.0,North Creek,North Creek
+5306101,2022-08-09,166.6666667,17.0,15.0,North Creek,North Creek
+5306101,2022-09-01,166.6666667,16.0,15.0,North Creek,North Creek
+5306101,2022-10-04,166.6666667,16.0,15.0,North Creek,North Creek
+5306101,2022-10-08,366.6666667,14.0,11.0,North Creek,North Creek
+5306101,2022-12-08,66.66666667,4.5,4.5,North Creek,North Creek
+5306101,2023-03-06,0.0,4.5,7.5,North Creek,North Creek
+5306101,2023-04-04,0.0,4.0,6.0,North Creek,North Creek
+5306101,2023-05-02,33.33333333,10.5,11.0,North Creek,North Creek
+5306101,2023-06-22,100.0,19.0,14.0,North Creek,North Creek
+5306101,2023-08-24,166.6666667,16.0,13.0,North Creek,North Creek
+5306101,2023-11-19,88.88888889,7.5,7.5,North Creek,North Creek
+5306101,2023-12-18,16.66666667,4.5,5.0,North Creek,North Creek
+5306101,2024-01-22,33.33333333,8.0,4.0,North Creek,North Creek
+5306101,2024-02-24,33.33333333,7.0,7.0,North Creek,North Creek
+5306101,2024-04-21,83.33333333,0.0,0.0,North Creek,North Creek
+5306101,2024-06-22,100.0,15.0,16.0,North Creek,North Creek
+5306101,2024-07-19,100.0,17.5,15.0,North Creek,North Creek
+5306101,2024-08-30,33.33,15.0,14.5,North Creek,North Creek
+5306101,2024-11-11,566.67,10.0,11.0,North Creek,North Creek
+5306101,2024-12-20,0.0,8.0,8.3,North Creek,North Creek
+5306101,2025-01-30,16.67,0.0,2.5,North Creek,North Creek
+5306101,2025-02-23,33.33,9.5,9.2,North Creek,North Creek
+5306101,2025-03-30,0.0,8.0,8.6,North Creek,North Creek
+5306101,2025-04-28,33.33,10.5,12.2,North Creek,North Creek
+5306101,2025-05-17,83.33,11.5,12.6,North Creek,North Creek
+5306101,2025-06-28,183.33,14.0,15.2,North Creek,North Creek
+5306101,2025-07-21,116.67,15.0,15.6,North Creek,North Creek
+5306101,2025-09-06,50.0,16.0,16.5,North Creek,North Creek
+5306101,2026-02-08,33.33,7.5,8.2,North Creek,North Creek
+5306102,2015-09-12,100.0,22.0,15.0,Swamp Creek,Swamp Creek
+5306102,2015-10-10,33.33333333,16.5,13.0,Swamp Creek,Swamp Creek
+5306102,2015-11-14,133.3333333,9.0,7.0,Swamp Creek,Swamp Creek
+5306102,2016-01-09,0.0,5.0,2.0,Swamp Creek,Swamp Creek
+5306102,2016-02-13,200.0,8.0,7.0,Swamp Creek,Swamp Creek
+5306102,2016-04-16,0.0,12.0,8.0,Swamp Creek,Swamp Creek
+5306102,2016-05-14,0.0,5.0,6.0,Swamp Creek,Swamp Creek
+5306102,2016-06-12,1200.0,14.5,13.0,Swamp Creek,Swamp Creek
+5306102,2016-07-09,100.0,17.0,14.0,Swamp Creek,Swamp Creek
+5306102,2016-08-13,100.0,16.0,16.0,Swamp Creek,Swamp Creek
+5306102,2016-09-17,766.6666667,14.0,15.0,Swamp Creek,Swamp Creek
+5306102,2016-10-22,66.66666667,14.0,11.5,Swamp Creek,Swamp Creek
+5306102,2016-11-12,100.0,13.0,12.5,Swamp Creek,Swamp Creek
+5306102,2017-01-22,0.0,9.0,5.0,Swamp Creek,Swamp Creek
+5306102,2017-02-18,0.0,6.0,6.5,Swamp Creek,Swamp Creek
+5306102,2017-03-25,0.0,9.0,8.0,Swamp Creek,Swamp Creek
+5306102,2017-04-28,133.3333333,10.5,10.0,Swamp Creek,Swamp Creek
+5306102,2017-04-29,133.3333333,10.5,10.0,Swamp Creek,Swamp Creek
+5306102,2017-09-16,100.0,17.0,12.0,Swamp Creek,Swamp Creek
+5306102,2017-10-21,200.0,8.0,10.0,Swamp Creek,Swamp Creek
+5306102,2017-11-26,200.0,12.0,9.0,Swamp Creek,Swamp Creek
+5306102,2017-12-16,0.0,5.5,4.0,Swamp Creek,Swamp Creek
+5306102,2018-01-20,0.0,6.0,6.5,Swamp Creek,Swamp Creek
+5306102,2018-02-10,0.0,5.0,7.0,Swamp Creek,Swamp Creek
+5306102,2018-03-10,0.0,6.0,5.0,Swamp Creek,Swamp Creek
+5306102,2018-06-02,0.0,16.0,13.0,Swamp Creek,Swamp Creek
+5306103,2015-09-22,333.3333333,18.0,13.0,North Creek,Little Swamp Creek
+5306103,2015-10-16,600.0,14.0,12.0,North Creek,Little Swamp Creek
+5306103,2015-11-20,0.0,7.0,7.0,North Creek,Little Swamp Creek
+5306103,2015-12-19,33.33333333,7.0,7.0,North Creek,Little Swamp Creek
+5306103,2016-01-19,166.6666667,6.0,6.5,North Creek,Little Swamp Creek
+5306103,2016-02-09,0.0,9.0,7.0,North Creek,Little Swamp Creek
+5306103,2016-03-10,66.66666667,8.5,8.0,North Creek,Little Swamp Creek
+5306103,2016-04-13,466.6666667,13.0,8.0,North Creek,Little Swamp Creek
+5306103,2016-05-20,833.3333333,13.0,10.0,North Creek,Little Swamp Creek
+5306103,2016-06-10,800.0,12.0,12.0,North Creek,Little Swamp Creek
+5306103,2016-07-12,166.6666667,22.0,14.0,North Creek,Little Swamp Creek
+5306103,2016-08-20,2366.666667,23.0,15.0,North Creek,Little Swamp Creek
+5306103,2016-09-09,7366.666667,17.5,13.0,North Creek,Little Swamp Creek
+5306103,2016-10-08,700.0,16.0,12.5,North Creek,Little Swamp Creek
+5306103,2016-11-04,633.3333333,7.5,9.5,North Creek,Little Swamp Creek
+5306103,2016-12-10,666.6666667,4.0,6.0,North Creek,Little Swamp Creek
+5306103,2017-01-10,300.0,6.0,4.0,North Creek,Little Swamp Creek
+5306103,2017-02-09,100.0,11.0,7.5,North Creek,Little Swamp Creek
+5306103,2017-03-07,0.0,2.5,5.5,North Creek,Little Swamp Creek
+5306103,2017-04-11,33.33333333,15.5,10.0,North Creek,Little Swamp Creek
+5306103,2017-05-08,333.3333333,13.0,10.0,North Creek,Little Swamp Creek
+5306103,2017-06-05,3433.333333,18.0,12.0,North Creek,Little Swamp Creek
+5306103,2017-07-16,7133.333333,17.0,13.5,North Creek,Little Swamp Creek
+5306103,2017-08-09,18000.0,30.0,18.0,North Creek,Little Swamp Creek
+5306103,2017-08-10,5400.0,22.5,15.5,North Creek,Little Swamp Creek
+5306103,2017-09-11,12033.33333,21.0,13.5,North Creek,Little Swamp Creek
+5306103,2017-11-10,233.3333333,11.5,9.0,North Creek,Little Swamp Creek
+5306103,2017-12-11,0.0,4.8,5.0,North Creek,Little Swamp Creek
+5306103,2018-01-15,33.33333333,17.0,8.5,North Creek,Little Swamp Creek
+5306103,2018-02-12,266.6666667,4.0,9.0,North Creek,Little Swamp Creek
+5306103,2018-05-25,266.6666667,14.0,12.0,North Creek,Little Swamp Creek
+5306103,2018-07-26,1500.0,21.5,15.5,North Creek,Little Swamp Creek
+5306103,2018-08-31,800.0,16.5,13.5,North Creek,Little Swamp Creek
+5306103,2018-09-26,333.3333333,13.0,12.0,North Creek,Little Swamp Creek
+5306103,2018-11-05,33.33333333,11.5,11.0,North Creek,Little Swamp Creek
+5306103,2019-02-21,0.0,6.5,5.0,North Creek,Little Swamp Creek
+5306103,2019-03-22,0.0,16.5,9.0,North Creek,Little Swamp Creek
+5306103,2019-05-14,166.6666667,12.0,12.0,North Creek,Little Swamp Creek
+5306103,2019-06-19,300.0,15.0,13.0,North Creek,Little Swamp Creek
+5306103,2019-07-18,666.6666667,16.5,14.0,North Creek,Little Swamp Creek
+5306103,2019-08-16,366.6666667,21.0,15.0,North Creek,Little Swamp Creek
+5306103,2019-09-30,166.6666667,12.0,10.1,North Creek,Little Swamp Creek
+5306103,2019-10-21,400.0,10.0,12.0,North Creek,Little Swamp Creek
+5306103,2019-11-19,22.22222222,8.0,10.0,North Creek,Little Swamp Creek
+5306103,2019-12-31,116.6666667,8.0,7.5,North Creek,Little Swamp Creek
+5306103,2020-01-23,100.0,11.0,8.0,North Creek,Little Swamp Creek
+5306103,2020-02-20,0.0,12.5,5.0,North Creek,Little Swamp Creek
+5306103,2020-05-25,266.6666667,10.0,10.0,North Creek,Little Swamp Creek
+5306103,2020-10-05,1533.333333,15.0,14.0,North Creek,Little Swamp Creek
+5306103,2020-11-19,700.0,8.0,9.0,North Creek,Little Swamp Creek
+5306103,2020-12-17,133.3333333,8.5,8.0,North Creek,Little Swamp Creek
+5306103,2021-01-19,366.6666667,5.0,6.5,North Creek,Little Swamp Creek
+5306103,2021-02-23,1333.333333,9.0,7.0,North Creek,Little Swamp Creek
+5306103,2021-03-22,3866.666667,8.0,7.0,North Creek,Little Swamp Creek
+5306103,2021-04-22,100.0,15.0,10.5,North Creek,Little Swamp Creek
+5306103,2021-05-14,700.0,19.0,12.0,North Creek,Little Swamp Creek
+5306103,2021-05-20,1600.0,25.0,15.0,North Creek,Little Swamp Creek
+5306103,2021-06-29,1733.333333,23.5,16.0,North Creek,Little Swamp Creek
+5306103,2021-07-24,100.0,24.0,15.0,North Creek,Little Swamp Creek
+5306103,2021-08-19,266.66666665,17.5,15.0,North Creek,Little Swamp Creek
+5306103,2021-09-23,466.6666667,20.0,13.5,North Creek,Little Swamp Creek
+5306103,2021-10-20,1100.0,11.0,11.0,North Creek,Little Swamp Creek
+5306103,2021-11-23,333.3333333,10.0,8.0,North Creek,Little Swamp Creek
+5306103,2021-12-21,200.0,4.0,6.0,North Creek,Little Swamp Creek
+5306103,2022-01-17,33.33333333,7.0,6.0,North Creek,Little Swamp Creek
+5306103,2022-02-26,33.33333333,7.0,4.0,North Creek,Little Swamp Creek
+5306103,2022-03-29,733.3333333,12.0,9.0,North Creek,Little Swamp Creek
+5306103,2022-05-23,66.66666667,15.0,10.0,North Creek,Little Swamp Creek
+5306103,2022-06-20,266.6666667,13.0,11.5,North Creek,Little Swamp Creek
+5306103,2022-07-20,1600.0,25.0,15.0,North Creek,Little Swamp Creek
+5306103,2022-08-25,1300.0,24.0,16.5,North Creek,Little Swamp Creek
+5306103,2022-09-28,400.0,15.75,13.25,North Creek,Little Swamp Creek
+5306103,2022-10-24,233.33333335,9.5,7.5,North Creek,Little Swamp Creek
+5306103,2022-11-28,66.66666667,0.0,0.0,North Creek,Little Swamp Creek
+5306103,2022-12-19,133.3333333,-1.0,4.0,North Creek,Little Swamp Creek
+5306103,2023-01-17,166.6666667,6.0,6.5,North Creek,Little Swamp Creek
+5306103,2023-02-14,33.33333333,4.0,4.5,North Creek,Little Swamp Creek
+5306103,2023-03-22,33.33333333,14.0,9.0,North Creek,Little Swamp Creek
+5306103,2023-04-19,233.3333333,0.0,0.0,North Creek,Little Swamp Creek
+5306103,2023-05-30,166.6666667,13.0,10.5,North Creek,Little Swamp Creek
+5306103,2023-06-26,0.0,19.0,14.5,North Creek,Little Swamp Creek
+5306103,2023-07-27,100.0,23.5,15.0,North Creek,Little Swamp Creek
+5306103,2023-08-17,266.6666667,28.5,16.0,North Creek,Little Swamp Creek
+5306103,2023-09-14,433.3333333,22.5,15.0,North Creek,Little Swamp Creek
+5306103,2023-10-18,233.3333333,20.0,13.5,North Creek,Little Swamp Creek
+5306103,2023-10-20,0.0,7.0,8.5,North Creek,Little Swamp Creek
+5306103,2023-12-20,33.33333333,3.5,7.0,North Creek,Little Swamp Creek
+5306103,2024-01-18,111.1111111,1.0,3.5,North Creek,Little Swamp Creek
+5306103,2024-03-02,11.11111111,6.5,6.5,North Creek,Little Swamp Creek
+5306103,2024-03-25,0.0,0.0,0.0,North Creek,Little Swamp Creek
+5306103,2024-04-24,0.0,9.5,9.5,North Creek,Little Swamp Creek
+5306103,2024-05-27,66.66666667,16.5,12.0,North Creek,Little Swamp Creek
+5306103,2024-07-26,122.22,18.0,4.0,Swamp Creek,Little Swamp Creek
+5306103,2024-08-27,433.33,15.0,14.0,Swamp Creek,Little Swamp Creek
+5306103,2024-09-24,433.33,18.0,14.0,Swamp Creek,Little Swamp Creek
+5306103,2024-10-23,33.33,8.5,10.5,Swamp Creek,Little Swamp Creek
+5306103,2024-11-26,0.0,7.0,9.0,Swamp Creek,Little Swamp Creek
+5306103,2024-12-28,33.33,8.5,8.5,Swamp Creek,Little Swamp Creek
+5306103,2025-01-30,0.0,2.0,4.0,Swamp Creek,Little Swamp Creek
+5306103,2025-03-19,0.0,11.5,8.0,Swamp Creek,Little Swamp Creek
+5306103,2025-04-17,0.0,14.5,9.0,Swamp Creek,Little Swamp Creek
+5306103,2025-05-20,155.56,12.0,11.0,Swamp Creek,Little Swamp Creek
+5306103,2025-06-21,1711.11,11.5,11.5,Swamp Creek,Little Swamp Creek
+5306103,2025-07-24,233.33,19.0,15.0,Swamp Creek,Little Swamp Creek
+5306103,2025-08-25,233.33,26.0,15.5,Swamp Creek,Little Swamp Creek
+5306103,2025-09-24,400.0,17.5,13.0,Swamp Creek,Little Swamp Creek
+5306103,2025-10-27,100.0,12.5,10.0,Swamp Creek,Little Swamp Creek
+5306103,2025-11-28,66.67,10.0,9.5,Swamp Creek,Little Swamp Creek
+5306103,2025-12-29,0.0,4.0,6.0,Swamp Creek,Little Swamp Creek
+5306103,2026-01-28,11.11,9.5,7.0,Swamp Creek,Little Swamp Creek
+5306103,2026-02-23,11.11,8.0,7.0,Swamp Creek,Little Swamp Creek
+5306103,2026-03-27,0.0,18.0,8.0,Swamp Creek,Little Swamp Creek
+5306105,2015-09-21,100.0,15.0,21.0,Quilceda Creek,Snohomish River
+5306105,2015-10-23,0.0,8.0,14.0,Quilceda Creek,Snohomish River
+5306105,2015-12-01,0.0,9.0,7.0,Quilceda Creek,Snohomish River
+5306105,2015-12-28,0.0,4.0,5.5,Quilceda Creek,Snohomish River
+5306105,2016-01-30,0.0,6.0,12.0,Quilceda Creek,Snohomish River
+5306105,2016-02-28,0.0,11.0,9.0,Quilceda Creek,Snohomish River
+5306105,2016-04-25,0.0,8.5,16.0,Quilceda Creek,Snohomish River
+5306106,2015-10-01,66.66666667,10.0,11.0,Elwell Creek-Skykomish River,Woods Creek
+5306106,2015-11-05,0.0,10.0,8.0,Elwell Creek-Skykomish River,Woods Creek
+5306106,2016-01-01,133.3333333,11.0,7.0,Elwell Creek-Skykomish River,Woods Creek
+5306106,2016-02-11,0.0,12.0,7.5,Elwell Creek-Skykomish River,Woods Creek
+5306106,2016-03-04,100.0,14.0,7.5,Elwell Creek-Skykomish River,Woods Creek
+5306106,2018-03-10,0.0,14.0,5.0,Elwell Creek-Skykomish River,Woods Creek
+5306106,2018-04-07,0.0,11.0,9.0,Elwell Creek-Skykomish River,Woods Creek
+5306106,2018-05-05,0.0,14.0,9.0,Elwell Creek-Skykomish River,Woods Creek
+5306106,2018-06-02,200.0,16.0,12.0,Elwell Creek-Skykomish River,Woods Creek
+5306106,2018-07-07,100.0,18.0,16.0,Elwell Creek-Skykomish River,Woods Creek
+5306106,2018-09-22,33.33333333,15.5,14.0,Elwell Creek-Skykomish River,Woods Creek
+5306107,2015-09-21,633.3333333,16.0,14.5,Little Pilchuck River,Catherine Creek
+5306107,2015-10-23,0.0,14.0,10.0,Little Pilchuck River,Catherine Creek
+5306107,2015-12-01,0.0,9.0,4.0,Little Pilchuck River,Catherine Creek
+5306107,2015-12-28,0.0,3.5,4.0,Little Pilchuck River,Catherine Creek
+5306107,2016-02-28,0.0,10.0,9.0,Little Pilchuck River,Catherine Creek
+5306107,2016-04-14,166.6666667,10.0,12.0,Little Pilchuck River,Catherine Creek
+5306107,2016-06-17,166.6666667,15.0,12.0,Little Pilchuck River,Catherine Creek
+5306108,2015-12-04,0.0,9.5,7.0,French Creek,Cripple Creek
+5306108,2016-01-01,133.3333333,1.0,1.0,French Creek,Cripple Creek
+5306108,2016-02-11,0.0,7.5,6.5,French Creek,Cripple Creek
+5306108,2016-03-04,0.0,17.0,7.5,French Creek,Cripple Creek
+5306108,2022-08-21,50.0,10.0,10.0,French Creek,Cripple Creek
+5306109,2015-09-26,0.0,16.0,12.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2015-10-25,0.0,16.0,11.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2015-11-22,0.0,7.0,5.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2015-12-16,33.33333333,4.0,6.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-01-24,0.0,8.0,7.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-02-21,0.0,9.0,7.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-03-13,0.0,8.0,7.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-04-16,0.0,12.0,10.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-05-15,1833.333333,12.0,12.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-06-11,866.6666667,14.5,14.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-07-10,0.0,16.0,14.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-08-21,66.66666667,15.5,15.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-09-25,133.3333333,16.5,14.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-11-26,133.3333333,10.0,9.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2016-12-21,0.0,3.5,4.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-02-26,0.0,3.5,5.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-03-18,166.6666667,3.5,8.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-05-28,0.0,17.0,14.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-06-17,300.0,14.5,12.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-07-16,33.33333333,19.0,15.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-08-06,33.33333333,16.0,16.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-09-24,100.0,13.0,12.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-10-15,66.66666667,9.0,9.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-11-12,0.0,11.0,9.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2017-12-10,0.0,2.5,4.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2018-01-28,0.0,10.0,7.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2020-11-20,0.0,8.5,8.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2020-12-20,33.33333333,9.5,8.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-01-30,0.0,6.5,6.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-02-27,16.66666667,8.5,5.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-03-29,0.0,7.0,7.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-04-25,66.66666667,12.0,10.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-05-22,0.0,13.0,12.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-06-25,133.3333333,22.0,16.5,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-07-26,1233.333333,16.0,14.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-08-21,1133.333333,17.0,14.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2021-09-28,233.3333333,15.0,14.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2022-01-14,3600.0,7.5,7.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306109,2023-08-10,166.6666667,16.0,15.0,Shell Creek-Frontal Puget Sound,Big Gulch
+5306110,2015-09-27,0.0,12.0,11.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2015-10-21,0.0,18.0,12.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2015-11-21,0.0,3.0,5.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2015-12-15,0.0,6.0,6.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-01-23,33.33333333,7.0,7.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-02-20,0.0,12.5,8.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-03-12,0.0,11.0,9.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-04-15,33.33333333,13.0,10.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-05-13,0.0,18.0,12.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-07-26,33.33333333,18.0,14.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-08-20,0.0,25.0,15.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-09-24,0.0,14.0,12.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-10-29,0.0,11.0,11.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-11-19,0.0,10.0,7.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2016-12-19,0.0,5.0,4.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-01-21,0.0,9.5,5.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-02-25,0.0,5.0,5.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-03-05,33.33333333,4.0,5.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-05-27,0.0,22.0,14.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-06-11,300.0,17.5,13.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-07-16,33.33333333,17.0,13.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-08-05,33.33333333,18.0,15.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-09-23,0.0,14.0,12.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-10-14,200.0,9.0,8.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-11-11,33.33333333,8.0,8.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2017-12-10,33.33333333,1.5,4.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2018-01-27,0.0,9.0,6.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2020-11-20,33.33333333,9.5,8.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2020-12-20,100.0,9.5,8.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-01-30,100.0,6.0,6.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-02-27,0.0,5.5,5.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-03-29,66.66666667,9.5,8.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-04-25,200.0,11.5,10.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-05-22,0.0,14.0,10.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-06-25,100.0,24.0,14.5,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-07-26,866.6666667,17.0,14.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-08-21,2266.666667,18.0,14.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2021-09-28,300.0,12.0,14.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306110,2022-01-14,33.33333333,7.0,7.0,Powder Mill Gulch-Frontal Possession Sound,Japanese Gulch
+5306111,2016-06-12,166.6666667,16.5,14.5,Lake Washington-Sammamish River,Hall Creek
+5306113,2019-01-27,0.0,4.5,5.5,Woods Creek,Woods Creek
+5306113,2019-02-18,0.0,0.0,3.0,Woods Creek,Woods Creek
+5306113,2019-03-31,0.0,19.0,11.0,Woods Creek,Woods Creek
+5306113,2019-05-04,0.0,16.5,11.5,Woods Creek,Woods Creek
+5306113,2019-06-09,66.66666667,15.0,12.0,Woods Creek,Woods Creek
+5306113,2019-07-28,66.66666667,23.0,17.0,Woods Creek,Woods Creek
+5306113,2019-08-24,166.6666667,16.0,14.5,Woods Creek,Woods Creek
+5306113,2019-09-28,266.6666667,9.0,11.0,Woods Creek,Woods Creek
+5306113,2019-10-26,0.0,8.0,10.0,Woods Creek,Woods Creek
+5306113,2019-11-24,0.0,9.0,7.0,Woods Creek,Woods Creek
+5306113,2019-12-21,133.3333333,6.0,7.5,Woods Creek,Woods Creek
+5306113,2020-01-25,0.0,6.5,7.0,Woods Creek,Woods Creek
+5306113,2020-02-29,0.0,8.0,7.0,Woods Creek,Woods Creek
+5306113,2020-03-21,0.0,7.0,6.0,Woods Creek,Woods Creek
+5306113,2020-10-10,500.0,12.5,13.0,Woods Creek,Woods Creek
+5306114,2018-06-02,0.0,15.0,14.0,Swamp Creek,Scriber Creek
+5306114,2018-07-07,33.33333333,15.5,17.0,Swamp Creek,Scriber Creek
+5306114,2018-08-19,66.66666667,14.0,15.0,Swamp Creek,Scriber Creek
+5306114,2018-09-15,33.33333333,13.5,14.5,Swamp Creek,Scriber Creek
+5306114,2018-10-20,66.66666667,9.0,9.0,Swamp Creek,Scriber Creek
+5306114,2018-11-24,33.33333333,7.0,6.0,Swamp Creek,Scriber Creek
+5306114,2019-01-05,0.0,7.0,7.0,Swamp Creek,Scriber Creek
+5306114,2019-03-10,0.0,1.0,3.0,Swamp Creek,Scriber Creek
+5306114,2019-04-09,0.0,9.5,10.0,Swamp Creek,Scriber Creek
+5306114,2019-05-11,0.0,21.5,16.0,Swamp Creek,Scriber Creek
+5306114,2019-06-22,0.0,13.0,15.0,Swamp Creek,Scriber Creek
+5306114,2019-07-13,0.0,17.5,16.0,Swamp Creek,Scriber Creek
+5306114,2019-08-18,33.33333333,17.0,17.0,Swamp Creek,Scriber Creek
+5306114,2019-09-21,100.0,16.0,15.0,Swamp Creek,Scriber Creek
+5306114,2019-10-26,100.0,9.0,10.0,Swamp Creek,Scriber Creek
+5306114,2019-11-23,133.3333333,5.0,5.5,Swamp Creek,Scriber Creek
+5306114,2019-12-28,33.33333333,6.5,5.0,Swamp Creek,Scriber Creek
+5306114,2020-01-25,0.0,10.5,9.0,Swamp Creek,Scriber Creek
+5306114,2020-02-23,100.0,8.5,7.0,Swamp Creek,Scriber Creek
+5306114,2021-02-07,0.0,5.5,6.0,Swamp Creek,Scriber Creek
+5306114,2021-03-14,0.0,7.0,6.5,Swamp Creek,Scriber Creek
+5306114,2021-05-16,33.33333333,20.0,16.0,Swamp Creek,Scriber Creek
+5306114,2021-06-20,0.0,24.5,19.0,Swamp Creek,Scriber Creek
+5306114,2021-07-25,100.0,23.5,18.0,Swamp Creek,Scriber Creek
+5306114,2021-11-20,0.0,9.5,7.0,Swamp Creek,Scriber Creek
+5306114,2022-03-27,166.6666667,15.0,10.0,Swamp Creek,Scriber Creek
+5306114,2022-06-04,100.0,16.0,14.5,Swamp Creek,Scriber Creek
+5306114,2022-08-06,233.3333333,20.0,17.0,Swamp Creek,Scriber Creek
+5306114,2022-10-22,8500.0,12.0,10.5,Swamp Creek,Scriber Creek
+5306114,2023-03-26,133.3333333,6.0,6.0,Swamp Creek,Scriber Creek
+5306114,2023-05-29,0.0,12.5,15.0,Swamp Creek,Scriber Creek
+5306114,2023-11-19,100.0,8.0,7.0,Swamp Creek,Scriber Creek
+5306114,2023-12-17,200.0,8.5,4.5,Swamp Creek,Scriber Creek
+5306121,2020-07-13,166.6666667,20.0,14.5,Swamp Creek,Crystal Creek - Upper
+5306121,2020-08-11,266.6666667,20.0,15.0,Swamp Creek,Crystal Creek - Upper
+5306121,2020-09-16,333.3333333,22.0,15.0,Swamp Creek,Crystal Creek - Upper
+5306121,2020-10-17,33.33333333,13.0,13.0,Swamp Creek,Crystal Creek - Upper
+5306121,2020-11-09,33.33333333,6.0,7.0,Swamp Creek,Crystal Creek - Upper
+5306121,2020-12-22,100.0,6.0,7.0,Swamp Creek,Crystal Creek - Upper
+5306121,2021-01-13,100.0,9.5,8.5,Swamp Creek,Crystal Creek - Upper
+5306121,2021-02-12,33.33333333,1.5,5.0,Swamp Creek,Crystal Creek - Upper
+5306121,2021-03-13,33.33333333,7.0,6.0,Swamp Creek,Crystal Creek - Upper
+5306121,2021-05-20,0.0,16.0,16.5,Swamp Creek,Crystal Creek - Upper
+5306121,2021-06-13,466.6666667,18.5,15.0,Swamp Creek,Crystal Creek - Upper
+5306121,2021-07-17,0.0,22.0,15.0,Swamp Creek,Crystal Creek - Upper
+5306121,2021-08-14,0.0,25.0,17.0,Swamp Creek,Crystal Creek - Upper
+5306121,2021-09-19,2566.666667,13.0,13.0,Swamp Creek,Crystal Creek - Upper
+5306121,2021-10-16,400.0,11.0,,Swamp Creek,Crystal Creek - Upper
+5306121,2021-11-14,100.0,14.0,11.5,Swamp Creek,Crystal Creek - Upper
+5306121,2022-02-12,183.3333333,10.5,8.0,Swamp Creek,Crystal Creek - Upper
+5306121,2022-03-25,266.6666667,15.0,11.0,Swamp Creek,Crystal Creek - Upper
+5306121,2022-04-15,233.3333333,11.0,9.0,Swamp Creek,Crystal Creek - Upper
+5306121,2022-05-16,66.66666667,15.0,13.0,Swamp Creek,Crystal Creek - Upper
+5306121,2022-06-17,433.3333333,13.0,13.0,Swamp Creek,Crystal Creek - Upper
+5306121,2022-07-13,100.0,21.0,15.0,Swamp Creek,Crystal Creek - Upper
+5306121,2022-08-19,466.6666667,20.5,16.5,Swamp Creek,Crystal Creek - Upper
+5306121,2022-09-18,33.33333333,14.0,14.0,Swamp Creek,Crystal Creek - Upper
+5306121,2022-11-20,233.3333333,2.0,5.5,Swamp Creek,Crystal Creek - Upper
+5306121,2022-12-17,0.0,2.0,5.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-01-15,0.0,8.0,8.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-02-11,66.66666667,7.0,7.5,Swamp Creek,Crystal Creek - Upper
+5306121,2023-03-18,0.0,10.0,9.5,Swamp Creek,Crystal Creek - Upper
+5306121,2023-04-16,133.3333333,7.0,9.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-05-14,333.3333333,24.0,14.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-06-14,333.3333333,24.0,14.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-06-24,233.3333333,0.0,0.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-07-20,600.0,24.0,14.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-08-11,366.6666667,0.0,0.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-10-14,133.3333333,12.0,13.0,Swamp Creek,Crystal Creek - Upper
+5306121,2023-11-18,166.6666667,2.0,6.5,Swamp Creek,Crystal Creek - Upper
+5306121,2023-12-15,55.55555556,9.0,7.0,Swamp Creek,Crystal Creek - Upper
+5306121,2024-01-16,22.22222222,4.5,3.0,Swamp Creek,Crystal Creek - Upper
+5306121,2024-01-20,600.0,24.0,14.0,Swamp Creek,Crystal Creek - Upper
+5306121,2024-03-17,22.22222222,21.0,,Swamp Creek,Crystal Creek - Upper
+5306122,2020-07-17,100.0,20.0,15.0,Swamp Creek,No Name Creek
+5306122,2020-08-13,233.3333333,23.0,18.0,Swamp Creek,No Name Creek
+5306122,2020-09-16,366.6666667,25.0,16.0,Swamp Creek,No Name Creek
+5306122,2020-10-17,33.33333333,13.5,14.0,Swamp Creek,No Name Creek
+5306122,2020-11-09,100.0,6.0,10.0,Swamp Creek,No Name Creek
+5306122,2020-12-22,0.0,4.5,9.0,Swamp Creek,No Name Creek
+5306122,2021-01-13,0.0,,,Swamp Creek,No Name Creek
+5306122,2021-02-12,33.33333333,1.5,8.0,Swamp Creek,No Name Creek
+5306122,2021-03-13,66.66666667,10.0,9.0,Swamp Creek,No Name Creek
+5306122,2021-05-20,33.33333333,15.0,13.0,Swamp Creek,No Name Creek
+5306122,2021-06-13,166.6666667,16.5,16.0,Swamp Creek,No Name Creek
+5306122,2021-07-17,100.0,24.5,19.0,Swamp Creek,No Name Creek
+5306122,2021-08-14,0.0,26.0,18.0,Swamp Creek,No Name Creek
+5306122,2021-09-19,1033.333333,13.5,14.0,Swamp Creek,No Name Creek
+5306122,2021-10-16,66.66666667,12.0,11.5,Swamp Creek,No Name Creek
+5306122,2021-11-14,100.0,15.5,13.0,Swamp Creek,No Name Creek
+5306122,2021-12-16,200.0,5.0,9.0,Swamp Creek,No Name Creek
+5306122,2022-01-22,0.0,7.0,10.0,Swamp Creek,No Name Creek
+5306122,2022-02-12,483.3333333,10.5,10.0,Swamp Creek,No Name Creek
+5306122,2022-03-25,266.6666667,16.0,12.0,Swamp Creek,No Name Creek
+5306122,2022-04-15,0.0,10.0,12.0,Swamp Creek,No Name Creek
+5306122,2022-05-16,600.0,15.0,15.0,Swamp Creek,No Name Creek
+5306122,2022-07-13,0.0,18.5,15.5,Swamp Creek,No Name Creek
+5306122,2022-08-19,766.6666667,21.0,17.0,Swamp Creek,No Name Creek
+5306122,2022-09-18,66.66666667,14.5,14.0,Swamp Creek,No Name Creek
+5306122,2022-10-22,3200.0,10.0,12.0,Swamp Creek,No Name Creek
+5306122,2022-11-20,100.0,3.0,8.0,Swamp Creek,No Name Creek
+5306122,2022-12-17,66.66666667,0.0,0.0,Swamp Creek,No Name Creek
+5306122,2023-01-15,33.33333333,0.0,0.0,Swamp Creek,No Name Creek
+5306122,2023-02-11,166.6666667,8.5,9.0,Swamp Creek,No Name Creek
+5306122,2023-03-18,0.0,12.0,8.0,Swamp Creek,No Name Creek
+5306122,2023-04-16,400.0,9.0,10.0,Swamp Creek,No Name Creek
+5306122,2023-05-14,466.6666667,23.0,14.0,Swamp Creek,No Name Creek
+5306122,2023-06-24,33.33333333,17.0,13.0,Swamp Creek,No Name Creek
+5306122,2023-07-20,133.3333333,24.0,18.0,Swamp Creek,No Name Creek
+5306122,2023-08-11,66.66666667,23.0,16.0,Swamp Creek,No Name Creek
+5306122,2023-10-14,133.3333333,12.0,14.0,Swamp Creek,No Name Creek
+5306122,2023-11-18,66.66666667,3.0,10.0,Swamp Creek,No Name Creek
+5306122,2023-12-15,0.0,10.0,10.0,Swamp Creek,No Name Creek
+5306122,2024-01-16,66.66666667,4.0,7.0,Swamp Creek,No Name Creek
+5306122,2024-03-17,0.0,19.0,13.0,Swamp Creek,No Name Creek
+5306123,2020-07-16,166.6666667,26.0,23.0,Swamp Creek,Crystal Creek -Lower
+5306123,2020-08-12,0.0,17.0,23.0,Swamp Creek,Crystal Creek -Lower
+5306123,2020-09-16,33.33333333,18.0,19.0,Swamp Creek,Crystal Creek -Lower
+5306123,2020-10-17,33.33333333,13.0,14.5,Swamp Creek,Crystal Creek -Lower
+5306123,2020-11-09,133.3333333,3.0,8.0,Swamp Creek,Crystal Creek -Lower
+5306123,2020-12-22,200.0,4.0,7.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-01-13,133.3333333,9.0,9.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-02-12,0.0,1.0,6.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-03-13,0.0,9.0,8.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-05-20,0.0,17.5,12.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-06-13,0.0,19.0,19.5,Swamp Creek,Crystal Creek -Lower
+5306123,2021-07-17,0.0,22.0,21.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-08-14,0.0,24.0,25.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-09-19,233.3333333,13.0,15.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-10-16,933.3333333,12.5,13.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-11-14,33.33333333,14.5,10.0,Swamp Creek,Crystal Creek -Lower
+5306123,2021-12-16,33.33333333,6.0,6.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-01-22,0.0,6.0,8.5,Swamp Creek,Crystal Creek -Lower
+5306123,2022-02-12,100.0,12.0,8.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-03-25,33.33333333,15.0,12.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-04-15,33.33333333,9.5,10.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-05-16,0.0,13.0,16.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-07-13,0.0,19.0,22.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-08-19,0.0,19.0,19.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-09-18,33.33333333,0.0,0.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-11-20,0.0,3.0,5.0,Swamp Creek,Crystal Creek -Lower
+5306123,2022-12-17,0.0,0.0,5.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-01-15,66.66666667,8.5,8.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-02-11,0.0,8.0,8.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-03-18,0.0,14.0,11.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-04-16,400.0,0.0,0.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-05-14,0.0,25.0,20.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-06-24,0.0,18.0,19.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-07-20,0.0,24.0,25.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-08-11,0.0,24.0,22.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-10-14,0.0,14.0,15.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-11-18,0.0,0.0,0.0,Swamp Creek,Crystal Creek -Lower
+5306123,2023-12-15,11.11111111,10.5,7.0,Swamp Creek,Crystal Creek -Lower
+5306123,2024-01-16,33.33333333,0.0,0.0,Swamp Creek,Crystal Creek -Lower
+5306123,2024-03-17,11.11111111,20.0,14.0,Swamp Creek,Crystal Creek -Lower
