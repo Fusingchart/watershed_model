@@ -1,0 +1,9 @@
+{
+  "prediction_rows_verified": 5440,
+  "targets_verified": 13,
+  "source_checksums": {
+    "MasterChemSurvey4_13_26.csv": "fdeb1fe3be17e80996884e60dfdb184cd2f60932b5355420c70585480bed94ef",
+    "MasterBactSurvey4_13_26.csv": "a71835b8cd4f78a25b790007d586df50eec64c3d2b404b772f2937b5d2dae71b"
+  },
+  "script_sha256": "88d6c3af4ca10c9eebbb3c451b522c495974b4b44bcce84a8c5c0c124b5c68c1"
+}

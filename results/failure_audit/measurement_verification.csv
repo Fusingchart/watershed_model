@@ -1,0 +1,16 @@
+target,structurally_valid_rows,numeric_values,missing_or_nonnumeric,minimum,maximum,zero_values,most_common_value,most_common_count
+ecoli,2487,2454,33,0.0,55267.0,551,0.0,551
+other_coliform,2487,2034,453,0.0,38233.33333,143,0.0,143
+water_temperature,3221,3189,32,-1.0,30.5,2,7.0,169
+dissolved_oxygen,3221,3158,63,0.0,54.3,4,10.0,117
+oxygen_saturation,3221,3157,64,0.0,552.9,6,84.4,30
+ph,3221,3191,30,0.0,10.0,1,8.0,879
+conductivity,3221,1141,2080,0.3,5516.0,0,206.0,9
+nitrate,3221,592,2629,0.0,19.5,8,0.2,35
+phosphate,3221,298,2923,0.0,2.8,17,0.2,50
+turbidity_reported,3221,899,2322,0.0,217.1,15,8.0,261
+turbidity_legacy,3221,2469,752,0.0,600.0,114,2.0,1813
+suspended_solids,3221,217,3004,0.0,213.0,25,0.0,25
+alkalinity,3221,2569,652,0.0,1360.0,8,90.0,193
+hardness,3221,2572,649,0.0,2000.0,11,80.0,438
+salinity,3221,418,2803,0.02,0.28,0,0.12,53
