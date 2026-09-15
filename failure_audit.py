@@ -3,7 +3,7 @@ from pathlib import Path
 import json, hashlib, re
 import numpy as np
 import pandas as pd
-from multitarget_data import TARGETS, transform
+from multitarget_data import TARGETS, transform, History, build_target_dataset
 
 ROOT=Path(__file__).resolve().parent
 OUT=ROOT/'results/failure_audit'
@@ -36,8 +36,12 @@ def main():
     p['year']=p.date.dt.year
     p['history_age']=pd.cut(p.target_age_days,[0,35,60,120],labels=['10–35 days','36–60 days','61–120 days'])
     p['event_group']=np.where(p.actual_tail_event.eq(1),'historical_tail_event','ordinary_result')
-    prior=clean[clean.date<pd.Timestamp('2024-12-22')]
-    seen=set(zip(prior.site,prior.target));p['site_training_status']=['seen_before_2025' if (s,t) in seen else 'new_in_test_period' for s,t in zip(p.site,p.target)]
+    history=History(clean);seen=set()
+    for target in p.target.unique():
+        ds=build_target_dataset(clean,history,target)
+        fitted=(ds.date<pd.Timestamp('2023-12-22'))|ds.date.between('2024-01-01','2024-12-21')
+        seen.update((site,target) for site in ds.loc[fitted,'site'].unique())
+    p['site_training_status']=['seen_in_model_fit' if (s,t) in seen else 'unseen_in_model_fit' for s,t in zip(p.site,p.target)]
     for dimension in ['site','season','year','history_age','event_group','site_training_status']:
         rows=[]
         for (target,segment),g in p.groupby(['target',dimension],observed=True):
@@ -97,7 +101,7 @@ def main():
         if len(codes)>1:aliases.append({'waterbody':g.waterbody.iloc[0],'site_codes':';'.join(codes),'site_count':len(codes),'rows':len(g),'note':'Same normalized waterbody and location text; candidate only. Location text omitted for privacy.'})
     pd.DataFrame(aliases,columns=['waterbody','site_codes','site_count','rows','note']).to_csv(OUT/'candidate_site_aliases.csv',index=False)
     pd.DataFrame(verification).to_csv(OUT/'measurement_verification.csv',index=False)
-    pd.DataFrame(comparisons).to_csv(OUT/'review_value_disagreements.csv',index=False)
+    pd.DataFrame(comparisons,columns=['source','csv_line','target','original','reviewed']).to_csv(OUT/'review_value_disagreements.csv',index=False)
     pd.DataFrame(formula_rows).to_csv(OUT/'bacteria_formula_checks.csv',index=False)
     pd.DataFrame(timing).to_csv(OUT/'timestamp_verification.csv',index=False)
     manifest={'prediction_rows_verified':len(p),'targets_verified':len(summary),'source_checksums':{q.name:hashlib.sha256(q.read_bytes()).hexdigest() for q in (ROOT/'data/raw').glob('*.csv')},'script_sha256':hashlib.sha256(Path(__file__).read_bytes()).hexdigest()}
