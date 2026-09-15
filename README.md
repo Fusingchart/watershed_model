@@ -60,4 +60,4 @@ The April exports are too old for current September forecasts. No live feed, not
 
 The original E. coli-only prototype is preserved in `model.py`, `model.joblib`, the original root-level CSV/JSON files, `README_ecoli_v1.md`, and `watershed_model.zip`. That ZIP is the **old E. coli package**, not the new multi-target system. Use the `multitarget_*` code and `results/multitarget` for current work.
 
-Changes are committed locally after each small completed change. No remote repository has been supplied, so nothing has been pushed. The environment, original exports, and scratch logs are excluded from Git.
+Commit and push each small completed change to https://github.com/Fusingchart/watershed_model. The environment, original exports, and scratch logs are excluded from Git.
