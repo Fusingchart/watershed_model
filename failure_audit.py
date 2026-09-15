@@ -42,7 +42,13 @@ def main():
         fitted=(ds.date<pd.Timestamp('2023-12-22'))|ds.date.between('2024-01-01','2024-12-21')
         seen.update((site,target) for site in ds.loc[fitted,'site'].unique())
     p['site_training_status']=['seen_in_model_fit' if (s,t) in seen else 'unseen_in_model_fit' for s,t in zip(p.site,p.target)]
-    for dimension in ['site','season','year','history_age','event_group','site_training_status']:
+    p['extreme_group']='within_training_5th_95th_percentiles'
+    for target in p.target.unique():
+        ds=build_target_dataset(clean,history,target)
+        training=ds.loc[ds.date<pd.Timestamp('2023-12-22'),'actual']
+        low,high=training.quantile([.05,.95]);mask=p.target.eq(target)
+        p.loc[mask & ((p.actual<low)|(p.actual>high)),'extreme_group']='outside_training_5th_95th_percentiles'
+    for dimension in ['site','season','year','history_age','event_group','extreme_group','site_training_status']:
         rows=[]
         for (target,segment),g in p.groupby(['target',dimension],observed=True):
             rows.append({'target':target,'segment':str(segment),**summarize(g),'small_sample':len(g)<20})
@@ -83,7 +89,7 @@ def main():
                 expected=counts.mean(axis=1)*100/volume
                 complete=counts.notna().all(axis=1)&reported.notna()&volume.gt(0)
                 match=np.isclose(reported,expected,rtol=.001,atol=.02)
-                for i in good.index[complete]:formula_rows.append({'csv_line':int(good.loc[i,'csv_line']),'target':kind,'reported':reported.loc[i],'candidate_count_volume_formula':expected.loc[i],'matches_candidate_formula':bool(match[good.index.get_loc(i)])})
+                for i in good.index[complete]:formula_rows.append({'csv_line':int(good.loc[i,'csv_line']),'target':kind,'reported':reported.loc[i],'candidate_count_volume_formula':expected.loc[i],'matches_candidate_formula':bool(match[good.index.get_loc(i)]),'discrepancy_type':('match' if match[good.index.get_loc(i)] else 'within_half_unit_rounding' if abs(reported.loc[i]-expected.loc[i])<=.5 else 'possible_zero_floor_to_one' if reported.loc[i]==1 and expected.loc[i]==0 else 'requires_protocol_review')})
         else:
             good['turbidity_numeric']=pd.to_numeric(good.Turbidity,errors='coerce')
             good.groupby('turbidity_tube_or_meter').agg(rows=('globalid','size'),numeric_values=('turbidity_numeric','count'),value_equal_8=('turbidity_numeric',lambda s:s.eq(8).sum())).reset_index().to_csv(OUT/'turbidity_methods.csv',index=False)
