@@ -1,0 +1,15 @@
+{
+  "inputs": {
+    "MasterBactSurvey4_13_26.csv": "a71835b8cd4f78a25b790007d586df50eec64c3d2b404b772f2937b5d2dae71b",
+    "MasterChemSurvey4_13_26.csv": "fdeb1fe3be17e80996884e60dfdb184cd2f60932b5355420c70585480bed94ef"
+  },
+  "config_sha256": "d2ee7bf2a305d0ebd720c56eae8bf1dc57aad5d40c3662d5b20c463cd54cced2",
+  "python": "3.12.10",
+  "sklearn": "1.9.1",
+  "pandas": "3.0.3",
+  "numpy": "2.4.4",
+  "code_sha256": {
+    "multitarget_data.py": "5f35d73ee01896ff3c2c060d42047db3bf7bbf53a8853501baf20efafac313d5",
+    "multitarget_model.py": "b74a6a496d543f096469b6de808747d57229c9a77292515d42a84f635401cd4b"
+  }
+}

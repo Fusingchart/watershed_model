@@ -1,0 +1,16 @@
+target,label,status,train,validation,test,selected_model,baseline,improvement_percent,source_MAE,risk_model,risk_recall,risk_precision
+ecoli,E. coli,positive_signal,1437,207,459,forest,site_seasonal,14.689169811487883,167.17570364520682,constant_prevalence,0.0,0.0
+other_coliform,Other coliform,baseline_selected,1429,121,164,last_observation,last_observation,0.0,2030.226707317073,forest,0.3142857142857143,0.6470588235294118
+water_temperature,Water temperature,positive_signal,1765,305,634,forest,site_seasonal,35.18328566231238,1.4606561056951048,forest,0.83,0.680327868852459
+dissolved_oxygen,Dissolved oxygen,positive_signal,1765,305,612,forest,site_seasonal,22.008583008666402,0.713305279144936,forest,0.6379310344827587,0.8505747126436781
+oxygen_saturation,Oxygen saturation,uncertain_signal,1763,304,612,forest,site_seasonal,-4.998128540684597,6.259184791086202,forest,0.794392523364486,0.8095238095238095
+ph,pH,baseline_selected,1768,306,631,last_observation,last_observation,0.0,0.2583622820919176,forest,0.8585858585858586,0.21739130434782608
+conductivity,Conductivity,uncertain_signal,259,112,523,forest,site_seasonal,-8.800755234511668,54.84188529196443,constant_prevalence,0.0,0.0
+nitrate,Nitrate,baseline_selected,225,35,187,site_median,site_median,0.0,0.44946573796075295,forest,0.9473684210526315,0.1005586592178771
+phosphate,Phosphate,insufficient_history,13,33,178,,,,,,,
+turbidity_reported,Turbidity (reported field),baseline_selected,263,101,310,site_seasonal,site_seasonal,0.0,7.255755696963094,forest,0.5614035087719298,0.45714285714285713
+turbidity_legacy,Turbidity (legacy field),baseline_selected,1499,229,412,site_median,site_median,0.0,4.408571042010369,forest,0.808695652173913,0.42857142857142855
+suspended_solids,Suspended solids,insufficient_history,0,0,152,,,,,,,
+alkalinity,Alkalinity,positive_signal,1522,242,435,forest,site_seasonal,7.270552239167263,31.9358482097262,forest,0.75,0.4098360655737705
+hardness,Hardness,uncertain_signal,1520,257,428,forest,site_seasonal,3.6010970564932525,23.016572286343916,forest,0.7640449438202247,0.2857142857142857
+salinity,Salinity,uncertain_signal,248,40,33,ridge,site_seasonal,-23.84224634326711,0.04070304998462589,forest,0.6363636363636364,0.4375

@@ -1,0 +1,4 @@
+source,csv_line,target,value,reason
+chemistry,1269,dissolved_oxygen,54.3,non_numeric_or_outside_configured_range
+chemistry,1269,oxygen_saturation,414.3,non_numeric_or_outside_configured_range
+chemistry,3090,oxygen_saturation,552.9,non_numeric_or_outside_configured_range
