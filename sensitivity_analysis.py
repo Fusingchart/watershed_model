@@ -50,7 +50,7 @@ def run():
     p['formula_protocol_review']=[k in major for k in keys]
     p['any_formula_difference']=[k in nonmatching for k in keys]
     unknown_turbidity=set(zip(c.loc[c.turbidity_tube_or_meter.ne('Turbidity meter'),'site'],c.loc[c.turbidity_tube_or_meter.ne('Turbidity meter'),'date']))
-    p['reported_turbidity_not_verified_meter']=[t=='turbidity_reported' and (s,d) in unknown_turbidity for s,d,t in keys]
+    p['reported_turbidity_nonmeter_or_missing_method']=[t=='turbidity_reported' and (s,d) in unknown_turbidity for s,d,t in keys]
     # Missing formula checks are not confirmation that an outcome is correct.
     checked=flagged_keys(bc,b)|flagged_keys(chemistry,c)
     p['formula_checked']=[k in checked for k in keys]
@@ -59,8 +59,8 @@ def run():
         'exclude_ambiguous_site_labels':~p.ambiguous_site_label,
         'exclude_protocol_formula_flags':~p.formula_protocol_review,
         'exclude_any_formula_difference':~p.any_formula_difference,
-        'reported_turbidity_meter_only':~p.reported_turbidity_not_verified_meter,
-        'combined_conservative_subset':~(p.ambiguous_site_label|p.any_formula_difference|p.reported_turbidity_not_verified_meter)
+        'reported_turbidity_meter_only':~p.reported_turbidity_nonmeter_or_missing_method,
+        'combined_conservative_subset':~(p.ambiguous_site_label|p.any_formula_difference|p.reported_turbidity_nonmeter_or_missing_method)
     }
     rows=[]
     for target,g in p.groupby('target'):
@@ -70,7 +70,7 @@ def run():
             rows.append({'target':target,'scenario':scenario,'original_samples':len(g),'excluded_samples':len(g)-len(selected),**result})
     result=pd.DataFrame(rows)
     result.to_csv(OUT/'scenario_results.csv',index=False)
-    columns=['site','date','target','ambiguous_site_label','formula_protocol_review','any_formula_difference','reported_turbidity_not_verified_meter','formula_checked']
+    columns=['site','date','target','ambiguous_site_label','formula_protocol_review','any_formula_difference','reported_turbidity_nonmeter_or_missing_method','formula_checked']
     p[columns].to_csv(OUT/'observation_flags.csv',index=False)
     # Block-bootstrap comparisons remain exploratory and use fixed predictions.
     gains=[]
