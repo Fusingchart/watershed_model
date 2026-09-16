@@ -2,6 +2,10 @@
 
 Working folder: `/Users/rishabh/watershed_model`.
 
+## Latest sensitivity check
+
+Read `results/sensitivity/REPORT.md` for the fixed-model comparison after conservative data-quality exclusions. Temperature and oxygen gains persist; E. coli improvement is sensitive to site selection. Reproduce with `.venv/bin/python sensitivity_analysis.py`.
+
 ## Latest audit
 
 Read `results/failure_audit/REPORT.md` for failure analysis by site, season, extreme observations, and history age, plus source arithmetic, site identity, turbidity, and timestamp checks. Reproduce the evidence with `.venv/bin/python failure_audit.py`. Models remain unchanged; operational use still needs the data-owner verifications listed in the report.
