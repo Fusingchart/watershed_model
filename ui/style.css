@@ -1,0 +1,47 @@
+:root{--bg:#f6f7f8;--panel:#fff;--text:#1d2329;--muted:#5d6872;--line:#dde2e6;--accent:#0f6f8a;--accent-soft:#e3f1f5;--warn:#9a5b00;--warn-soft:#fdf1dc;--good:#1f7a4d;--good-soft:#e2f3ea;--bad:#a33a2c;--bad-soft:#f9e4e0;--grey-soft:#eef0f2}
+@media (prefers-color-scheme:dark){:root{--bg:#121518;--panel:#1b1f23;--text:#e5e9ec;--muted:#98a3ad;--line:#2d3339;--accent:#5cb8d1;--accent-soft:#16323b;--warn:#f0b452;--warn-soft:#3a2c13;--good:#5fc792;--good-soft:#173326;--bad:#ef8a7b;--bad-soft:#3d1f1a;--grey-soft:#24292e}}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font:15px/1.45 -apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}
+header{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;align-items:flex-end;padding:20px 24px 12px;border-bottom:1px solid var(--line);background:var(--panel)}
+h1{font-size:20px;margin:0}h2{font-size:16px;margin:0 0 4px}
+.muted{color:var(--muted)}.small{font-size:13px}.error{color:var(--bad);font-size:13px;min-height:1em}
+nav{display:flex;gap:4px}
+.tab{border:0;background:none;color:var(--muted);padding:8px 12px;border-radius:6px;font:inherit;cursor:pointer}
+.tab.active{background:var(--accent-soft);color:var(--accent);font-weight:600}
+.banner{padding:8px 24px;background:var(--warn-soft);color:var(--warn);font-size:13px}
+main{padding:20px 24px;max-width:1400px}
+.view{display:none}.view.active{display:block}
+.controls{display:flex;flex-wrap:wrap;gap:12px 20px;align-items:flex-end;margin-bottom:12px}
+label{display:flex;flex-direction:column;gap:4px;font-size:13px;color:var(--muted)}
+label.check{flex-direction:row;align-items:center;gap:6px;padding-bottom:8px}
+input,select{font:inherit;color:var(--text);background:var(--panel);border:1px solid var(--line);border-radius:6px;padding:6px 8px;min-width:0}
+button{font:inherit;border:1px solid var(--accent);background:var(--accent);color:#fff;border-radius:6px;padding:6px 14px;cursor:pointer}
+button.secondary{background:var(--panel);color:var(--accent)}
+button.icon{border:0;background:none;color:var(--muted);padding:4px 8px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-bottom:8px}
+.chip{border:1px solid var(--line);background:var(--panel);color:var(--text);border-radius:999px;padding:4px 10px;font-size:13px}
+.chip.on{border-color:var(--accent);background:var(--accent-soft);color:var(--accent)}
+.summary{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:8px 12px;font-size:13px}
+.stat b{display:block;font-size:18px}
+.table-wrap{overflow:auto;background:var(--panel);border:1px solid var(--line);border-radius:8px;max-height:70vh}
+table{border-collapse:collapse;width:100%;font-size:13px}
+th,td{padding:7px 10px;border-bottom:1px solid var(--line);text-align:left;white-space:nowrap}
+thead th{position:sticky;top:0;background:var(--panel);z-index:1;font-weight:600}
+td.num{text-align:right;font-variant-numeric:tabular-nums}
+tbody tr.link{cursor:pointer}tbody tr.link:hover{background:var(--accent-soft)}
+.cell-na{color:var(--muted)}
+.cell-flag{background:var(--warn-soft);color:var(--warn);font-weight:600}
+.sub{display:block;font-size:11px;color:var(--muted);font-weight:400}
+.panel{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:16px;margin-bottom:16px}
+.chart{position:relative;height:340px;margin-top:8px}
+.wrow{display:flex;flex-wrap:wrap;gap:8px;align-items:flex-end;margin-bottom:8px}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:12px}
+.card{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:14px}
+.card .big{font-size:24px;font-weight:600;margin:6px 0 2px;font-variant-numeric:tabular-nums}
+.badge{display:inline-block;border-radius:999px;padding:2px 8px;font-size:12px;font-weight:600}
+.b-positive_signal{background:var(--good-soft);color:var(--good)}
+.b-uncertain_signal{background:var(--warn-soft);color:var(--warn)}
+.b-baseline_selected,.b-insufficient_history{background:var(--grey-soft);color:var(--muted)}
+.delta-up{color:var(--bad)}.delta-down{color:var(--good)}
+@media (max-width:640px){header,main{padding-left:16px;padding-right:16px}.banner{padding:8px 16px}}

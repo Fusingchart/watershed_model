@@ -2,6 +2,14 @@
 
 Working folder: `/Users/rishabh/watershed_model`.
 
+## Interface
+
+```sh
+.venv/bin/python app.py      # then open http://127.0.0.1:5057
+```
+
+A local web app over the frozen models. **Forecast** shows every site's predictions for a planned visit date, with the reason when a forecast is unavailable. **Site explorer** plots a site's measurements against the 2025–April 2026 test forecasts and has a what-if panel: add hypothetical measurements and see the forecast change. **Scorecard** summarizes each measurement's test result and caveats. It reads `data/raw/` and binds to localhost only, because the exports contain personal details. Forecasts for visits after August 9, 2026 are unavailable until newer exports are loaded (`--bacteria`, `--chemistry`, `--snapshot-date`).
+
 ## E. coli weather features: negative
 
 `results/ecoli_weather/REPORT.md`: regional rainfall and Issaquah Creek streamflow, known at issue time, made E. coli forecasts worse in both 2023 and 2024 development years. Even rain on the sample day did not help. Under the rule committed in advance, v2 stays and no new model was frozen. Public weather data lives in `data/external/` (`weather.py fetch` refreshes it).
