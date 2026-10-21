@@ -2,6 +2,10 @@
 
 Working folder: `/Users/rishabh/watershed_model`.
 
+## Data-owner request
+
+`results/data_owner_request/REQUEST.md` collects the open questions for the data owner: site identity, bacteria and chemistry rows to check, turbidity reporting, result timing, and newer exports. The CSVs beside it list the exact source lines, with blank columns for answers. Regenerate with `.venv/bin/python data_owner_request.py` after rerunning the failure audit.
+
 ## Latest sensitivity check
 
 Read `results/sensitivity/REPORT.md` for the fixed-model comparison after conservative data-quality exclusions. Temperature and oxygen gains persist; E. coli improvement is sensitive to site selection. Reproduce with `.venv/bin/python sensitivity_analysis.py`.
