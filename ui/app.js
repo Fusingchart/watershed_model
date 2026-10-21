@@ -41,29 +41,35 @@ function renderTable(){
   for (const r of state.rows) (bySite[r.site] ??= {})[r.target] = r;
   const q = $('f-search').value.trim().toLowerCase();
   let sites = state.meta.sites.filter(s => !q || s.id.includes(q) || s.name.toLowerCase().includes(q));
-  if ($('f-available').checked) sites = sites.filter(s => cols.some(t => bySite[s.id]?.[t]?.status === 'eligible'));
+  const level = s => { const l = cols.map(t => bySite[s.id]?.[t]?.limit_level); return l.includes('red') ? 'red' : l.includes('yellow') ? 'yellow' : ''; };
+  const show = $('f-show').value;
+  if (show === 'forecast') sites = sites.filter(s => cols.some(t => bySite[s.id]?.[t]?.status === 'eligible'));
+  if (show === 'flagged') sites = sites.filter(s => level(s));
+  if (show === 'red') sites = sites.filter(s => level(s) === 'red');
   const cells = sites.flatMap(s => cols.map(t => bySite[s.id]?.[t]).filter(Boolean));
-  const ok = cells.filter(r => r.status === 'eligible'), flagged = ok.filter(r => r.flag).length;
-  let text = `${plural(ok.length, 'forecast')} across ${plural(sites.length, 'site')}; ${cells.length - ok.length} unavailable` + (flagged ? `; ${flagged} marked †.` : '.');
+  const ok = cells.filter(r => r.status === 'eligible');
+  const red = ok.filter(r => r.limit_level === 'red').length, yellow = ok.filter(r => r.limit_level === 'yellow').length;
+  let text = `${plural(ok.length, 'forecast')} across ${plural(sites.length, 'site')}: ${red} outside the acceptable range, ${yellow} close to a limit; ${cells.length - ok.length} unavailable.`;
   if ($('f-date').value > state.meta.latest_useful_date)
     text = `Nothing can be forecast for visits after ${state.meta.latest_useful_date}: the newest data is from ${state.meta.last_sample}, and forecasts need a measurement from the previous 120 days. Load a newer export to forecast later dates.`;
   $('f-summary').textContent = text;
   const head = `<thead><tr><th>Site</th>${cols.map(t => `<th class="n">${esc(state.targets[t].label)}<small>${esc(unit(t).trim()) || '&nbsp;'}</small></th>`).join('')}</tr></thead>`;
-  const body = sites.map(s => `<tr data-site="${s.id}"><td>${esc(s.name || 'Unnamed')}<small>${s.id}</small></td>${cols.map(t => cell(bySite[s.id]?.[t], t)).join('')}</tr>`).join('');
+  const body = sites.map(s => `<tr data-site="${s.id}" class="${level(s)}"><td>${esc(s.name || 'Unnamed')}<small>${s.id}</small></td>${cols.map(t => cell(bySite[s.id]?.[t], t)).join('')}</tr>`).join('');
   $('f-table').innerHTML = head + `<tbody>${body || `<tr><td colspan="${cols.length+1}" class="na">No sites match.</td></tr>`}</tbody>`;
 }
 
 function cell(r, t){
   if (!r || r.status !== 'eligible') return `<td class="n na" title="${esc(r?.reason)}">–</td>`;
-  const title = `Forecast ${fmt(r.predicted,t)}${unit(t)}; baseline ${fmt(r.baseline,t)}; last measured ${fmt(r.last_value,t)}, ${r.age_days} days before the visit`;
-  return `<td class="n${r.flag?' flag':''}" title="${esc(title)}">${fmt(r.predicted,t)}${r.flag?' †':''}<small>last ${fmt(r.last_value,t)}</small></td>`;
+  const title = (r.limit_level ? `Forecast ${fmt(r.predicted,t)}${unit(t)} is ${r.limit_text}. ` : `Forecast ${fmt(r.predicted,t)}${unit(t)}. `) +
+    `Baseline ${fmt(r.baseline,t)}; last measured ${fmt(r.last_value,t)}, ${r.age_days} days before the visit`;
+  return `<td class="n${r.limit_level?` lim-${r.limit_level}`:''}" title="${esc(title)}">${fmt(r.predicted,t)}<small>last ${fmt(r.last_value,t)}</small></td>`;
 }
 
 $('f-table').addEventListener('click', e => {
   const tr = e.target.closest('tr[data-site]'); if (!tr) return;
   $('s-site').value = tr.dataset.site; $('w-date').value = $('f-date').value; location.hash = 'site';
 });
-['f-search','f-available'].forEach(id => $(id).addEventListener('input', renderTable));
+['f-search','f-show'].forEach(id => $(id).addEventListener('input', renderTable));
 $('f-date').addEventListener('change', loadForecast);
 
 // Site history
@@ -119,8 +125,9 @@ $('w-run').addEventListener('click', async () => {
   const before = Object.fromEntries(d.before.map(r => [r.target, r])), ok = r => r.status === 'eligible';
   const rows = d.after.filter(a => ok(a) || ok(before[a.target])).map(a => {
     const b = before[a.target], t = a.target, delta = ok(a) && ok(b) ? a.predicted - b.predicted : null;
-    return `<tr><td>${esc(state.targets[t].label)}</td><td class="n">${ok(b)?fmt(b.predicted,t):'–'}</td><td class="n">${ok(a)?fmt(a.predicted,t):'–'}${ok(a)&&a.flag?' †':''}</td>` +
-      `<td class="n">${delta==null?'':(delta>0?'+':delta<0?'−':'')+fmt(Math.abs(delta),t)}</td><td>${esc(unit(t).trim())}</td><td class="na">${ok(a)?'':esc(a.reason)}</td></tr>`;
+    const lvl = ok(a) ? a.limit_level || '' : '', lim = r => ok(r) && r.limit_level ? ` lim-${r.limit_level}` : '';
+    return `<tr class="${lvl}"><td>${esc(state.targets[t].label)}</td><td class="n${lim(b)}">${ok(b)?fmt(b.predicted,t):'–'}</td><td class="n${lim(a)}">${ok(a)?fmt(a.predicted,t):'–'}</td>` +
+      `<td class="n">${delta==null?'':(delta>0?'+':delta<0?'−':'')+fmt(Math.abs(delta),t)}</td><td>${esc(unit(t).trim())}</td><td class="na">${ok(a)?esc(a.limit_text ? `Forecast is ${a.limit_text}` : ''):esc(a.reason)}</td></tr>`;
   }).join('');
   $('w-table').innerHTML = `<thead><tr><th>Measurement</th><th class="n">Actual data</th><th class="n">With additions</th><th class="n">Change</th><th>Unit</th><th></th></tr></thead><tbody>${rows || '<tr><td colspan="6" class="na">Nothing can be forecast at this site for that visit date.</td></tr>'}</tbody>`;
 });
@@ -156,5 +163,8 @@ window.addEventListener('hashchange', show);
   $('s-site').innerHTML = state.meta.sites.map(s => `<option value="${s.id}">${esc(siteLabel(s))}</option>`).join('');
   $('s-target').innerHTML = state.meta.targets.map(t => `<option value="${t.id}">${esc(t.label)}</option>`).join('');
   $('s-site').value = state.meta.sites.reduce((a,b) => b.samples > a.samples ? b : a).id;
+  const limitText = l => [l.min != null ? `at least ${l.min}` : '', l.max != null ? `at most ${l.max}` : ''].filter(Boolean).join(' and ');
+  $('f-limits').innerHTML = 'Limits: ' + state.meta.targets.filter(t => t.limit).map(t =>
+    `<span title="${esc(t.limit.basis)}">${esc(t.label)} ${limitText(t.limit)}${esc(unit(t.id))}</span>`).join('; ') + `. ${esc(state.meta.limits_source)}`;
   renderColumns(); renderResults(); await loadForecast(); show();
 })();

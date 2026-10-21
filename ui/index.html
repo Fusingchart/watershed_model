@@ -23,12 +23,14 @@
     <form class="controls" onsubmit="return false">
       <label>Visit date<input type="date" id="f-date"></label>
       <label>Site<input type="search" id="f-search" placeholder="name or code"></label>
-      <label class="inline"><input type="checkbox" id="f-available"> hide sites with no forecasts</label>
+      <label>Show<select id="f-show"><option value="">all sites</option><option value="forecast">sites with forecasts</option><option value="flagged">red and yellow sites</option><option value="red">red sites only</option></select></label>
     </form>
     <fieldset id="f-targets"><legend>Columns</legend></fieldset>
     <p id="f-summary"></p>
     <div class="scroll"><table id="f-table"></table></div>
-    <p class="note">Each forecast is issued 7 days before the visit and uses only results that would have been back by then. “last” is the most recent usable measurement. † marks a value unusual for that site’s history; this is an experimental flag, not an action threshold.</p>
+    <p class="note"><span class="key red">Red</span> rows have a forecast outside the acceptable range. <span class="key yellow">Yellow</span> rows have a forecast inside it but within the model’s typical error of a limit, so the reading could plausibly cross it. The flagged value is shown in colour; hover for details.</p>
+    <p class="note" id="f-limits"></p>
+    <p class="note">Each forecast is issued 7 days before the visit and uses only results that would have been back by then. “last” is the most recent usable measurement.</p>
   </section>
 
   <section id="view-site" class="view">

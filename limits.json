@@ -1,0 +1,7 @@
+{
+  "_source": "Reference limits from Washington State freshwater criteria (WAC 173-201A-200), assuming core summer salmonid habitat and primary contact recreation. Use designations differ by stream and these have not been approved for this project; confirm with the data owner. Edit this file to change them.",
+  "water_temperature": {"max": 16.0, "basis": "Core summer salmonid habitat. The criterion is a 7-day average of daily maximums; a single reading only approximates it."},
+  "dissolved_oxygen": {"min": 9.5, "basis": "Core summer salmonid habitat, lowest 1-day minimum."},
+  "ph": {"min": 6.5, "max": 8.5, "basis": "Salmonid habitat range."},
+  "ecoli": {"max": 320, "basis": "Primary contact recreation: no more than 10% of samples above 320 per 100 mL (the geometric mean limit is 100)."}
+}

@@ -6,7 +6,7 @@ import joblib
 import numpy as np
 import pandas as pd
 from flask import Flask, jsonify, request, send_from_directory
-from multitarget_data import ROOT, TARGETS, MAX_AGE_DAYS, LEAD_DAYS, History, load_data, inverse
+from multitarget_data import ROOT, TARGETS, MAX_AGE_DAYS, LEAD_DAYS, History, load_data, inverse, transform
 from multitarget_model import BASELINES, forecast, risk_probability
 
 FROZEN = ROOT/'results/multitarget'
@@ -23,6 +23,20 @@ NOTES = {'water_temperature':'Strongest evidence; gains survive data-quality exc
          'ecoli':'Gain depends on which sites are included; site names need confirmation. No risk flags.',
          'turbidity_reported':'Tube readings cluster at 8; reporting convention unconfirmed.',
          'salinity':'Units and large values need verification.'}
+LIMITS_FILE = ROOT/'limits.json'
+
+
+def limit_check(value, limit, spec, margin):
+    """Red if the forecast is past a limit; yellow if within the model's typical test error of it."""
+    t = lambda v: float(transform(np.array([v]), spec)[0])
+    fmt = lambda v: f'{v:.3g}'
+    if limit.get('max') is not None:
+        if value > limit['max']: return 'red', f'above the {fmt(limit["max"])} limit'
+        if t(value) > t(limit['max'])-margin: return 'yellow', f'within typical forecast error of the {fmt(limit["max"])} limit'
+    if limit.get('min') is not None:
+        if value < limit['min']: return 'red', f'below the {fmt(limit["min"])} limit'
+        if t(value) < t(limit['min'])+margin: return 'yellow', f'within typical forecast error of the {fmt(limit["min"])} limit'
+    return None, None
 
 
 class Forecaster:
@@ -36,6 +50,11 @@ class Forecaster:
         self.snapshot = snapshot
         self.names = self.data.groupby('site').waterbody.agg(lambda s:s.str.strip().mode().iloc[0] if s.str.strip().ne('').any() else '')
         self.heldout = pd.read_csv(FROZEN/'heldout_predictions.csv', dtype={'site':str}, parse_dates=['date'])
+        raw = json.loads(LIMITS_FILE.read_text())
+        self.limits_source = raw.pop('_source', '')
+        self.limits = {t:v for t,v in raw.items() if t in TARGETS}
+        # Margin: the model's mean absolute test error, in the scale the model works in.
+        self.margin = {t:evaluation[t]['2025'].get('test',{}).get('transformed_MAE', 0.) for t in self.limits}
 
     def rows(self, date, history=None, sites=None):
         history = history or self.history; date = pd.Timestamp(date).normalize()
@@ -62,6 +81,8 @@ class Forecaster:
             for i, (row, f) in enumerate(items):
                 row.update(predicted=float(predicted[i]), baseline=float(base[i]), last_value=float(last[i]), age_days=int(f['target_age_days']),
                            flag=bool(p[i] >= bundle['alert_cutoff']), uses_baseline=bundle['selected'] in BASELINES)
+                if target in self.limits:
+                    row['limit_level'], row['limit_text'] = limit_check(row['predicted'], self.limits[target], spec, self.margin[target])
         for row in out: row['reason'] = STATUS_TEXT.get(row['status'], row['status'])
         return out
 
@@ -88,8 +109,8 @@ def create_app(f):
                             'baseline':r.get('selected_baseline'), 'improvement':r.get('improvement_percent'),
                             'interval':r.get('uncertainty',{}).get('site_bootstrap_95_interval'), 'test':r['counts'].get('test'),
                             'source_MAE':r.get('test',{}).get('source_MAE'), 'flags':bool(bundle and bundle.get('classifier') is not None),
-                            'note':NOTES.get(t,''), 'caution':spec.get('caution','')})
-        return jsonify(snapshot=f.snapshot, last_sample=str(last.date()), lead_days=LEAD_DAYS,
+                            'note':NOTES.get(t,''), 'caution':spec.get('caution',''), 'limit':f.limits.get(t)})
+        return jsonify(snapshot=f.snapshot, last_sample=str(last.date()), lead_days=LEAD_DAYS, limits_source=f.limits_source,
                        latest_useful_date=str((last+pd.Timedelta(days=MAX_AGE_DAYS)).date()),
                        sites=[{'id':s, 'name':f.names.get(s,''), 'samples':int(counts[s])} for s in f.history.sites], targets=targets)
 

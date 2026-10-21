@@ -1,6 +1,6 @@
-:root{--paper:#fbfaf7;--ink:#1a1a1a;--soft:#5f5f5a;--rule:#d6d3cc;--faint:#efede8;--blue:#1d4e89;--flag:#8a3b12;--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
-@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#161615;--ink:#e8e6e1;--soft:#a19e96;--rule:#3a3936;--faint:#22211f;--blue:#8fb4e3;--flag:#e39a6f}}
-:root[data-theme="dark"]{--paper:#161615;--ink:#e8e6e1;--soft:#a19e96;--rule:#3a3936;--faint:#22211f;--blue:#8fb4e3;--flag:#e39a6f}
+:root{--paper:#fbfaf7;--ink:#1a1a1a;--soft:#5f5f5a;--rule:#d6d3cc;--faint:#efede8;--blue:#1d4e89;--flag:#8a3b12;--red:#a61b1b;--red-bg:#fbe3e0;--yellow:#7a5a00;--yellow-bg:#fbf0c8;--serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--paper:#161615;--ink:#e8e6e1;--soft:#a19e96;--rule:#3a3936;--faint:#22211f;--blue:#8fb4e3;--flag:#e39a6f;--red:#ff8f85;--red-bg:#3d1714;--yellow:#f2cf5b;--yellow-bg:#352c0c}}
+:root[data-theme="dark"]{--paper:#161615;--ink:#e8e6e1;--soft:#a19e96;--rule:#3a3936;--faint:#22211f;--blue:#8fb4e3;--flag:#e39a6f;--red:#ff8f85;--red-bg:#3d1714;--yellow:#f2cf5b;--yellow-bg:#352c0c}
 *{box-sizing:border-box}
 body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.5 -apple-system,BlinkMacSystemFont,"Helvetica Neue",Arial,sans-serif}
 header,main,footer{max-width:1180px;margin:0 auto;padding:0 24px}
@@ -38,6 +38,14 @@ tr[data-site]{cursor:pointer}
 tr[data-site]:hover td{background:var(--faint)}
 #f-table td:first-child,#f-table th:first-child{padding-left:2px;min-width:200px}
 #cards td{max-width:340px}
+/* Limit flags: a tinted row with a solid left edge, and the flagged cell in strong colour. */
+tr.red td{background:var(--red-bg)}tr.red td:first-child{box-shadow:inset 4px 0 var(--red)}
+tr.yellow td{background:var(--yellow-bg)}tr.yellow td:first-child{box-shadow:inset 4px 0 var(--yellow)}
+tr.red:hover td,tr.yellow:hover td{filter:brightness(.96)}
+#f-table tr.red td:first-child,#f-table tr.yellow td:first-child{padding-left:10px}
+td.lim-red{color:var(--red);font-weight:700}td.lim-yellow{color:var(--yellow);font-weight:700}
+td.lim-red small,td.lim-yellow small{font-weight:400}
+.key{padding:0 5px;font-weight:600}.key.red{background:var(--red-bg);color:var(--red)}.key.yellow{background:var(--yellow-bg);color:var(--yellow)}
 .note{color:var(--soft);font-size:13px;max-width:72ch}
 .error{color:var(--flag);font-size:13px}
 .chart{position:relative;height:330px;margin-top:6px}
