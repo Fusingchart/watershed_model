@@ -14,7 +14,6 @@
   <nav>
     <a href="#forecast" data-view="forecast">Forecast</a>
     <a href="#site" data-view="site">Site history</a>
-    <a href="#checks" data-view="checks">Data checks</a>
     <a href="#scorecard" data-view="scorecard">Model results</a>
   </nav>
 </header>
@@ -51,18 +50,6 @@
     <p class="actions"><button type="button" id="w-add" class="plain">Add a measurement</button> <button type="button" id="w-run">Recalculate</button></p>
     <p id="w-error" class="error"></p>
     <div class="scroll"><table id="w-table"></table></div>
-  </section>
-
-  <section id="view-checks" class="view">
-    <p>Measurements that look wrong or unusual. <span class="key red">Red</span> rows are likely recording or calculation errors. <span class="key yellow">Yellow</span> rows are unusual enough to check but may be real. Nothing here has been changed or removed from the data.</p>
-    <form class="controls" onsubmit="return false">
-      <label>Show<select id="c-level"><option value="">red and yellow</option><option value="red">red only</option><option value="yellow">yellow only</option></select></label>
-      <label>Measurement<select id="c-target"><option value="">all</option></select></label>
-      <label>Site<input type="search" id="c-search" placeholder="name or code"></label>
-    </form>
-    <p id="c-summary"></p>
-    <div class="scroll"><table id="c-table"></table></div>
-    <p class="note">Checks: bacteria averages recomputed from replicate counts; chemistry values recomputed from replicates and drop counts; values far from a site’s usual level; oxygen above what water at the recorded temperature can hold; reported saturation that disagrees with oxygen and temperature; turbidity tube readings of exactly 8. Sites whose code appears under more than one creek name are marked beside the name. Click a row to see it on the site’s chart.</p>
   </section>
 
   <section id="view-scorecard" class="view">

@@ -8,7 +8,6 @@ import pandas as pd
 from flask import Flask, jsonify, request, send_from_directory
 from multitarget_data import ROOT, TARGETS, MAX_AGE_DAYS, LEAD_DAYS, History, load_data, inverse
 from multitarget_model import BASELINES, forecast, risk_probability
-from data_checks import CONFLICT_SITES, flag_measurements
 
 FROZEN = ROOT/'results/multitarget'
 UI = ROOT/'ui'
@@ -37,7 +36,6 @@ class Forecaster:
         self.snapshot = snapshot
         self.names = self.data.groupby('site').waterbody.agg(lambda s:s.str.strip().mode().iloc[0] if s.str.strip().ne('').any() else '')
         self.heldout = pd.read_csv(FROZEN/'heldout_predictions.csv', dtype={'site':str}, parse_dates=['date'])
-        self.flags = flag_measurements(self.data, bacteria, chemistry)
 
     def rows(self, date, history=None, sites=None):
         history = history or self.history; date = pd.Timestamp(date).normalize()
@@ -91,9 +89,9 @@ def create_app(f):
                             'interval':r.get('uncertainty',{}).get('site_bootstrap_95_interval'), 'test':r['counts'].get('test'),
                             'source_MAE':r.get('test',{}).get('source_MAE'), 'flags':bool(bundle and bundle.get('classifier') is not None),
                             'note':NOTES.get(t,''), 'caution':spec.get('caution','')})
-        return jsonify(snapshot=f.snapshot, last_sample=str(last.date()), lead_days=LEAD_DAYS, measurements=len(f.data),
+        return jsonify(snapshot=f.snapshot, last_sample=str(last.date()), lead_days=LEAD_DAYS,
                        latest_useful_date=str((last+pd.Timedelta(days=MAX_AGE_DAYS)).date()),
-                       sites=[{'id':s, 'name':f.names.get(s,''), 'samples':int(counts[s]), 'name_conflict':s in CONFLICT_SITES} for s in f.history.sites], targets=targets)
+                       sites=[{'id':s, 'name':f.names.get(s,''), 'samples':int(counts[s])} for s in f.history.sites], targets=targets)
 
     @app.get('/api/forecast')
     def forecast_all():
@@ -107,16 +105,9 @@ def create_app(f):
         if site not in f.history.sites: return jsonify(error='Unknown site'), 404
         obs = f.data[(f.data.site==site)&(f.data.target==target)]
         held = f.heldout[(f.heldout.site==site)&(f.heldout.target==target)]
-        flagged = f.flags[(f.flags.site==site)&(f.flags.target==target)]
         return jsonify(site=site, name=f.names.get(site,''), target=target,
-                       flags=[{'date':str(r.date.date()), 'value':float(r.value), 'level':r.level, 'reasons':r.reasons} for r in flagged.itertuples()],
                        observations=[{'date':str(d.date()), 'value':float(v)} for d, v in zip(obs.date, obs.value)],
                        tested=[{'date':str(r.date.date()), 'actual':r.actual, 'predicted':r.predicted, 'baseline':r.baseline_predicted} for r in held.itertuples()])
-
-    @app.get('/api/checks')
-    def checks():
-        return jsonify(rows=[{'site':r.site, 'date':str(r.date.date()), 'target':r.target, 'value':float(r.value), 'level':r.level, 'reasons':r.reasons}
-                             for r in f.flags.itertuples()])
 
     @app.post('/api/whatif')
     def whatif():
