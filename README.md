@@ -2,6 +2,10 @@
 
 Working folder: `/Users/rishabh/watershed_model`.
 
+## Next evaluation: prospective
+
+`PROSPECTIVE_PROTOCOL.md` fixes, before any new data is seen, how the frozen models will be judged on samples taken after April 13, 2026. Temperature and dissolved oxygen are the primary questions. When a newer export arrives, run `.venv/bin/python prospective_evaluation.py --bacteria ... --chemistry ... --snapshot-date ...`; it checks the model file hash, reports source revisions, and writes `results/prospective/`.
+
 ## Data-owner request
 
 `results/data_owner_request/REQUEST.md` collects the open questions for the data owner: site identity, bacteria and chemistry rows to check, turbidity reporting, result timing, and newer exports. The CSVs beside it list the exact source lines, with blank columns for answers. Regenerate with `.venv/bin/python data_owner_request.py` after rerunning the failure audit.
