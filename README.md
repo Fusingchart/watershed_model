@@ -8,7 +8,7 @@ Working folder: `/Users/rishabh/watershed_model`.
 .venv/bin/python app.py      # then open http://127.0.0.1:5057
 ```
 
-A local web app over the frozen models. **Forecast** shows every site's predictions for a planned visit date, with the reason when a forecast is unavailable. **Site history** plots a site's measurements against the 2025–April 2026 test forecasts and has a scenario panel: add hypothetical measurements and see the forecast change. **Model results** summarizes each measurement's test result and caveats. It reads `data/raw/` and binds to localhost only, because the exports contain personal details. Forecasts for visits after August 9, 2026 are unavailable until newer exports are loaded (`--bacteria`, `--chemistry`, `--snapshot-date`).
+A local web app over the frozen models. **Forecast** shows every site's predictions for a planned visit date, with the reason when a forecast is unavailable. **Site history** plots a site's measurements against the 2025–April 2026 test forecasts and has a scenario panel: add hypothetical measurements and see the forecast change. **Data checks** lists measurements that look wrong (red: calculation mismatches, extreme values, physically impossible oxygen) or worth checking (yellow: unusual for the site, rounding, tube readings of 8); the rules are in `data_checks.py`, and nothing is changed in the data. **Model results** summarizes each measurement's test result and caveats. It reads `data/raw/` and binds to localhost only, because the exports contain personal details. Forecasts for visits after August 9, 2026 are unavailable until newer exports are loaded (`--bacteria`, `--chemistry`, `--snapshot-date`).
 
 ## E. coli weather features: negative
 

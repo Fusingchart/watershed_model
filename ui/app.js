@@ -10,6 +10,7 @@ function fmt(v, target){
 }
 const unit = t => state.targets[t]?.unit ? ` ${state.targets[t].unit}` : '';
 const siteLabel = s => s.name ? `${s.name} (${s.id})` : s.id;
+const conflictNote = s => s?.name_conflict ? ' <span class="conflict" title="This site code appears under more than one creek name in the export">· creek name varies</span>' : '';
 const plural = (n, word) => `${n.toLocaleString()} ${word}${n === 1 ? '' : 's'}`;
 
 async function api(path, options){
@@ -49,7 +50,7 @@ function renderTable(){
     text = `Nothing can be forecast for visits after ${state.meta.latest_useful_date}: the newest data is from ${state.meta.last_sample}, and forecasts need a measurement from the previous 120 days. Load a newer export to forecast later dates.`;
   $('f-summary').textContent = text;
   const head = `<thead><tr><th>Site</th>${cols.map(t => `<th class="n">${esc(state.targets[t].label)}<small>${esc(unit(t).trim()) || '&nbsp;'}</small></th>`).join('')}</tr></thead>`;
-  const body = sites.map(s => `<tr data-site="${s.id}"><td>${esc(s.name || 'Unnamed')}<small>${s.id}</small></td>${cols.map(t => cell(bySite[s.id]?.[t], t)).join('')}</tr>`).join('');
+  const body = sites.map(s => `<tr data-site="${s.id}"><td>${esc(s.name || 'Unnamed')}${conflictNote(s)}<small>${s.id}</small></td>${cols.map(t => cell(bySite[s.id]?.[t], t)).join('')}</tr>`).join('');
   $('f-table').innerHTML = head + `<tbody>${body || `<tr><td colspan="${cols.length+1}" class="na">No sites match.</td></tr>`}</tbody>`;
 }
 
@@ -80,7 +81,10 @@ async function loadSite(){
     data:{datasets:[
       {type:'scatter', label:'Measured', data:d.observations.map(o => ({x:Date.parse(o.date), y:y(o.value)})), backgroundColor:c('--soft'), pointRadius:2.5},
       {type:'line', label:'Model', data:d.tested.map(r => ({x:Date.parse(r.date), y:y(r.predicted)})), borderColor:c('--blue'), backgroundColor:c('--blue'), pointRadius:0, borderWidth:2},
-      {type:'line', label:'Baseline', data:d.tested.map(r => ({x:Date.parse(r.date), y:y(r.baseline)})), borderColor:c('--ink'), borderDash:[4,3], pointRadius:0, borderWidth:1}]},
+      {type:'line', label:'Baseline', data:d.tested.map(r => ({x:Date.parse(r.date), y:y(r.baseline)})), borderColor:c('--ink'), borderDash:[4,3], pointRadius:0, borderWidth:1},
+      ...[['red','Likely error'],['yellow','Worth checking']].map(([lvl, label]) => ({type:'scatter', label, reasons:d.flags.filter(f => f.level === lvl).map(f => f.reasons.join('; ')),
+        data:d.flags.filter(f => f.level === lvl).map(f => ({x:Date.parse(f.date), y:y(f.value)})), backgroundColor:c(`--${lvl}-mark`), borderColor:c('--ink'), borderWidth:.5, pointRadius:5, pointHoverRadius:7}))
+        .filter(ds => ds.data.length)]},
     options:{responsive:true, maintainAspectRatio:false, animation:false,
       scales:{x:{type:'linear', ticks:{color:c('--soft'), callback:v => new Date(v).getUTCFullYear()}, grid:{display:false}, border:{color:c('--ink')},
                  afterBuildTicks:axis => { const ticks = [];
@@ -89,7 +93,7 @@ async function loadSite(){
               y:{type:log?'logarithmic':'linear', ticks:{color:c('--soft')}, grid:{color:c('--faint')}, border:{display:false},
                  title:{display:!!unit(target)||log, text:[unit(target).trim(), log?'log scale; zeros plotted at 1':''].filter(Boolean).join(', '), color:c('--soft')}}},
       plugins:{legend:{position:'top', align:'start', labels:{color:c('--ink'), boxWidth:18, boxHeight:2, useBorderRadius:false}},
-               tooltip:{callbacks:{title:items => new Date(items[0].parsed.x).toISOString().slice(0,10)}}}}
+               tooltip:{callbacks:{title:items => new Date(items[0].parsed.x).toISOString().slice(0,10), afterLabel:item => item.dataset.reasons?.[item.dataIndex] ?? ''}}}}
   });
   if (d.tested.length) {
     const miss = k => d.tested.reduce((a,r) => a + Math.abs(r.actual - r[k]), 0) / d.tested.length;
@@ -125,6 +129,28 @@ $('w-run').addEventListener('click', async () => {
   $('w-table').innerHTML = `<thead><tr><th>Measurement</th><th class="n">Actual data</th><th class="n">With additions</th><th class="n">Change</th><th>Unit</th><th></th></tr></thead><tbody>${rows || '<tr><td colspan="6" class="na">Nothing can be forecast at this site for that visit date.</td></tr>'}</tbody>`;
 });
 
+// Data checks
+async function loadChecks(){
+  if (!state.checks) state.checks = (await api('/api/checks')).rows;
+  const level = $('c-level').value, target = $('c-target').value, q = $('c-search').value.trim().toLowerCase();
+  const sites = Object.fromEntries(state.meta.sites.map(s => [s.id, s]));
+  const rows = state.checks.filter(r => (!level || r.level === level) && (!target || r.target === target) &&
+    (!q || r.site.includes(q) || (sites[r.site]?.name || '').toLowerCase().includes(q)));
+  const red = rows.filter(r => r.level === 'red').length;
+  $('c-summary').textContent = `${plural(red, 'red row')} and ${plural(rows.length - red, 'yellow row')} out of ${state.meta.measurements.toLocaleString()} measurements.`;
+  const body = rows.map(r => { const s = sites[r.site];
+    return `<tr class="${r.level}" data-site="${r.site}" data-target="${r.target}"><td><span class="lvl">${r.level === 'red' ? 'Likely error' : 'Check'}</span></td><td>${r.date}</td>` +
+      `<td>${esc(s?.name || 'Unnamed')}${conflictNote(s)}<small>${r.site}</small></td><td>${esc(state.targets[r.target].label)}</td>` +
+      `<td class="n">${fmt(r.value, r.target)}<small>${esc(unit(r.target).trim()) || '&nbsp;'}</small></td><td>${r.reasons.map(esc).join('<br>')}</td></tr>`; }).join('');
+  $('c-table').innerHTML = `<thead><tr><th></th><th>Sampled</th><th>Site</th><th>Measurement</th><th class="n">Value</th><th>Why</th></tr></thead>` +
+    `<tbody>${body || '<tr><td colspan="6" class="na">Nothing flagged for this selection.</td></tr>'}</tbody>`;
+}
+['c-level','c-target','c-search'].forEach(id => $(id).addEventListener('input', loadChecks));
+$('c-table').addEventListener('click', e => {
+  const tr = e.target.closest('tr[data-site]'); if (!tr) return;
+  $('s-site').value = tr.dataset.site; $('s-target').value = tr.dataset.target; location.hash = 'site';
+});
+
 // Model results
 function renderResults(){
   const rows = state.meta.targets.map(t => {
@@ -141,10 +167,11 @@ function renderResults(){
 }
 
 function show(){
-  const view = ['site','scorecard'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'forecast';
+  const view = ['site','checks','scorecard'].includes(location.hash.slice(1)) ? location.hash.slice(1) : 'forecast';
   document.querySelectorAll('nav a').forEach(a => a.classList.toggle('on', a.dataset.view === view));
   document.querySelectorAll('.view').forEach(v => v.classList.toggle('on', v.id === `view-${view}`));
   if (view === 'site') loadSite();
+  if (view === 'checks') loadChecks();
 }
 window.addEventListener('hashchange', show);
 
@@ -155,6 +182,7 @@ window.addEventListener('hashchange', show);
   $('f-date').value = $('w-date').value = '2026-04-20';
   $('s-site').innerHTML = state.meta.sites.map(s => `<option value="${s.id}">${esc(siteLabel(s))}</option>`).join('');
   $('s-target').innerHTML = state.meta.targets.map(t => `<option value="${t.id}">${esc(t.label)}</option>`).join('');
+  $('c-target').innerHTML += state.meta.targets.map(t => `<option value="${t.id}">${esc(t.label)}</option>`).join('');
   $('s-site').value = state.meta.sites.reduce((a,b) => b.samples > a.samples ? b : a).id;
   renderColumns(); renderResults(); await loadForecast(); show();
 })();
