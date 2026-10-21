@@ -39,7 +39,7 @@ class Forecaster:
 
     def rows(self, date, history=None, sites=None):
         history = history or self.history; date = pd.Timestamp(date).normalize()
-        out = []
+        out, pending = [], {}
         for site in sites or history.sites:
             for target, spec in TARGETS.items():
                 row = {'site':site, 'target':target}
@@ -50,14 +50,19 @@ class Forecaster:
                     row['status'] = 'date_overlaps_training_information'
                 else:
                     f, row['status'] = history.features(site, target, date)
-                    if f is not None:
-                        X = pd.DataFrame([f]); p = float(risk_probability(bundle, X)[0])
-                        base = forecast({'selected':self.baseline[target], 'median':bundle['median']}, X)
-                        row.update(predicted=float(inverse(forecast(bundle, X), spec)[0]), baseline=float(inverse(base, spec)[0]),
-                                   last_value=float(inverse(np.array([f['last_value']]), spec)[0]), age_days=int(f['target_age_days']),
-                                   flag=bool(p >= bundle['alert_cutoff']), uses_baseline=bundle['selected'] in BASELINES)
-                row['reason'] = STATUS_TEXT.get(row['status'], row['status'])
+                    if f is not None: pending.setdefault(target, []).append((row, f))
                 out.append(row)
+        # One model call per measurement; per-row calls made the full table take ~10 s.
+        for target, items in pending.items():
+            spec, bundle = TARGETS[target], self.models[target]
+            X = pd.DataFrame([f for _, f in items]); p = risk_probability(bundle, X)
+            predicted = inverse(forecast(bundle, X), spec)
+            base = inverse(forecast({'selected':self.baseline[target], 'median':bundle['median']}, X), spec)
+            last = inverse(X.last_value.to_numpy(), spec)
+            for i, (row, f) in enumerate(items):
+                row.update(predicted=float(predicted[i]), baseline=float(base[i]), last_value=float(last[i]), age_days=int(f['target_age_days']),
+                           flag=bool(p[i] >= bundle['alert_cutoff']), uses_baseline=bundle['selected'] in BASELINES)
+        for row in out: row['reason'] = STATUS_TEXT.get(row['status'], row['status'])
         return out
 
 

@@ -9,61 +9,57 @@
 </head>
 <body>
 <header>
-  <div class="brand">
-    <h1>Sno-King water-quality forecasts</h1>
-    <p id="dataline" class="muted">Loading…</p>
-  </div>
+  <h1>Sno-King water-quality forecasts</h1>
+  <p id="dataline"></p>
   <nav>
-    <button class="tab active" data-view="forecast">Forecast</button>
-    <button class="tab" data-view="site">Site explorer</button>
-    <button class="tab" data-view="scorecard">Scorecard</button>
+    <a href="#forecast" data-view="forecast">Forecast</a>
+    <a href="#site" data-view="site">Site history</a>
+    <a href="#scorecard" data-view="scorecard">Model results</a>
   </nav>
 </header>
-<div class="banner">Research prototype. Forecasts are retrospective estimates from the April 2026 export and are not approved for health or field decisions.</div>
 
 <main>
-  <section id="view-forecast" class="view active">
-    <div class="controls">
-      <label>Planned visit date <input type="date" id="f-date"></label>
-      <label>Find site <input type="search" id="f-search" placeholder="Name or code"></label>
-      <label class="check"><input type="checkbox" id="f-available"> Only sites with forecasts</label>
-    </div>
-    <div id="f-targets" class="chips"></div>
-    <p id="f-hint" class="muted small"></p>
-    <div id="f-summary" class="summary"></div>
-    <div class="table-wrap"><table id="f-table"></table></div>
+  <section id="view-forecast" class="view">
+    <form class="controls" onsubmit="return false">
+      <label>Visit date<input type="date" id="f-date"></label>
+      <label>Site<input type="search" id="f-search" placeholder="name or code"></label>
+      <label class="inline"><input type="checkbox" id="f-available"> hide sites with no forecasts</label>
+    </form>
+    <fieldset id="f-targets"><legend>Columns</legend></fieldset>
+    <p id="f-summary"></p>
+    <div class="scroll"><table id="f-table"></table></div>
+    <p class="note">Each forecast is issued 7 days before the visit and uses only results that would have been back by then. “last” is the most recent usable measurement. † marks a value unusual for that site’s history; this is an experimental flag, not an action threshold.</p>
   </section>
 
   <section id="view-site" class="view">
-    <div class="controls">
-      <label>Site <select id="s-site"></select></label>
-      <label>Measurement <select id="s-target"></select></label>
-    </div>
-    <div class="panel">
-      <h2 id="s-title"></h2>
-      <p class="muted small">Dots are measurements. Lines show the 2025–April 2026 test forecasts made a week ahead, by the model and by its baseline.</p>
-      <div class="chart"><canvas id="s-chart"></canvas></div>
-      <p id="s-stats" class="small"></p>
-    </div>
-    <div class="panel">
-      <h2>What if</h2>
-      <p class="muted small">Add hypothetical measurements at this site and see how the forecast for a visit date changes. Measurements must be at least ten days before the visit to be used.</p>
-      <div class="controls">
-        <label>Visit date <input type="date" id="w-date"></label>
-        <button id="w-add" class="secondary">Add measurement</button>
-        <button id="w-run">Run forecast</button>
-      </div>
-      <div id="w-rows"></div>
-      <p id="w-error" class="error"></p>
-      <div class="table-wrap"><table id="w-table"></table></div>
-    </div>
+    <form class="controls" onsubmit="return false">
+      <label>Site<select id="s-site"></select></label>
+      <label>Measurement<select id="s-target"></select></label>
+    </form>
+    <h2 id="s-title"></h2>
+    <div class="chart"><canvas id="s-chart"></canvas></div>
+    <p class="note">Points are measurements. The solid line is the model’s one-week-ahead forecast over the January 2025 – April 2026 test period; the dashed line is the baseline it is compared against.</p>
+    <p id="s-stats"></p>
+
+    <h2>Scenario</h2>
+    <p class="note">Add measurements that did not happen and see how this site’s forecasts change. A measurement only counts if it is at least 10 days before the visit.</p>
+    <form class="controls" onsubmit="return false">
+      <label>Visit date<input type="date" id="w-date"></label>
+    </form>
+    <div id="w-rows"></div>
+    <p class="actions"><button type="button" id="w-add" class="plain">Add a measurement</button> <button type="button" id="w-run">Recalculate</button></p>
+    <p id="w-error" class="error"></p>
+    <div class="scroll"><table id="w-table"></table></div>
   </section>
 
   <section id="view-scorecard" class="view">
-    <p class="muted">Test period January 2025 to April 2026. Improvement is the reduction in error compared with the baseline chosen on earlier data; the interval resamples whole sites.</p>
-    <div id="cards" class="cards"></div>
+    <p>How each measurement’s forecast did on samples from January 2025 to April 2026, which the models never saw. The comparison is against the simple baseline that did best on earlier data.</p>
+    <div class="scroll"><table id="cards"></table></div>
+    <p class="note">The interval resamples whole sites and is in the model’s working units (log scale for skewed measurements). If it includes zero, the gain could be chance.</p>
   </section>
 </main>
+
+<footer>Research prototype built from the April 13, 2026 export. Not approved for health advisories or field decisions.</footer>
 <script src="/ui/app.js"></script>
 </body>
 </html>
