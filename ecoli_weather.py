@@ -50,7 +50,7 @@ def compare(d, year, base_cols):
         result[name] = {'log_MAE':float(np.mean(np.abs(y[test]-p)))}
     sites = d.loc[test,'site'].to_numpy()
     for name in ['weather','oracle_diagnostic']:
-        result[name]['gain_vs_v2'] = cluster_gain(y[test].to_numpy(), errors[name], errors['v2'], sites)
+        result[name]['gain_vs_v2'] = cluster_gain(y[test], errors[name], errors['v2'], sites)
     return result
 
 

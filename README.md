@@ -2,6 +2,10 @@
 
 Working folder: `/Users/rishabh/watershed_model`.
 
+## E. coli weather features: negative
+
+`results/ecoli_weather/REPORT.md`: regional rainfall and Issaquah Creek streamflow, known at issue time, made E. coli forecasts worse in both 2023 and 2024 development years. Even rain on the sample day did not help. Under the rule committed in advance, v2 stays and no new model was frozen. Public weather data lives in `data/external/` (`weather.py fetch` refreshes it).
+
 ## Next evaluation: prospective
 
 `PROSPECTIVE_PROTOCOL.md` fixes, before any new data is seen, how the frozen models will be judged on samples taken after April 13, 2026. Temperature and dissolved oxygen are the primary questions. When a newer export arrives, run `.venv/bin/python prospective_evaluation.py --bacteria ... --chemistry ... --snapshot-date ...`; it checks the model file hash, reports source revisions, and writes `results/prospective/`.

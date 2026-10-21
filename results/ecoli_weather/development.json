@@ -1,0 +1,63 @@
+{
+  "decision": "keep_v2",
+  "development_end": "2025-01-01",
+  "weather_missing_rate": 0.0,
+  "years": {
+    "2023": {
+      "train": 1208,
+      "test": 229,
+      "test_sites": 28,
+      "v2": {
+        "log_MAE": 1.5422150586099093
+      },
+      "weather": {
+        "log_MAE": 1.657480783525865,
+        "gain_vs_v2": {
+          "mean_gain": -0.11526572491595548,
+          "site_bootstrap_95_interval": [
+            -0.15614335337557922,
+            -0.07452090029119372
+          ]
+        }
+      },
+      "oracle_diagnostic": {
+        "log_MAE": 1.6576088099572424,
+        "gain_vs_v2": {
+          "mean_gain": -0.11539375134733268,
+          "site_bootstrap_95_interval": [
+            -0.16195492907827877,
+            -0.07201196124305194
+          ]
+        }
+      }
+    },
+    "2024": {
+      "train": 1437,
+      "test": 214,
+      "test_sites": 31,
+      "v2": {
+        "log_MAE": 1.3620925221307314
+      },
+      "weather": {
+        "log_MAE": 1.381027114994077,
+        "gain_vs_v2": {
+          "mean_gain": -0.018934592863345846,
+          "site_bootstrap_95_interval": [
+            -0.06161872605794529,
+            0.0280572258513992
+          ]
+        }
+      },
+      "oracle_diagnostic": {
+        "log_MAE": 1.3974011563094242,
+        "gain_vs_v2": {
+          "mean_gain": -0.03530863417869322,
+          "site_bootstrap_95_interval": [
+            -0.08004783858500425,
+            0.012453944140473778
+          ]
+        }
+      }
+    }
+  }
+}
